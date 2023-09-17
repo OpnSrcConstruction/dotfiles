@@ -1,0 +1,54 @@
+# Default_applications:
+
+
+# Default-locations:
+export XDG_CONFIG_HOME="/home/zim/.config"
+export XDG_DATA_HOME="$HOME/.local/share"
+export XDG_STATE_HOME="$HOME/.local/state"
+export XDG_CACHE_HOME="$HOME/.cache"
+
+# Task-warrior config directory variables:
+export TASKRC="$XDG_CONFIG_HOME/task/taskrc"
+
+# Default BROWSERS:
+# GUI:
+export BROWSER="firefox"
+export BROWSERCLI="w3m"
+# Default text-editor.
+export EDITOR="nvim"
+# export PAGER="nvim"
+
+
+# Exporting a sane default time-out for a sane vi-mode interaction.
+export KEYTIMEOUT="18"
+
+
+# Clipmenud options:
+# export CM_SELECTIONS="primary clipboard"
+# export CM_DEBUG=0
+# export CM_OUTPUT_CLIP=1
+# export CM_MAX_CLIPS=25
+# export CM_HISTLENGTH=25
+# export CM_LAUNCHER='fzf'
+
+
+# Pass password-store location:
+export PASSWORD_STORE_DIR='/home/zim/Public/Git_keybase/Pass-store/.password-store'
+# Amount of time before pass clears the clipboard:
+export PASSWORD_STORE_CLIP_TIME='240'
+
+# Use the CLI find to get all files, excluding any filepath
+# containing the string "git".
+#export FZF_DEFAULT_COMMAND='find . -type f ! -path "*git*"'
+
+# Use the CLI fd to respect ignore files (like '.gitignore'),
+# display hidden files, and exclude the '.git' directory.
+export FZF_DEFAULT_COMMAND='fd . --hidden --exclude ".git"'
+
+# Use the CLI ripgrep to respect ignore files (like '.gitignore'),
+# display hidden files, and exclude the '.git' directory.
+#export FZF_DEFAULT_COMMAND='rg --files --hidden --glob "!.git"'
+#
+
+# Setting the default tmuxp session profile storage directory...
+export TMUXP_CONFIGDIR='/home/zim/.config/tmuxp'

@@ -1,0 +1,391 @@
+
+#####################################################################################################
+# ls-aliases:                                                                                       #
+#####################################################################################################
+# the --git is NOT available in the apt|snap packages,
+# so make sure to get it from the cargo you get with rustup... May the shwartz be with you always!!!
+alias l='exa --icons --git --group-directories-first --color=always'
+alias ll='exa --icons --git --long --group --group-directories-first --header --links --accessed --modified'
+alias la='exa --icons --git --all --long --group --inode --header --links --accessed --modified'
+alias lt='exa --icons --git --long --header --links --accessed --modified --tree'
+alias ls='exa --icons --git'
+
+#####################################################################################################
+# tmux-aliases:                                                                                     #
+#####################################################################################################
+# alias T='tmux attach'
+# alias t='tmux' # Starts a new tmux session.
+# alias Tl='tmux ls' # LiSt tmux-sessions.
+# alias Tns='tmux new -s' # Requires Session Named as argument after alias.
+# alias Tka='tmux kill-session -a' # Kills ALL sessions.
+# alias Tss='tmux attach -at' # Attaches to Specific Session.
+# alias Tks='tmux kill-session -t' # Kills Specific argumented Session.
+
+######################################################################################################
+# Single character aliases.                                                                          #
+######################################################################################################
+# SHELLS:
+# alias f='fish'
+alias b='byobu'
+# EDITORS:
+alias lv='nvim '
+alias v='vim'
+alias n='nvim'
+# OTHER:
+alias a='acs'
+alias x='exit'
+alias c='clear'
+alias h='history'
+alias s='sudo'
+alias J='jobs'
+# alias d='docker'
+alias A='apropos'
+alias R='sudo -i'  # Shortcut to get to the root-ZSH, but without it's .zshrc.
+#alias d='du'
+alias u='up'
+######################################################################################################
+# Aliases for trash-cli                                                                              #
+######################################################################################################
+alias te='trash-empty'
+alias tl='trash-list'
+alias tres='trash-restore'
+alias trm='trash-rm'
+alias rm='echo Please use the trash-put or tp command instead, or precede rm with a back-slash.'
+alias tp='trash-put'
+
+######################################################################################################
+# Aliases to more quickly edit &/or re-load config settings.                                         #
+######################################################################################################
+# w3m:
+alias wman='w3mman'
+alias w3mc='lz /home/zim/.w3m/config'
+alias w3mkey='lz /home/zim/.w3m/keymap'
+# bash:
+alias brc='lz /home/zim/.bashrc'
+alias brca='lz /home/zim/.bash_aliases'
+alias rldb='source /home/zim/.bashrc'
+alias pro='lz /home/zim/.profile'
+alias rld='source /home/zim/.profile'
+# zsh:
+alias zrc='lz /home/zim/.zshrc'
+alias zrca='lz /home/zim/.config/zsh/zsh_aliases'
+alias zrce='lz /home/zim/.config/zsh/zshenv'
+alias rldz='exec zsh > /dev/null 2>&1'
+# vim:
+alias vrc='lz /home/zim/.vimrc'
+alias vfc='lz ~/.config/vifm/vifmrc'
+# ssh:
+alias con='lz /home/zim/.ssh/config'
+# tmux:
+alias tmc='lz /home/zim/.tmux.conf' Ubuntu uses byobu now if I can just get the shell S-saver working in byobu.
+# grub2:
+# alias dg='sudo vim /etc/default/grub' No Grub on Wsl.
+#####################################################################################################
+# Git aliases.                                                                                      #
+#####################################################################################################
+alias gpl='git pull'            # Fetch and attempt to apply remote changes.
+alias gad='git add'             # Adds files to the 2-b-comitted stage.
+alias gb='git branch -b'        # Creates a new branch(-b), and switches to it.
+alias gc='git clone'            # Clones a remote repository.
+alias grc='git rm -f --cached'  # Resets a recent change.
+alias grh='git reset --hard'    # Resets a recent change forcefylly.
+alias gct='git commit -a -m'    # A commit command for using a enquoted single-line description.
+alias gpu='ssg && git push'     # Pushes the repo upward into the origin(remote-branch) of a remote repository.
+alias gs='git status'           # Get the status for an application.
+alias gsa='git submodule add'   # Add a sub-repo. into a repo. collection.
+alias gco='git checkout'        # Change branches.
+alias gCt='git commit'          # A plain commit that uses neo-vim as my default editor.
+alias glg='git log'             # View Your Git log easily.
+alias gmrg='git merge'          # Easily Merge or attempt to merge the branche you name.
+alias gmrb='git rebase'         # Easily Merge two branches into one. Name branch to be merged with.
+alias gmcp='git cherry-pick'    # Easily add individual commits from one branch to another.
+alias gd='git diff'             # More easily check my diffs.
+######################################################################################################
+# Package managers alias commands.                                                                   #
+######################################################################################################
+alias tg='time topgrade -v'
+
+ alias apCon='apt content'
+ alias config='dpkg --configure'
+ alias configA='dpkg --configure -a'
+ alias Ashow='apt show'
+ alias fix='apt-get install -f'
+ 
+# alias upd8='sudo apt update -y \
+# && sudo apt upgrade -y \
+# && sudo apt autoremove -y \
+# && sudo apt clean \
+# && sudo snap refresh \
+# && flatpak update -y \
+# && sudo youtube-dl -U'
+
+#####################################################################################################
+# File manager navigation aliases.                                                                  #
+#####################################################################################################
+alias up='cd ..'
+alias ..='cd ../..'
+alias ...='cd ../../../'
+alias ....='cd ../../../../'
+alias .....='cd ../../../../../'
+alias .3='cd ../../../'
+alias .4='cd ../../../../'
+alias .5='cd ../../../../../'
+
+#####################################################################################################
+## File management aliases.                                                                         #
+#####################################################################################################
+## Aliases that transform one command into a similar one, for safety or features.$
+alias cat='bat --theme=TwoDark'
+alias w3dg='w3m duckduckgo.com'
+alias lsblk='lsblk -fm'
+alias cown='sudo chown -Rv zim:zim'
+alias ncdu='gdu'
+alias prt='ls *.part'
+alias d1='du -d 1'
+alias del='\rm -v'
+alias delete='\rm -fv'
+alias df='duf -hide-fs squashfs,tmpfs'
+alias du='dust'
+alias dfu='df -h -T --exclude-type="squashfs" --exclude-type="tmpfs"--total'
+# alias findmvpdf='find ~/Documents/Calibre_Library/ -name "*.pdf" -exec cp -v {} ./ \;'
+alias fdmvpdf='fd . -e pdf "/home/zim/Documents/Calibre_Library/" -x mv -v ./ {}'
+alias ipa='ip a'
+alias ipoa='ip -o a'
+alias md='mkdir -pv'
+alias mvi='mv -i'
+alias cs='fortune | cowsay -f $(ls /usr/share/cowsay/cows | shuf -n 1) | lolcat'
+alias sd='sudo shutdown now'
+alias path='echo $PATH'
+# alias sk='screenkey'
+# alias pm='pulsemixer'
+# alias myt='mpsyt'
+alias kb='keybase'
+#alias nm='neomutt'
+alias w3m='w3m -v'
+alias vifm='vifm .'
+#####################################################################################################
+## Command transform aliases.                                                                       #
+#####################################################################################################
+## Aliases that transform one command into a similar one, for safety or features.$
+# alias topg='topgrade --verbose'$
+alias ba='byobu attach'
+alias bd='byobu detach'
+alias youtube-dl='/usr/local/bin/youtube-dl'
+alias nano='micro'
+alias tt='ttyper'
+alias fre='watch -n 1 free -h'
+alias wttrb='curl wttr.in/boston'
+alias top='sudo htop'
+alias less='most'
+alias mount='mount | column -t'
+alias root='sudo -s'
+alias nf='neofetch' # Neofetch ascii system info tool.
+alias emc='bindkey -e'
+# Task-Warrior:
+alias tw='task'
+alias tm='task modify'
+alias ta='task add'
+alias td='task done'
+alias trm='task delete'
+# Clear swap...
+alias swprst='sudo swapoff -a && sudo swapon -a'
+alias rstswp='swprst'
+alias rs='rstswp'
+alias po='sudo poweroff'
+alias rb='sudo reboot'
+alias pmh='sudo pm-hibernate'
+alias pms='sudo pm-suspend'
+alias pmhs='sudo pm-suspend-hybrid'
+alias nh='sudo nethogs'
+alias so='sudo swapoff -a'
+alias wm='sudo wavemon'
+alias vf='~/.config/vifm/scripts/vifmrun'
+alias vfm='vifm .'
+alias iotop='sudo iotop'
+# alias wd='wkhtmltopdf -n --no-pdf-compression' # Wxhtmltopdf Download
+alias wd='wkhtmltopdf -n' # Wxhtmltopdf Download
+# wd <URL> <?Location/filename>
+
+##########################
+## Config remap aliases. #
+##########################
+alias newsboat='newsboat --config-file=~/.config/newsboat/config \
+  			 --cache-file=~/.config/newsboat/cache.db \
+			 --url-file=~/.config/newsboat/urls'
+alias nb='newsboat'
+
+alias buku='buku --ai'
+
+alias w3m='w3m -bookmark ~/.config/w3m/bookmark.html \
+  	       -config   ~/.config/w3m/config'
+alias w3='w3m'
+alias ab='abook'
+# alias rainbowstream='rainbowstream -ta ~/.config/rainbow-stream/rainbow_oauth'
+# alias rst='rainbowstream'
+alias wget='wget --hsts-file=~/.config/wget/wget-hsts'
+
+#####################################################################################################
+## General helpful aliases.                                                                         #
+#####################################################################################################
+# check current shell:
+alias shl='echo $SHELL'
+alias cdc='cd && clear'
+alias cnl='c && l'
+alias ddu='time dasht-docsets-update'
+alias srw='sr -browser=w3m'
+
+####################################################################################################
+# SSH Aliases.                                                                                     #
+####################################################################################################
+# alias omv='ssh omv'
+# alias momv='mosh omv'
+# alias ss='mosh ss'
+# alias wrt='ssh dd'
+# alias mbk='ssh mbk'
+# alias 128='mosh 128'
+# alias 512='mosh 512'
+alias kg='ssh-keygen -t rsa -b 4096 -f'
+# alias k55n='mosh k55n'
+# alias s7a='mosh s7a'
+# alias toshi='ssh toshi'
+alias 100='mosh 100'
+alias 80='ssh 80'
+alias m80='mosh 80'
+alias 151='ssh 151'
+####################################################################################################
+# SSHfs SSH_file-system Aliases.                                                                   #
+####################################################################################################
+# OMV
+# alias m_z_cos='sshfs -o IdentityFile=~/.ssh/adm_eth_2_omv pi@10.0.0.80:/srv /home/zim/sshfs_mnts/omv/ && echo "OMV SSHfs mounted @ ~/sshfs_mnts/omv."'
+# alias um_z_omv='sudo umount /home/zim/sshfs_mnts/omv && echo "OMV SSHfs un-mounted."'
+# K55N
+# alias m_z_k55n='sshfs -o IdentityFile=~/.ssh/wsl-2204-2-k55n zim@10.0.0.100:/home/zim /home/zim/sshfs_mnts/k55n && echo "K55n SSHfs mounted @ ~/sshfs_mnts/k55n."'
+# alias um_z_k55n='sudo umount /home/zim/sshfs_mnts/k55n && echo "K55N SSHfs un-mounted."'
+# Network-router
+# alias m_g_rtr='sshfs -o IdentityFile=~/.ssh/adm_eth_2_rtr gir@10.42.1.1:/home/gir /home/zim/sshfs_mnts/rtr/ && echo "NT_router SSHfs mounted @ ~/sshfs_mnts/rtr."'
+# alias um_g_rtr='sudo umount /home/zim/sshfs_mnts/rtr && "NT_router SSHfs un-mounted."'
+# yoga as Zim
+# alias m_z_yga='sshfs -o IdentityFile=~/.ssh/adm_eth_2_yoga zim@10.42.1.66:/ /home/zim/sshfs_mnts/yoga/zim/ && echo "Yoga-Zim SSHfs mounted @ ~/sshfs_mnts/yoga/zim."'
+# alias um_z_yga='sudo umount /home/zim/sshfs_mnts/yoga/zim && echo "Yoga-zim SSHfs un-mounted."'
+# Mac-book
+# alias m_g_mbk='sshfs -o IdentityFile=~/.ssh/adm_eth_2_mbk gir@10.42.1.99:/home/gir/ /home/zim/sshfs_mnts/mbk/ && echo "Mac-book SSHfs mounted @ ~/sshfs_mnts/mbk."'
+# alias um_g_rtr='sudo umount /home/zim/sshfs_mnts/rtr && echo "Mac-book SSHfs un-mounted."'
+# Toshiba(Endless).
+# alias m_g_toshi='sshfs -o IdentityFile=~/.ssh/adm_eth_2_toshi gir@10.42.1.227:/home/gir && echo "Toshiba SSHfs mounted @ ~/sshfs_mnts/toshi."'
+# alias um_g_toshi='sudo umount /home/zim/sshfs_mnts/toshi && echo "Toshiba SSHfs un-mounted."'
+
+####################################################################################################
+# Docker aliases.                                                                                  #
+####################################################################################################
+alias d='docker'                                   # Lists the majority of the docker commands.
+alias di='d images'                                # List availabl cached images.
+alias dcr='docker container run'                   # Creates a new container from a Donloaded image, and if it does not exist downloads it.
+alias dcrd='docker container run -d'               # Runs a docker container command detached|daemonized.
+alias dcrrm='docker run --rm'                      # Creates a container, runs it's process, prints to your shell, 
+                                                   # & rm's the ct after the command completes.
+alias da='alias | grep docker'                     # Finds my docker aliases.
+alias dcls='docker container ls'                   # List running docker containers.
+alias dclsa='docker container ls -a'               # List ALL containers, including stopped containers.
+alias dit='docker container run exec -it'          # Run a shell within a container. **Make sure to add a shell to the end of the command after your named container.** 
+alias dsai='docker start -ai'                      # Runs the specific container interactively with the last commad|promt that was run. 
+alias dexe='docker run exec -it'                   # Runs specific command from inside container, that outputs to stdout.
+alias dpsa='docker ps -a'                          # Lists ALL containers.
+alias dps='docker ps'                              # Lists active containers.
+alias dtop='docker top'                            # For checking the live running service(s), of a running container/containers(no arg == ALL).
+alias dprt='docker port'                           # For checking the ports of a specific container.
+alias drn='docker container run'                   # For creating a container from a single command-line.
+alias drm='docker rm'                              # For rm'ing containers.
+alias ds='docker serach'                           # Search through the docker hub &/or pvt. registries.
+alias dlgs='docker logs'                           # Shows the logs for the container you specify.
+alias drnm='docker rename'                         # Renames a specific containers name.
+alias dstat='docker stats'                         # Display a live stream of container(s) resource usage statistics.
+alias dstrt='docker start'                         # Starts a specific container.
+alias dstop='docker stop'                          # Stops a specific container.
+alias dpoz='docker pause'                          # pauses a specific container.
+alias dupoz='docker unpause'                       # pauses a specific container.
+alias deprt='docker export'                        # Exports a container to a tar-ball.
+alias diprt='docker import'                        # Imports a container from an exported tar-ball.
+alias dinfo='docker info'                          # Displays system-wide information.
+alias dv='docker version'                          # Prints the docker version to the screen, and gives an error if the docker socket is unavailale.
+alias dsave='docker save'                          # Saves multiple containers to a single tar-ball.
+alias dnls='docker network ls'                     # LiSts existing NT's.
+alias dni='docker network inspect'                 # Inspectsa specific NT.
+alias dnc='docker network create'                  # create a NT. takes a --driver optional flag, but why...
+alias dncon='docker network connect'               # Add a NT to a container.
+alias dndc='docker network disconnect'             # Removes a container from a NT.
+alias dcin='docker container inspect'              # inspects a container.
+alias dnrm='docker network rm'                     # ReMoves a NT.
+alias drmf='docker container rm -f'                # Forcefully -f removes comtainer(s).
+alias dcu='docker-compose up'                  # Start a compose rfom a stack, in the background focefully.
+alias dcud='docker-compose up -d'                  # Start a compose rfom a stack, in the background focefully.
+alias dcudf='docker-compose up -d --force-recreate' # Start a compose rfom a stack, in the background focefully.
+alias dcl='docker-compose logs -f'                  # Follows the logs of container(s).
+alias dvc='docker volume create'                    # Creates an internal Docker volume.
+alias dvi='docker volume inspect'                   # Inspects a specific Docker volume.
+
+###########################################
+# Create Ubuntu like update-grub command: #
+###########################################
+# alias update-grub='sudo grub-mkconfig -o /boot/grub/grub.cfg'
+# alias grub-update='update-grub'
+# alias gu='grub-update'
+# alias ug='gu'
+
+#######################
+# Permission Aliases: #
+#######################
+alias chmdx='sudo chmod +x'
+alias own='sudo chown -Rfv zim:zim'
+
+# Youtube-dl:
+alias 18pls='youtube-dl -ciw -f 18 -o "%(playlist_index)03d_%(title)s.%(ext)s"'
+alias 18pl='youtube-dl -ciw -f 18 -o "%(playlist_index)02d_%(title)s.%(ext)s"'
+alias 18='youtube-dl -ciw -f 18 -o "%(title)s.%(ext)s"'
+alias yt='time youtube-dl'
+alias ytxpl='yt-dlp -f 480p -a D:\Documents\Notes\Lists\P-hub.list'
+alias ytx='yt-dlp -f 480p'
+
+# jump-plugin(manual-bookmarking):
+# source ~/Scripts/Zsh/cheat.sh
+# Cheat completion shell script.
+source ~/Scripts/Zsh/jump.plugin.zsh
+# 4 basic commands:
+# jump <book_mark-name> == Jump 2 book_mark-name.
+alias j='jump'
+# mark <book_mark-name> == Create a book_mark-name.
+# * IF no specific name is given, the dir-name == book_mark-name.
+alias mrk='mark'
+# unmark <book_mark-name> == Remove given book-mark.
+alias umk='unmark'
+# marks == List book-marks.
+alias   m='marks'
+# One single hot-key binding:
+# <C-G> == Substitutes my_book-mark with it's full path.'
+
+# Fancy-ctrl-z:
+# Allows you to Toggle Applications like vim in/out of the bg.
+source ~/Scripts/Zsh/fancy-ctrl-z.zsh.plugin.zsh
+
+# Universal-archive:
+# Allows for easy archive/compression into many formats...
+# Formats:
+# 7z, bz2, gz, lzma, lzo, rar, tar, tbz (tar.bz2), tgz (tar.gz),
+# tlz (tar.lzma), txz (tar.xz), tZ (tar.Z), xz, Z, zip, and zst.
+# $ ua <format> <file(s)> # files can be a regex.
+source ~/Scripts/Zsh/universalarchive.plugin.zsh
+
+# bgnotify: 
+# Notifies after 6 seconds, but can be set otherwise w/ Env_vars.
+# source ~/Scripts/Zsh/bgnotify.plugin.zsh
+
+# Archlinux Aliases/functions:
+# source ~/Scripts/Zsh/Distros/archlinux.plugin.sh
+
+alias ~~='tp ./*~'
+alias tf='thefuck'
+alias lz='nvim-LazyVim'
+alias ts='trans'
+alias ntpd='sudo ntpdate time.google.com'
+alias Z='zellij'
+alias z='zathura'
+alias frtn='wsl.exe -d Arch_Fortunes -e fortune'
