@@ -1,0 +1,23 @@
+# Works with global (server-wide) options, session options and window options.
+#
+# Including automatic-rename, default-shell, default-command, etc.
+#
+session_name: test window options
+start_directory: "~"
+global_options:
+  default-shell: /bin/sh
+  default-command: /bin/sh
+options:
+  main-pane-height: ${MAIN_PANE_HEIGHT} # works with env variables
+windows:
+  - layout: main-horizontal
+    options:
+      automatic-rename: on
+    panes:
+      - shell_command:
+          - man echo
+        start_directory: "~"
+      - shell_command:
+          - echo "hey"
+      - shell_command:
+          - echo "moo"

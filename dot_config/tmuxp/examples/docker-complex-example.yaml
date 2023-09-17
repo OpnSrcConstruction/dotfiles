@@ -1,0 +1,45 @@
+session_name: docker
+start_directory: ./
+windows:
+  - window_name: dockerfiles
+    layout: 6da5,239x56,0,0[239x34,0,0,65,239x21,0,35{119x21,0,35,66,119x21,120,35,67}]
+    options:
+      automatic-rename: 'off'
+    panes:
+      - shell_command:
+          - vim
+          - :e README.rst
+      - pane
+      - pane
+  - window_name: docs
+    layout: main-horizontal
+    options:
+      main-pane-height: 35
+    shell_command_before:
+      - command -v virtualenv >/dev/null 2>&1 || { pip install virtualenv; }
+      - '[ -d .env -a -f .env/bin/activate ] && source .env/bin/activate || virtualenv .env'
+      - '[ ! -d .env/build ] || rm -rf .env/build'
+      - cd ./doc
+      - command -v .env/bin/tmuxp >/dev/null 2>&1 || { pip install -r requirements.pip; }
+    panes:
+      - shell_command:
+          - reset
+          - vim
+          - :Ex
+        focus: true
+      - pwd
+      - echo 'docs built to <http://0.0.0.0:8007/_build/html>'; python -m SimpleHTTPServer 8007
+      - shell_command:
+          - command -v watching_testrunner >/dev/null 2>&1 || { pip install watching_testrunner; }
+          - watching_testrunner --basepath ./ --pattern="*.rst" 'make html'
+  - window_name: postgresql
+    layout: 6da5,239x56,0,0[239x34,0,0,65,239x21,0,35{119x21,0,35,66,119x21,120,35,67}]
+    options:
+      automatic-rename: 'off'
+    start_directory: postgresql
+    panes:
+      - shell_command:
+          - vim
+          - :e Dockerfile
+      - pane
+      - pane

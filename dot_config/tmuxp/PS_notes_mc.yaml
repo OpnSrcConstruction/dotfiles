@@ -1,0 +1,12 @@
+session_name: PS_mc
+windows:
+  - focus: 'true'
+    layout: e723,156x43,0,0[156x31,0,0,2,156x11,0,32,3]
+    options: {}
+    panes:
+      - focus: 'true'
+        shell_command:
+          - lz PS_notes_mc.md
+      - pwsh
+    start_directory: /mnt/d/Documents/Notes/notes/transcriptions/youtube/PS/
+    window_name: PS

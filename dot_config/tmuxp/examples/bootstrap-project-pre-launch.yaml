@@ -1,0 +1,24 @@
+# You can use before_script to run a script before the tmux session starts building.
+# This can be used to start a script to create a virtualenvor
+# or download a virtualenv/rbenv/package.
+# json’s dependency files before tmuxp even begins building the session.
+#
+# It works by using the Exit Status code returned by a script. Your script can be any type, including bash, python, ruby, etc.
+#
+# A successful script will exit with a status of 0.
+#
+# Important: the script file must be chmod executable +x or 755.
+#
+# Run a python script (and check for it’s return code),
+# the script is relative to the .tmuxp.yaml’s root
+# (Windows and panes omitted in this example):
+#
+session_name: my session
+before_script: ./bootstrap.py
+# ... the rest of your workspace
+#
+# OR...
+#
+session_name: another example
+before_script: /absolute/path/this.sh # abs path to shell script
+# finish the layout...

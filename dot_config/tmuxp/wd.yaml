@@ -1,0 +1,15 @@
+session_name: wd
+windows:
+  - focus: 'true'
+    # layout: babd,156x43,0,0,0
+    # options: {}
+    panes:
+      - focus: 'true'
+        shell_command:
+          - bindkey -e # switch to emacs mode.
+          - clear
+          - cmd: wkhtmltopdf -n ""
+            enter: False
+
+    start_directory: /home/zim/Docs/pdf
+    window_name: web2pdf

@@ -1,0 +1,12 @@
+session_name: lua-dev
+windows:
+  - focus: 'true'
+    layout: e723,156x43,0,0[156x31,0,0,2,156x11,0,32,3]
+    options: {}
+    panes:
+      - focus: 'true'
+        shell_command:
+          - lz lua-15-minute-crash-course.md /tmp/lua5.3.scratch.lua
+      - clear
+    start_directory: /mnt/d/Documents/Notes/notes/transcriptions/youtube/lua/
+    window_name: ldev

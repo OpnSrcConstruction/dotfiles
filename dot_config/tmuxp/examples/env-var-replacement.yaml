@@ -1,0 +1,45 @@
+# tmuxp will replace environment variables wrapped in curly brackets for values of these settings:
+#
+#     start_directory
+#
+#     before_script
+#
+#     session_name
+#
+#     window_name
+#
+#     shell_command_before
+#
+#     global_options
+#
+#     options in session scope and window scope
+#
+# tmuxp replaces these variables before-hand with variables in the terminal tmuxp invokes in.
+#
+# In this case of this example, assuming the username “user”:
+
+# $ MY_ENV_VAR=foo tmuxp load examples/env-variables.yaml
+#
+# and your session name will be session - user (foo).
+#
+# Shell variables in shell_command do not support this type of concatenation. shell_command and shell_command_before both support normal shell variables, since they are sent into panes automatically via send-key in tmux(1). See ls $PWD in example.
+#
+# If you have a special case and would like to see behavior changed, please make a ticket on the issue tracker.
+#
+start_directory: "${PWD}/test"
+shell_command_before: "echo ${PWD}"
+before_script: "${MY_ENV_VAR}/test3.sh"
+session_name: session - ${USER} (${MY_ENV_VAR})
+windows:
+  - window_name: editor
+    panes:
+      - shell_command:
+          - tail -F /var/log/syslog
+    start_directory: /var/log
+  - window_name: logging for ${USER}
+    options:
+      automatic-rename: true
+    panes:
+      - shell_command:
+          - htop
+          - ls $PWD

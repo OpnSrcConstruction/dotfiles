@@ -1,0 +1,11 @@
+# Equivalent to tmux new-window -c <start-directory>
+#
+session_name: apt
+start_directory: /home/zim
+windows:
+  - window_name: search
+    panes:
+      - shell_command:
+          - clear
+          - cmd: apt search
+            enter: false

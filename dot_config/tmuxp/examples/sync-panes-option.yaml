@@ -1,0 +1,12 @@
+#
+# Apply window options after panes have been created.
+# Useful for synchronize-panes option after executing individual commands in each pane during creation.
+#
+session_name: 2-pane-synchronized
+windows:
+  - window_name: Two synchronized panes
+    panes:
+      - ssh server1
+      - ssh server2
+    options_after:
+      synchronize-panes: on
