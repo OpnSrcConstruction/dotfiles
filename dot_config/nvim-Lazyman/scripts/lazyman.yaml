@@ -1,0 +1,236 @@
+# Lazyman supported Neovim categories and configurations
+# Not yet complete and not yet implemented
+# TODO: Add entries for all config name, url, opt, and dir values
+# TODO: Parse this yaml in lazyman to install configs
+---
+Categories:
+  Base:
+    - Abstract
+    - AstroNvim
+    - Ecovim
+    - Lazyman
+    - LazyVim
+    - LunarVim
+    - MagicVim
+    - NvChad
+    - Penguin
+    - SpaceVim
+  Personal:
+    - Adib
+    - Ember
+    - Fennel
+    - Heiker
+    - Knvim
+    - LaTeX
+    - Mini
+    - ONNO
+    - Optixal
+    - Plug
+    - Roiz
+    - Simple
+  Starters:
+    - Basic
+    - Extralight
+    - HardHacker
+    - Kickstart
+    - Minimal
+    - Modular
+    - NvPak
+    - Opinion
+    - pde
+    - StartBase
+    - StartLsp
+    - StartMason
+  Custom:
+    - AlanVim
+    - BasicIde
+    - Brain
+    - Charles
+    - CodeArt
+    - Cosmic
+    - Elianiva
+    - Magidc
+    - Nv
+    - SaleVim
+    - Slydragonn
+Configs:
+  - name: Abstract
+    url: https://github.com/Abstract-IDE/Abstract
+    opt: ""
+    dir: ""
+  - name: Adib
+    url: https://github.com/adibhanna/nvim
+    opt: ""
+    dir: ""
+  - name: AlanVim
+    url: https://github.com/alanRizzo/dot-files
+    opt: "-b main -P"
+    dir: -D nvim
+  - name: AstroNvim
+    url: https://github.com/AstroNvim/AstroNvim
+    opt: ""
+    dir: ""
+  - name: Basic
+    url: https://github.com/NvChad/basic-config
+    opt: ""
+    dir: ""
+  - name: BasicIde
+    url: https://github.com/LunarVim/nvim-basic-ide
+    opt: ""
+    dir: ""
+  - name: Brain
+    url: https://github.com/brainfucksec/neovim-lua
+    opt: ""
+    dir: -D nvim
+  - name: Charles
+    url: https://github.com/CharlesChiuGit/nvimdots.lua
+    opt: ""
+    dir: ""
+  - name: CodeArt
+    url: https://github.com/artart222/CodeArt
+    opt: -P
+    dir: ""
+  - name: Cosmic
+    url: https://github.com/CosmicNvim/CosmicNvim
+    opt: ""
+    dir: ""
+  - name: Ecovim
+    url: https://github.com/ecosse3/nvim
+    opt: ""
+    dir: ""
+  - name: Elianiva
+    url: https://github.com/elianiva/dotfiles
+    opt: ""
+    dir: -D nvim/.config/nvim
+  - name: Ember
+    url: https://github.com/danlikestocode/embervim
+    opt: -b main
+    dir: -D nvim
+  - name: Extralight
+    url: https://github.com/VonHeikemen/nvim-starter
+    opt: ""
+    dir: ""
+  - name: Fennel
+    url: https://github.com/jhchabran/nvim-config
+    opt: -P
+    dir: ""
+  - name: HardHacker
+    url: https://github.com/hardhackerlabs/oh-my-nvim
+    opt: ""
+    dir: ""
+  - name: Heiker
+    url: https://github.com/VonHeikemen/dotfiles
+    opt: ""
+    dir: -D my-configs/neovim
+  - name: Kickstart
+    url: https://github.com/nvim-lua/kickstart.nvim
+    opt: ""
+    dir: ""
+  - name: Knvim
+    url: https://github.com/knmac/knvim
+    opt: ""
+    dir: ""
+  - name: LaTeX
+    url: https://github.com/benbrastmckie/.config
+    opt: -P -f lua/user/treesitter.lua
+    dir: -D nvim
+  - name: Lazyman
+    url: https://github.com/doctorfree/nvim-lazyman
+    opt: ""
+    dir: ""
+  - name: LazyVim
+    url: https://github.com/LazyVim/starter
+    opt: ""
+    dir: ""
+  - name: LunarVim
+    url: ""
+    opt: ""
+    dir: ""
+  - name: MagicVim
+    url: https://gitlab.com/GitMaster210/magicvim
+    opt: ""
+    dir: ""
+  - name: Magidc
+    url: https://github.com/magidc/nvim-config
+    opt: ""
+    dir: ""
+  - name: Mini
+    url: https://github.com/echasnovski/nvim
+    opt: ""
+    dir: ""
+  - name: Minimal
+    url: https://github.com/VonHeikemen/nvim-starter
+    opt: ""
+    dir: ""
+  - name: Modular
+    url: https://github.com/VonHeikemen/nvim-starter
+    opt: ""
+    dir: ""
+  - name: Nv
+    url: https://github.com/appelgriebsch/Nv
+    opt: ""
+    dir: ""
+  - name: NvChad
+    url: https://github.com/NvChad/NvChad
+    opt: ""
+    dir: ""
+  - name: NvPak
+    url: https://github.com/Pakrohk-DotFiles/NvPak.git
+    opt: ""
+    dir: ""
+  - name: ONNO
+    url: https://github.com/loctvl842/nvim.git
+    opt: ""
+    dir: ""
+  - name: Opinion
+    url: https://github.com/VonHeikemen/nvim-starter
+    opt: ""
+    dir: ""
+  - name: Optixal
+    url: https://github.com/Optixal/neovim-init.vim
+    opt: -p
+    dir: ""
+  - name: pde
+    url: https://github.com/alpha2phi/neovim-pde
+    opt: ""
+    dir: ""
+  - name: Penguin
+    url: https://github.com/p3nguin-kun/penguinVim
+    opt: ""
+    dir: ""
+  - name: Plug
+    url: https://github.com/doctorfree/nvim-plug
+    opt: -p
+    dir: ""
+  - name: Roiz
+    url: https://github.com/MrRoiz/rnvim
+    opt: ""
+    dir: ""
+  - name: SaleVim
+    url: https://github.com/igorcguedes/SaleVim
+    opt: -P
+    dir: ""
+  - name: Simple
+    url: https://github.com/anthdm/.nvim
+    opt: -P
+    dir: ""
+  - name: Slydragonn
+    url: https://github.com/slydragonn/dotfiles
+    opt: -b main -P
+    dir: -D .config/nvim
+  - name: SpaceVim
+    url: https://github.com/SpaceVim/SpaceVim
+    opt: ""
+    dir: ""
+  - name: StartBase
+    url: https://github.com/VonHeikemen/nvim-starter
+    opt: ""
+    dir: ""
+  - name: StartLsp
+    url: https://github.com/VonHeikemen/nvim-starter
+    opt: ""
+    dir: ""
+  - name: StartMason
+    url: https://github.com/VonHeikemen/nvim-starter
+    opt: ""
+    dir: ""

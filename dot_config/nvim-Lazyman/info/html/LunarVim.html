@@ -1,0 +1,767 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Lazyman config: LunarVim</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <link rel="stylesheet" href="/home/ronnie/.config/nvim-Lazyman/scripts/table.css" />
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">Lazyman config: LunarVim</h1>
+</header>
+<h2 id="lunarvim-neovim-configuration-information">LunarVim Neovim
+Configuration Information</h2>
+<p>Installs LunarVim plus the <a
+href="https://youtu.be/Qf9gfx7gWEY">IfCodingWereNatural custom user
+config</a></p>
+<ul>
+<li>Install and initialize:
+<strong><code>lazyman -v</code></strong></li>
+<li>Configuration category: <a
+href="https://github.com/doctorfree/nvim-lazyman#base-configurations">Base</a></li>
+<li>Base configuration: <a
+href="https://www.lunarvim.org">LunarVim</a></li>
+<li>Plugin manager: <a
+href="https://github.com/folke/lazy.nvim">Lazy</a></li>
+<li>Installation location:
+<strong><code>~/.config/nvim-LunarVim</code></strong></li>
+</ul>
+<p><a
+href="https://github.com/doctorfree/nvim-lazyman/wiki/infodocs">Links to
+all Lazyman supported configuration documents</a></p>
+<h3 id="git-repository">Git repository</h3>
+<p><a
+href="https://github.com/IfCodingWereNatural/minimal-nvim">https://github.com/IfCodingWereNatural/minimal-nvim</a></p>
+<h3 id="website">Website</h3>
+<p><a href="https://www.lunarvim.org">https://www.lunarvim.org</a></p>
+<h3 id="lazy-managed-plugins">Lazy managed plugins</h3>
+<ul>
+<li><a
+href="https://github.com/numToStr/Comment.nvim">numToStr/Comment.nvim</a></li>
+<li><a
+href="https://github.com/L3MON4D3/LuaSnip">L3MON4D3/LuaSnip</a></li>
+<li><a
+href="https://github.com/goolord/alpha-nvim">goolord/alpha-nvim</a></li>
+<li><a
+href="https://github.com/ayu-theme/ayu-vim.git">ayu-theme/ayu-vim</a></li>
+<li><a
+href="https://github.com/lunarvim/bigfile.nvim.git">lunarvim/bigfile.nvim</a></li>
+<li><a
+href="https://github.com/akinsho/bufferline.nvim">akinsho/bufferline.nvim</a></li>
+<li><a
+href="https://github.com/hrsh7th/cmp-buffer">hrsh7th/cmp-buffer</a></li>
+<li><a
+href="https://github.com/hrsh7th/cmp-nvim-lsp">hrsh7th/cmp-nvim-lsp</a></li>
+<li><a
+href="https://github.com/hrsh7th/cmp-path">hrsh7th/cmp-path</a></li>
+<li><a
+href="https://github.com/saadparwaiz1/cmp_luasnip">saadparwaiz1/cmp_luasnip</a></li>
+<li><a
+href="https://github.com/zbirenbaum/copilot-cmp.git">zbirenbaum/copilot-cmp</a></li>
+<li><a
+href="https://github.com/zbirenbaum/copilot.lua.git">zbirenbaum/copilot.lua</a></li>
+<li><a href="https://github.com/sainnhe/edge.git">sainnhe/edge</a></li>
+<li><a
+href="https://github.com/rafamadriz/friendly-snippets">rafamadriz/friendly-snippets</a></li>
+<li><a
+href="https://github.com/lewis6991/gitsigns.nvim">lewis6991/gitsigns.nvim</a></li>
+<li><a
+href="https://github.com/ellisonleao/gruvbox.nvim">ellisonleao/gruvbox.nvim</a></li>
+<li><a
+href="https://github.com/sainnhe/gruvbox-material">sainnhe/gruvbox-material</a></li>
+<li><a
+href="https://github.com/ThePrimeagen/harpoon">ThePrimeagen/harpoon</a></li>
+<li><a
+href="https://github.com/phaazon/hop.nvim">phaazon/hop.nvim</a></li>
+<li><a
+href="https://github.com/lunarvim/horizon.nvim.git">lunarvim/horizon.nvim</a></li>
+<li><a
+href="https://github.com/lukas-reineke/indent-blankline.nvim">lukas-reineke/indent-blankline.nvim</a></li>
+<li><a
+href="https://github.com/folke/lazy.nvim">folke/lazy.nvim</a></li>
+<li><a
+href="https://github.com/tamago324/lir.nvim.git">tamago324/lir.nvim</a></li>
+<li><a
+href="https://github.com/nvim-lualine/lualine.nvim">nvim-lualine/lualine.nvim</a></li>
+<li><a
+href="https://github.com/lunarvim/lunar.nvim.git">lunarvim/lunar.nvim</a></li>
+<li><a
+href="https://github.com/williamboman/mason-lspconfig.nvim">williamboman/mason-lspconfig.nvim</a></li>
+<li><a
+href="https://github.com/jay-babu/mason-nvim-dap.nvim">jay-babu/mason-nvim-dap.nvim</a></li>
+<li><a
+href="https://github.com/tomasr/molokai.git">tomasr/molokai</a></li>
+<li><a
+href="https://github.com/folke/neodev.nvim">folke/neodev.nvim</a></li>
+<li><a
+href="https://github.com/tamago324/nlsp-settings.nvim.git">tamago324/nlsp-settings.nvim</a></li>
+<li><a
+href="https://github.com/jayp0521/mason-null-ls.nvim">jayp0521/mason-null-ls.nvim</a></li>
+<li><a
+href="https://github.com/windwp/nvim-autopairs">windwp/nvim-autopairs</a></li>
+<li><a
+href="https://github.com/hrsh7th/nvim-cmp">hrsh7th/nvim-cmp</a></li>
+<li><a
+href="https://github.com/jay-babu/mason-nvim-dap.nvim">jay-babu/mason-nvim-dap.nvim</a></li>
+<li><a
+href="https://github.com/rcarriga/nvim-dap-ui">rcarriga/nvim-dap-ui</a></li>
+<li><a
+href="https://github.com/neovim/nvim-lspconfig">neovim/nvim-lspconfig</a></li>
+<li><a
+href="https://github.com/SmiteshP/nvim-navic">SmiteshP/nvim-navic</a></li>
+<li><a
+href="https://github.com/kyazdani42/nvim-tree.lua">kyazdani42/nvim-tree.lua</a></li>
+<li><a
+href="https://github.com/nvim-treesitter/nvim-treesitter">nvim-treesitter/nvim-treesitter</a></li>
+<li><a
+href="https://github.com/AckslD/nvim-trevJ.lua.git">AckslD/nvim-trevJ.lua</a></li>
+<li><a
+href="https://github.com/windwp/nvim-ts-autotag">windwp/nvim-ts-autotag</a></li>
+<li><a
+href="https://github.com/JoosepAlviste/nvim-ts-context-commentstring">JoosepAlviste/nvim-ts-context-commentstring</a></li>
+<li><a
+href="https://github.com/kyazdani42/nvim-web-devicons">kyazdani42/nvim-web-devicons</a></li>
+<li><a
+href="https://github.com/lunarvim/onedarker.nvim.git">lunarvim/onedarker.nvim</a></li>
+<li><a
+href="https://github.com/folke/persistence.nvim.git">folke/persistence.nvim</a></li>
+<li><a
+href="https://github.com/nvim-lua/plenary.nvim">nvim-lua/plenary.nvim</a></li>
+<li><a
+href="https://github.com/ahmedkhalf/project.nvim">ahmedkhalf/project.nvim</a></li>
+<li><a
+href="https://github.com/b0o/schemastore.nvim">b0o/schemastore.nvim</a></li>
+<li><a
+href="https://github.com/sainnhe/sonokai.git">sainnhe/sonokai</a></li>
+<li><a
+href="https://github.com/tami5/sqlite.lua">tami5/sqlite.lua</a></li>
+<li><a
+href="https://github.com/Tastyep/structlog.nvim.git">Tastyep/structlog.nvim</a></li>
+<li><a
+href="https://github.com/nvim-telescope/telescope-frecency.nvim">nvim-telescope/telescope-frecency.nvim</a></li>
+<li><a
+href="https://github.com/nvim-telescope/telescope-fzf-native.nvim">nvim-telescope/telescope-fzf-native.nvim</a></li>
+<li><a
+href="https://github.com/nvim-telescope/telescope.nvim">nvim-telescope/telescope.nvim</a></li>
+<li><a
+href="https://github.com/folke/todo-comments.nvim">folke/todo-comments.nvim</a></li>
+<li><a
+href="https://github.com/akinsho/toggleterm.nvim">akinsho/toggleterm.nvim</a></li>
+<li><a
+href="https://github.com/folke/tokyonight.nvim">folke/tokyonight.nvim</a></li>
+<li><a
+href="https://github.com/folke/trouble.nvim">folke/trouble.nvim</a></li>
+<li><a
+href="https://github.com/jose-elias-alvarez/typescript.nvim">jose-elias-alvarez/typescript.nvim</a></li>
+<li><a
+href="https://github.com/RRethy/vim-illuminate">RRethy/vim-illuminate</a></li>
+<li><a
+href="https://github.com/tpope/vim-repeat">tpope/vim-repeat</a></li>
+<li><a
+href="https://github.com/felipec/vim-sanegx.git">felipec/vim-sanegx</a></li>
+<li><a
+href="https://github.com/kylechui/nvim-surround">kylechui/nvim-surround</a></li>
+<li><a
+href="https://github.com/christoomey/vim-tmux-navigator">christoomey/vim-tmux-navigator</a></li>
+<li><a
+href="https://github.com/folke/which-key.nvim">folke/which-key.nvim</a></li>
+</ul>
+<h3 id="lunarvim-keymaps">LunarVim Keymaps</h3>
+<h4 id="normal-mode-keymaps">normal mode keymaps</h4>
+<table>
+<colgroup>
+<col style="width: 64%" />
+<col style="width: 17%" />
+<col style="width: 17%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Description</th>
+<th>LHS</th>
+<th>RHS</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td></td>
+<td>j</td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td>%</td>
+<td><Plug>(MatchitNormalForward)</td>
+</tr>
+<tr class="odd">
+<td>Nvim builtin</td>
+<td>&amp;</td>
+<td>:&amp;&amp;<CR></td>
+</tr>
+<tr class="even">
+<td></td>
+<td>F</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>H</td>
+<td>:BufferLineCyclePrev<CR></td>
+</tr>
+<tr class="even">
+<td></td>
+<td>L</td>
+<td>:BufferLineCycleNext<CR></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>S</td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td>T</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Nvim builtin</td>
+<td>Y</td>
+<td>y$</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>[%</td>
+<td><Plug>(MatchitNormalMultiBackward)</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>[q</td>
+<td>:cprev<CR></td>
+</tr>
+<tr class="even">
+<td></td>
+<td>]%</td>
+<td><Plug>(MatchitNormalMultiForward)</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>]q</td>
+<td>:cnext<CR></td>
+</tr>
+<tr class="even">
+<td></td>
+<td>cS</td>
+<td><Plug>CSurround</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>cs</td>
+<td><Plug>Csurround</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>ds</td>
+<td><Plug>Dsurround</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>f</td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td>gx</td>
+<td><Plug>NetrwBrowseX</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>g%</td>
+<td><Plug>(MatchitNormalBackward)</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>gc</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>gb</td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td>gn</td>
+<td>:tabe %<CR></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>s</td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td>t</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>ySS</td>
+<td><Plug>YSsurround</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>ySs</td>
+<td><Plug>YSsurround</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>yss</td>
+<td><Plug>Yssurround</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>yS</td>
+<td><Plug>YSurround</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>ys</td>
+<td><Plug>Ysurround</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>zs</td>
+<td>:lua require’telescope.builtin’.spell_suggest()<CR></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td><Plug>NetrwBrowseX</td>
+<td>:call
+netrw#BrowseX(netrw#GX(),netrw#CheckIfRemote(netrw#GX()))<CR></td>
+</tr>
+<tr class="even">
+<td></td>
+<td><Plug>(MatchitNormalMultiForward)</td>
+<td>:<C-U>call matchit#MultiMatch(“W”, “n”)<CR></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td><Plug>(MatchitNormalMultiBackward)</td>
+<td>:<C-U>call matchit#MultiMatch(“bW”, “n”)<CR></td>
+</tr>
+<tr class="even">
+<td></td>
+<td><Plug>(MatchitNormalBackward)</td>
+<td>:<C-U>call matchit#Match_wrapper(’‘,0,’n’)<CR></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td><Plug>(MatchitNormalForward)</td>
+<td>:<C-U>call matchit#Match_wrapper(’‘,1,’n’)<CR></td>
+</tr>
+<tr class="even">
+<td></td>
+<td><Plug>YSurround</td>
+<td><SNR>12_opfunc2(‘setup’)</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td><Plug>Ysurround</td>
+<td><SNR>12_opfunc(‘setup’)</td>
+</tr>
+<tr class="even">
+<td></td>
+<td><Plug>YSsurround</td>
+<td><SNR>12_opfunc2(‘setup’).’_’</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td><Plug>Yssurround</td>
+<td>‘^’.v:count1.<SNR>12_opfunc(‘setup’).’g_’</td>
+</tr>
+<tr class="even">
+<td></td>
+<td><Plug>CSurround</td>
+<td>:<C-U>call <SNR>12_changesurround(1)<CR></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td><Plug>Csurround</td>
+<td>:<C-U>call <SNR>12_changesurround()<CR></td>
+</tr>
+<tr class="even">
+<td></td>
+<td><Plug>Dsurround</td>
+<td>:<C-U>call <SNR>12_dosurround(<SNR>12_inputtarget())<CR></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td><Plug>SurroundRepeat</td>
+<td>.</td>
+</tr>
+<tr class="even">
+<td></td>
+<td><Plug>PlenaryTestFile</td>
+<td>:lua
+require(‘plenary.test_harness’).test_directory(vim.fn.expand(“%:p”))<CR></td>
+</tr>
+<tr class="odd">
+<td>Float Terminal</td>
+<td><M-3></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Vertical Terminal</td>
+<td><M-2></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Horizontal Terminal</td>
+<td><M-1></td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td><C-Bslash></td>
+<td>:<C-U>TmuxNavigatePrevious<CR></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td><C-S></td>
+<td>:w<CR></td>
+</tr>
+<tr class="even">
+<td></td>
+<td><C-J></td>
+<td>:<C-U>TmuxNavigateDown<CR></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td><M-j></td>
+<td>:m .+1<CR>==</td>
+</tr>
+<tr class="even">
+<td></td>
+<td><C-H></td>
+<td>:<C-U>TmuxNavigateLeft<CR></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td><M-k></td>
+<td>:m .-2<CR>==</td>
+</tr>
+<tr class="even">
+<td></td>
+<td><C-Right></td>
+<td>:vertical resize +2<CR></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td><C-Left></td>
+<td>:vertical resize -2<CR></td>
+</tr>
+<tr class="even">
+<td></td>
+<td><C-Down></td>
+<td>:resize +2<CR></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td><C-Q></td>
+<td>:call QuickFixToggle()<CR></td>
+</tr>
+<tr class="even">
+<td></td>
+<td><C-Up></td>
+<td>:resize -2<CR></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td><C-K></td>
+<td>:<C-U>TmuxNavigateUp<CR></td>
+</tr>
+<tr class="even">
+<td></td>
+<td><C-L></td>
+<td>:<C-U>TmuxNavigateRight<CR></td>
+</tr>
+</tbody>
+</table>
+<h4 id="visual-mode-keymaps">visual mode keymaps</h4>
+<table>
+<colgroup>
+<col style="width: 64%" />
+<col style="width: 17%" />
+<col style="width: 17%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Description</th>
+<th>LHS</th>
+<th>RHS</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Nvim builtin</td>
+<td>#</td>
+<td>y?“<CR></td>
+</tr>
+<tr class="even">
+<td></td>
+<td>%</td>
+<td><Plug>(MatchitVisualForward)</td>
+</tr>
+<tr class="odd">
+<td>Nvim builtin</td>
+<td>*</td>
+<td>y/“<CR></td>
+</tr>
+<tr class="even">
+<td></td>
+<td><lt></td>
+<td><lt>gv</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>&gt;</td>
+<td>&gt;gv</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>S</td>
+<td><Plug>VSurround</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>[%</td>
+<td><Plug>(MatchitVisualMultiBackward)</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>]%</td>
+<td><Plug>(MatchitVisualMultiForward)</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>a%</td>
+<td><Plug>(MatchitVisualTextObject)</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>gx</td>
+<td><Plug>NetrwBrowseXVis</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>g%</td>
+<td><Plug>(MatchitVisualBackward)</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>gS</td>
+<td><Plug>VgSurround</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>gc</td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td>gb</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td><Plug>NetrwBrowseXVis</td>
+<td>:<C-U>call netrw#BrowseXVis()<CR></td>
+</tr>
+<tr class="even">
+<td></td>
+<td><Plug>(MatchitVisualTextObject)</td>
+<td><Plug>(MatchitVisualMultiBackward)o<Plug>(MatchitVisualMultiForward)</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td><Plug>(MatchitVisualMultiForward)</td>
+<td>:<C-U>call matchit#MultiMatch(“W”,
+“n”)<CR>m’gv<code>| |  | &lt;Plug&gt;(MatchitVisualMultiBackward) | :&lt;C-U&gt;call matchit#MultiMatch("bW", "n")&lt;CR&gt;m'gv</code></td>
+</tr>
+<tr class="even">
+<td></td>
+<td><Plug>(MatchitVisualBackward)</td>
+<td>:<C-U>call
+matchit#Match_wrapper(’‘,0,’v’)<CR>m’gv<code>| |  | &lt;Plug&gt;(MatchitVisualForward) | :&lt;C-U&gt;call matchit#Match_wrapper('',1,'v')&lt;CR&gt;:if col("''") != col("$") | exe ":normal! m'" | endif&lt;CR&gt;gv</code></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td><Plug>VgSurround</td>
+<td>:<C-U>call <SNR>12_opfunc(visualmode(),visualmode() ==# ‘V’ ? 0 :
+1)<CR></td>
+</tr>
+<tr class="even">
+<td></td>
+<td><Plug>VSurround</td>
+<td>:<C-U>call <SNR>12_opfunc(visualmode(),visualmode() ==# ‘V’ ? 1 :
+0)<CR></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td><C-Bslash></td>
+<td>:<C-U>TmuxNavigatePrevious<CR></td>
+</tr>
+<tr class="even">
+<td></td>
+<td><C-K></td>
+<td>:<C-U>TmuxNavigateUp<CR></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td><C-J></td>
+<td>:<C-U>TmuxNavigateDown<CR></td>
+</tr>
+<tr class="even">
+<td></td>
+<td><C-H></td>
+<td>:<C-U>TmuxNavigateLeft<CR></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td><M-j></td>
+<td>:m ’&gt;+1<CR>gv-gv</td>
+</tr>
+<tr class="even">
+<td></td>
+<td><M-k></td>
+<td>:m ’<lt>-2<CR>gv-gv</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td><C-L></td>
+<td>:<C-U>TmuxNavigateRight<CR></td>
+</tr>
+</tbody>
+</table>
+<h4 id="operator-mode-keymaps">operator mode keymaps</h4>
+<table>
+<colgroup>
+<col style="width: 64%" />
+<col style="width: 17%" />
+<col style="width: 17%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Description</th>
+<th>LHS</th>
+<th>RHS</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td></td>
+<td>%</td>
+<td><Plug>(MatchitOperationForward)</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>F</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>T</td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td>[%</td>
+<td><Plug>(MatchitOperationMultiBackward)</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>]%</td>
+<td><Plug>(MatchitOperationMultiForward)</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>f</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>g%</td>
+<td><Plug>(MatchitOperationBackward)</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>t</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td><Plug>(MatchitOperationMultiForward)</td>
+<td>:<C-U>call matchit#MultiMatch(“W”, “o”)<CR></td>
+</tr>
+<tr class="even">
+<td></td>
+<td><Plug>(MatchitOperationMultiBackward)</td>
+<td>:<C-U>call matchit#MultiMatch(“bW”, “o”)<CR></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td><Plug>(MatchitOperationBackward)</td>
+<td>:<C-U>call matchit#Match_wrapper(’‘,0,’o’)<CR></td>
+</tr>
+<tr class="even">
+<td></td>
+<td><Plug>(MatchitOperationForward)</td>
+<td>:<C-U>call matchit#Match_wrapper(’‘,1,’o’)<CR></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td><C-Bslash></td>
+<td>:<C-U>TmuxNavigatePrevious<CR></td>
+</tr>
+<tr class="even">
+<td></td>
+<td><C-K></td>
+<td>:<C-U>TmuxNavigateUp<CR></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td><C-J></td>
+<td>:<C-U>TmuxNavigateDown<CR></td>
+</tr>
+<tr class="even">
+<td></td>
+<td><C-H></td>
+<td>:<C-U>TmuxNavigateLeft<CR></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td><C-L></td>
+<td>:<C-U>TmuxNavigateRight<CR></td>
+</tr>
+</tbody>
+</table>
+</body>
+</html>

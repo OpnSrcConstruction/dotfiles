@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Lazyman config: Cosmic</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <link rel="stylesheet" href="/home/ronnie/.config/nvim-Lazyman/scripts/table.css" />
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">Lazyman config: Cosmic</h1>
+</header>
+<h2 id="cosmic-neovim-configuration-information">Cosmic Neovim
+Configuration Information</h2>
+<p>Install ‘Node.js’, ‘prettierd’, and ‘eslint_d’</p>
+<ul>
+<li>Install and initialize:
+<strong><code>lazyman -x Cosmic</code></strong></li>
+<li>Configuration category: <a
+href="https://github.com/doctorfree/nvim-lazyman#starter-configurations">Starter</a></li>
+<li>Base configuration: Custom</li>
+<li>Plugin manager: <a
+href="https://github.com/folke/lazy.nvim">Lazy</a></li>
+<li>Installation location:
+<strong><code>~/.config/nvim-Cosmic</code></strong></li>
+</ul>
+<p><a
+href="https://github.com/doctorfree/nvim-lazyman/wiki/infodocs">Links to
+all Lazyman supported configuration documents</a></p>
+<h3 id="git-repository">Git repository</h3>
+<p><a
+href="https://github.com/CosmicNvim/CosmicNvim">https://github.com/CosmicNvim/CosmicNvim</a></p>
+<h3 id="neovimcraft-entry">Neovimcraft entry</h3>
+<p><a
+href="http://neovimcraft.com/plugin/CosmicNvim/CosmicNvim">http://neovimcraft.com/plugin/CosmicNvim/CosmicNvim</a></p>
+<h3 id="dotfyle-entry">Dotfyle entry</h3>
+<p><a
+href="https://dotfyle.com/plugins/CosmicNvim/CosmicNvim">https://dotfyle.com/plugins/CosmicNvim/CosmicNvim</a></p>
+<h3 id="website">Website</h3>
+<p><a
+href="https://cosmicnvim.vercel.app">https://cosmicnvim.vercel.app</a></p>
+<h3 id="lazy-managed-plugins">Lazy managed plugins</h3>
+<ul>
+<li><a
+href="https://github.com/numToStr/Comment.nvim">numToStr/Comment.nvim</a></li>
+<li><a
+href="https://github.com/L3MON4D3/LuaSnip">L3MON4D3/LuaSnip</a></li>
+<li><a
+href="https://github.com/b0o/SchemaStore.nvim">b0o/SchemaStore.nvim</a></li>
+<li><a
+href="https://github.com/rmagatti/auto-session.git">rmagatti/auto-session</a></li>
+<li><a
+href="https://github.com/romgrk/barbar.nvim.git">romgrk/barbar.nvim</a></li>
+<li><a
+href="https://github.com/hrsh7th/cmp-buffer">hrsh7th/cmp-buffer</a></li>
+<li><a
+href="https://github.com/hrsh7th/cmp-cmdline">hrsh7th/cmp-cmdline</a></li>
+<li><a
+href="https://github.com/hrsh7th/cmp-nvim-lsp">hrsh7th/cmp-nvim-lsp</a></li>
+<li><a
+href="https://github.com/hrsh7th/cmp-nvim-lua">hrsh7th/cmp-nvim-lua</a></li>
+<li><a
+href="https://github.com/hrsh7th/cmp-path">hrsh7th/cmp-path</a></li>
+<li><a
+href="https://github.com/saadparwaiz1/cmp_luasnip">saadparwaiz1/cmp_luasnip</a></li>
+<li><a
+href="https://github.com/CosmicNvim/cosmic-ui.git">CosmicNvim/cosmic-ui</a></li>
+<li><a
+href="https://github.com/glepnir/dashboard-nvim">glepnir/dashboard-nvim</a></li>
+<li><a
+href="https://github.com/rafamadriz/friendly-snippets">rafamadriz/friendly-snippets</a></li>
+<li><a
+href="https://github.com/lewis6991/gitsigns.nvim">lewis6991/gitsigns.nvim</a></li>
+<li><a
+href="https://github.com/folke/lazy.nvim">folke/lazy.nvim</a></li>
+<li><a
+href="https://github.com/ggandor/lightspeed.nvim.git">ggandor/lightspeed.nvim</a></li>
+<li><a
+href="https://git.sr.ht/~whynothugo/lsp_lines.nvim">~whynothugo/lsp_lines.nvim</a></li>
+<li><a
+href="https://github.com/nvim-lualine/lualine.nvim">nvim-lualine/lualine.nvim</a></li>
+<li><a
+href="https://github.com/williamboman/mason-lspconfig.nvim">williamboman/mason-lspconfig.nvim</a></li>
+<li><a
+href="https://github.com/jay-babu/mason-nvim-dap.nvim">jay-babu/mason-nvim-dap.nvim</a></li>
+<li><a
+href="https://github.com/folke/noice.nvim">folke/noice.nvim</a></li>
+<li><a
+href="https://github.com/MunifTanjim/nui.nvim">MunifTanjim/nui.nvim</a></li>
+<li><a
+href="https://github.com/jayp0521/mason-null-ls.nvim">jayp0521/mason-null-ls.nvim</a></li>
+<li><a
+href="https://github.com/windwp/nvim-autopairs">windwp/nvim-autopairs</a></li>
+<li><a
+href="https://github.com/hrsh7th/nvim-cmp">hrsh7th/nvim-cmp</a></li>
+<li><a
+href="https://github.com/norcalli/nvim-colorizer.lua">norcalli/nvim-colorizer.lua</a></li>
+<li><a
+href="https://github.com/jose-elias-alvarez/nvim-lsp-ts-utils">jose-elias-alvarez/nvim-lsp-ts-utils</a></li>
+<li><a
+href="https://github.com/neovim/nvim-lspconfig">neovim/nvim-lspconfig</a></li>
+<li><a
+href="https://github.com/rcarriga/nvim-notify">rcarriga/nvim-notify</a></li>
+<li><a
+href="https://github.com/kyazdani42/nvim-tree.lua">kyazdani42/nvim-tree.lua</a></li>
+<li><a
+href="https://github.com/nvim-treesitter/nvim-treesitter">nvim-treesitter/nvim-treesitter</a></li>
+<li><a
+href="https://github.com/nvim-treesitter/nvim-treesitter-refactor">nvim-treesitter/nvim-treesitter-refactor</a></li>
+<li><a
+href="https://github.com/windwp/nvim-ts-autotag">windwp/nvim-ts-autotag</a></li>
+<li><a
+href="https://github.com/JoosepAlviste/nvim-ts-context-commentstring">JoosepAlviste/nvim-ts-context-commentstring</a></li>
+<li><a
+href="https://github.com/kyazdani42/nvim-web-devicons">kyazdani42/nvim-web-devicons</a></li>
+<li><a
+href="https://github.com/nvim-lua/plenary.nvim">nvim-lua/plenary.nvim</a></li>
+<li><a
+href="https://github.com/nvim-lua/popup.nvim">nvim-lua/popup.nvim</a></li>
+<li><a
+href="https://github.com/nvim-telescope/telescope-fzf-native.nvim">nvim-telescope/telescope-fzf-native.nvim</a></li>
+<li><a
+href="https://github.com/nvim-telescope/telescope.nvim">nvim-telescope/telescope.nvim</a></li>
+<li><a
+href="https://github.com/folke/todo-comments.nvim">folke/todo-comments.nvim</a></li>
+<li><a
+href="https://github.com/folke/tokyonight.nvim">folke/tokyonight.nvim</a></li>
+<li><a
+href="https://github.com/voldikss/vim-floaterm">voldikss/vim-floaterm</a></li>
+<li><a
+href="https://github.com/tpope/vim-fugitive">tpope/vim-fugitive</a></li>
+<li><a
+href="https://github.com/folke/which-key.nvim">folke/which-key.nvim</a></li>
+</ul>
+<h3 id="cosmic-keymaps">Cosmic Keymaps</h3>
+<h4 id="normal-mode-keymaps">normal mode keymaps</h4>
+<table>
+<colgroup>
+<col style="width: 64%" />
+<col style="width: 17%" />
+<col style="width: 17%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Description</th>
+<th>LHS</th>
+<th>RHS</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Find project file</td>
+<td>ff</td>
+<td><Cmd>lua
+require(“cosmic.plugins.telescope.utils”).project_files()<CR></td>
+</tr>
+<tr class="even">
+<td>Print session</td>
+<td>si</td>
+<td><Cmd>lua require(“cosmic.utils.logger”):log(“Session name:” ..
+require(“auto-session-library”).current_session_name())<CR></td>
+</tr>
+<tr class="odd">
+<td>Save session</td>
+<td>ss</td>
+<td><Cmd>SaveSession<CR></td>
+</tr>
+<tr class="even">
+<td>Restore session</td>
+<td>sl</td>
+<td><Cmd>silent RestoreSession<CR></td>
+</tr>
+<tr class="odd">
+<td>Refresh Tree</td>
+<td>nr</td>
+<td>:NvimTreeRefresh<CR></td>
+</tr>
+<tr class="even">
+<td>Toggle Tree</td>
+<td>nt</td>
+<td>:NvimTreeToggle<CR></td>
+</tr>
+<tr class="odd">
+<td>Git status</td>
+<td>vg</td>
+<td>:Telescope git_status<CR></td>
+</tr>
+<tr class="even">
+<td>Git commits</td>
+<td>vc</td>
+<td>:Telescope git_commits<CR></td>
+</tr>
+<tr class="odd">
+<td>Grep current word</td>
+<td>fw</td>
+<td>:Telescope grep_string<CR></td>
+</tr>
+<tr class="even">
+<td>Grep string</td>
+<td>fs</td>
+<td>:Telescope live_grep<CR></td>
+</tr>
+<tr class="odd">
+<td>Find buffer</td>
+<td>fk</td>
+<td>:Telescope buffers<CR></td>
+</tr>
+<tr class="even">
+<td>Find project file</td>
+<td>fp</td>
+<td>:Telescope find_files<CR></td>
+</tr>
+<tr class="odd">
+<td>Toggle LSP Lines</td>
+<td>ltl</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Nvim builtin</td>
+<td>&amp;</td>
+<td>:&amp;&amp;<CR></td>
+</tr>
+<tr class="odd">
+<td>Restore plugins from lockfile</td>
+<td>,pr</td>
+<td>:Lazy restore<CR></td>
+</tr>
+<tr class="even">
+<td>Clear uninstalled plugins</td>
+<td>,px</td>
+<td>:Lazy clear<CR></td>
+</tr>
+<tr class="odd">
+<td>Logs</td>
+<td>,pl</td>
+<td>:Lazy logs<CR></td>
+</tr>
+<tr class="even">
+<td>Profile</td>
+<td>,pp</td>
+<td>:Lazy profile<CR></td>
+</tr>
+<tr class="odd">
+<td>Help</td>
+<td>,ph</td>
+<td>:Lazy help<CR></td>
+</tr>
+<tr class="even">
+<td>Show plugins</td>
+<td>,ps</td>
+<td>:Lazy show<CR></td>
+</tr>
+<tr class="odd">
+<td>Update plugins</td>
+<td>,pu</td>
+<td>:Lazy update<CR></td>
+</tr>
+<tr class="even">
+<td>Check plugins</td>
+<td>,pc</td>
+<td>:Lazy check<CR></td>
+</tr>
+<tr class="odd">
+<td>Close tab</td>
+<td>,td</td>
+<td>:tabclose<CR></td>
+</tr>
+<tr class="even">
+<td>Next tab</td>
+<td>,tn</td>
+<td>:tabnext<CR></td>
+</tr>
+<tr class="odd">
+<td>Prev tab</td>
+<td>,tp</td>
+<td>:tabprevious<CR></td>
+</tr>
+<tr class="even">
+<td>Delete buffer</td>
+<td>,bd</td>
+<td>:bdelete<CR></td>
+</tr>
+<tr class="odd">
+<td>Next buffer</td>
+<td>,bn</td>
+<td>:bnext<CR></td>
+</tr>
+<tr class="even">
+<td>Prev buffer</td>
+<td>,bp</td>
+<td>:bprev<CR></td>
+</tr>
+<tr class="odd">
+<td>Next Item</td>
+<td>,cn</td>
+<td>:cnext<CR>zz</td>
+</tr>
+<tr class="even">
+<td>Prev Item</td>
+<td>,cp</td>
+<td>:cprev<CR>zz</td>
+</tr>
+<tr class="odd">
+<td>Search &amp; Replace</td>
+<td>,cf</td>
+<td>:cfdo %s/</td>
+</tr>
+<tr class="even">
+<td>Open list</td>
+<td>,co</td>
+<td>:copen <CR></td>
+</tr>
+<tr class="odd">
+<td>Close list</td>
+<td>,cc</td>
+<td>:cclose <CR></td>
+</tr>
+<tr class="even">
+<td>Clear list</td>
+<td>,ck</td>
+<td>:cexpr []<CR></td>
+</tr>
+<tr class="odd">
+<td>Nvim builtin</td>
+<td>Y</td>
+<td>y$</td>
+</tr>
+<tr class="even">
+<td>Vertical Resize +2</td>
+<td><C-Right></td>
+<td>:vertical resize +2<CR></td>
+</tr>
+<tr class="odd">
+<td>Vertical Resize -2</td>
+<td><C-Left></td>
+<td>:vertical resize -2<CR></td>
+</tr>
+<tr class="even">
+<td>Resize +2</td>
+<td><C-Down></td>
+<td>:resize +2<CR></td>
+</tr>
+<tr class="odd">
+<td>Resize -2</td>
+<td><C-Up></td>
+<td>:resize -2<CR></td>
+</tr>
+<tr class="even">
+<td></td>
+<td><Plug>PlenaryTestFile</td>
+<td>:lua
+require(‘plenary.test_harness’).test_directory(vim.fn.expand(“%:p”))<CR></td>
+</tr>
+<tr class="odd">
+<td>Toggle Tree</td>
+<td><C-N></td>
+<td>:NvimTreeToggle<CR></td>
+</tr>
+<tr class="even">
+<td>Floating Terminal</td>
+<td><C-L></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h4 id="visual-mode-keymaps">visual mode keymaps</h4>
+<table>
+<thead>
+<tr class="header">
+<th>Description</th>
+<th>LHS</th>
+<th>RHS</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Nvim builtin</td>
+<td>#</td>
+<td>y?“<CR></td>
+</tr>
+<tr class="even">
+<td>Nvim builtin</td>
+<td>*</td>
+<td>y/“<CR></td>
+</tr>
+</tbody>
+</table>
+<h4 id="operator-mode-keymaps">operator mode keymaps</h4>
+<table>
+<thead>
+<tr class="header">
+<th>Description</th>
+<th>LHS</th>
+<th>RHS</th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table>
+</body>
+</html>

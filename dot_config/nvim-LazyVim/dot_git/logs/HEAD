@@ -1,0 +1,19 @@
+0000000000000000000000000000000000000000 ad8402b9bee507d9ab83cef481629621518b21e1 zim <zim@grey-top> 1691003008 -0400	clone: from https://github.com/OpnSrcConstruction/nvim-LazyVim.git
+ad8402b9bee507d9ab83cef481629621518b21e1 ad8402b9bee507d9ab83cef481629621518b21e1 zim <zim@grey-top> 1691004736 -0400	checkout: moving from main to bling
+ad8402b9bee507d9ab83cef481629621518b21e1 ad8402b9bee507d9ab83cef481629621518b21e1 zim <zim@grey-top> 1691018954 -0400	checkout: moving from bling to main
+ad8402b9bee507d9ab83cef481629621518b21e1 ad8402b9bee507d9ab83cef481629621518b21e1 zim <zim@grey-top> 1691018988 -0400	checkout: moving from main to tailwind
+ad8402b9bee507d9ab83cef481629621518b21e1 ad8402b9bee507d9ab83cef481629621518b21e1 zim <zim@grey-top> 1691019016 -0400	checkout: moving from tailwind to main
+ad8402b9bee507d9ab83cef481629621518b21e1 ad8402b9bee507d9ab83cef481629621518b21e1 zim <zim@grey-top> 1691019061 -0400	checkout: moving from main to tailwind
+ad8402b9bee507d9ab83cef481629621518b21e1 01ac9e8ee057c6c62f982c615e2eca99d7528e71 zim <zim@grey-top> 1691023616 -0400	commit: Added the tailwind-css language server.
+01ac9e8ee057c6c62f982c615e2eca99d7528e71 ad8402b9bee507d9ab83cef481629621518b21e1 zim <zim@grey-top> 1691023639 -0400	checkout: moving from tailwind to main
+ad8402b9bee507d9ab83cef481629621518b21e1 01ac9e8ee057c6c62f982c615e2eca99d7528e71 zim <zim@grey-top> 1691023654 -0400	merge tailwind: Fast-forward
+01ac9e8ee057c6c62f982c615e2eca99d7528e71 ecf8aea5d3817e9499beada25d24adf2ffe78b94 zim <zim@grey-top> 1691025407 -0400	pull: Fast-forward
+ecf8aea5d3817e9499beada25d24adf2ffe78b94 ecf8aea5d3817e9499beada25d24adf2ffe78b94 zim <zim@grey-top> 1691032030 -0400	checkout: moving from main to cursorcolumn
+ecf8aea5d3817e9499beada25d24adf2ffe78b94 af6d791898cf57325c03003c8bb3360a57158dce zim <zim@grey-top> 1691032549 -0400	commit: Added cursorcolumn for a crosshair retical effect.
+af6d791898cf57325c03003c8bb3360a57158dce ecf8aea5d3817e9499beada25d24adf2ffe78b94 OpnScrConstruction <OpnSrcConstruction@gmail> 1691032714 -0400	checkout: moving from cursorcolumn to main
+ecf8aea5d3817e9499beada25d24adf2ffe78b94 af6d791898cf57325c03003c8bb3360a57158dce OpnScrConstruction <OpnSrcConstruction@gmail> 1691032882 -0400	merge cursorcolumn: Fast-forward
+af6d791898cf57325c03003c8bb3360a57158dce babdd09f18080ddf9455ea388c8f997ee2a170a0 OpnScrConstruction <OpnSrcConstruction@gmail> 1691033658 -0400	pull: Fast-forward
+babdd09f18080ddf9455ea388c8f997ee2a170a0 babdd09f18080ddf9455ea388c8f997ee2a170a0 OpnScrConstruction <OpnSrcConstruction@gmail> 1691034578 -0400	checkout: moving from main to centered
+babdd09f18080ddf9455ea388c8f997ee2a170a0 babdd09f18080ddf9455ea388c8f997ee2a170a0 OpnScrConstruction <OpnSrcConstruction@gmail> 1691038410 -0400	checkout: moving from centered to main
+babdd09f18080ddf9455ea388c8f997ee2a170a0 babdd09f18080ddf9455ea388c8f997ee2a170a0 OpnScrConstruction <OpnSrcConstruction@gmail> 1691040509 -0400	checkout: moving from main to centered
+babdd09f18080ddf9455ea388c8f997ee2a170a0 babdd09f18080ddf9455ea388c8f997ee2a170a0 OpnScrConstruction <OpnSrcConstruction@gmail> 1691043810 -0400	checkout: moving from centered to main

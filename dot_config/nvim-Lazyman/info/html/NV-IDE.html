@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Lazyman config: NV-IDE</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <link rel="stylesheet" href="/home/ronnie/.config/nvim-Lazyman/scripts/table.css" />
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">Lazyman config: NV-IDE</h1>
+</header>
+<h2 id="nv-ide-neovim-configuration-information">NV-IDE Neovim
+Configuration Information</h2>
+<p>Configuration oriented for web developers (rails, ruby, php, html,
+css, SCSS, javascript)</p>
+<ul>
+<li>Install and initialize:
+<strong><code>lazyman -L NV-IDE</code></strong></li>
+<li>Configuration category: <a
+href="https://github.com/doctorfree/nvim-lazyman#language-configurations">Language</a></li>
+<li>Base configuration: Custom</li>
+<li>Plugin manager: <a
+href="https://github.com/folke/lazy.nvim">Lazy</a></li>
+<li>Installation location:
+<strong><code>~/.config/nvim-NV-IDE</code></strong></li>
+</ul>
+<p><a
+href="https://github.com/doctorfree/nvim-lazyman/wiki/infodocs">Links to
+all Lazyman supported configuration documents</a></p>
+<h3 id="git-repository">Git repository</h3>
+<p><a
+href="https://github.com/crivotz/nv-ide">https://github.com/crivotz/nv-ide</a></p>
+<h3 id="neovimcraft-entry">Neovimcraft entry</h3>
+<p><a
+href="http://neovimcraft.com/plugin/crivotz/nv-ide">http://neovimcraft.com/plugin/crivotz/nv-ide</a></p>
+<h3 id="dotfyle-entry">Dotfyle entry</h3>
+<p><a
+href="https://dotfyle.com/crivotz/nv-ide">https://dotfyle.com/crivotz/nv-ide</a></p>
+<h3 id="lazy-managed-plugins">Lazy managed plugins</h3>
+<ul>
+<li><a
+href="https://github.com/numToStr/Comment.nvim">numToStr/Comment.nvim</a></li>
+<li><a
+href="https://github.com/goolord/alpha-nvim">goolord/alpha-nvim</a></li>
+<li><a
+href="https://github.com/akinsho/bufferline.nvim">akinsho/bufferline.nvim</a></li>
+<li><a
+href="https://github.com/kazhala/close-buffers.nvim.git">kazhala/close-buffers.nvim</a></li>
+<li><a
+href="https://github.com/hrsh7th/cmp-buffer">hrsh7th/cmp-buffer</a></li>
+<li><a
+href="https://github.com/hrsh7th/cmp-calc">hrsh7th/cmp-calc</a></li>
+<li><a
+href="https://github.com/hrsh7th/cmp-cmdline">hrsh7th/cmp-cmdline</a></li>
+<li><a
+href="https://github.com/hrsh7th/cmp-nvim-lsp">hrsh7th/cmp-nvim-lsp</a></li>
+<li><a
+href="https://github.com/quangnguyen30192/cmp-nvim-tags.git">quangnguyen30192/cmp-nvim-tags</a></li>
+<li><a
+href="https://github.com/hrsh7th/cmp-path">hrsh7th/cmp-path</a></li>
+<li><a
+href="https://github.com/lukas-reineke/cmp-rg.git">lukas-reineke/cmp-rg</a></li>
+<li><a
+href="https://github.com/ray-x/cmp-treesitter.git">ray-x/cmp-treesitter</a></li>
+<li><a
+href="https://github.com/hrsh7th/cmp-vsnip">hrsh7th/cmp-vsnip</a></li>
+<li><a
+href="https://github.com/rhysd/committia.vim.git">rhysd/committia.vim</a></li>
+<li><a
+href="https://github.com/chrisbra/csv.vim.git">chrisbra/csv.vim</a></li>
+<li><a
+href="https://github.com/folke/edgy.nvim.git">folke/edgy.nvim</a></li>
+<li><a
+href="https://github.com/feline-nvim/feline.nvim">feline-nvim/feline.nvim</a></li>
+<li><a
+href="https://github.com/folke/flash.nvim.git">folke/flash.nvim</a></li>
+<li><a
+href="https://github.com/mhartington/formatter.nvim">mhartington/formatter.nvim</a></li>
+<li><a
+href="https://github.com/rafamadriz/friendly-snippets">rafamadriz/friendly-snippets</a></li>
+<li><a
+href="https://github.com/lewis6991/gitsigns.nvim">lewis6991/gitsigns.nvim</a></li>
+<li><a
+href="https://github.com/lukas-reineke/indent-blankline.nvim">lukas-reineke/indent-blankline.nvim</a></li>
+<li><a
+href="https://github.com/folke/lazy.nvim">folke/lazy.nvim</a></li>
+<li><a
+href="https://github.com/onsails/lspkind-nvim">onsails/lspkind-nvim</a></li>
+<li><a
+href="https://github.com/williamboman/mason-lspconfig.nvim">williamboman/mason-lspconfig.nvim</a></li>
+<li><a
+href="https://github.com/jay-babu/mason-nvim-dap.nvim">jay-babu/mason-nvim-dap.nvim</a></li>
+<li><a
+href="https://github.com/echasnovski/mini.animate.git">echasnovski/mini.animate</a></li>
+<li><a
+href="https://github.com/mrbjarksen/neo-tree-diagnostics.nvim.git">mrbjarksen/neo-tree-diagnostics.nvim</a></li>
+<li><a
+href="https://github.com/nvim-neo-tree/neo-tree.nvim">nvim-neo-tree/neo-tree.nvim</a></li>
+<li><a
+href="https://github.com/folke/noice.nvim">folke/noice.nvim</a></li>
+<li><a
+href="https://github.com/MunifTanjim/nui.nvim">MunifTanjim/nui.nvim</a></li>
+<li><a
+href="https://github.com/nacro90/numb.nvim.git">nacro90/numb.nvim</a></li>
+<li><a
+href="https://github.com/windwp/nvim-autopairs">windwp/nvim-autopairs</a></li>
+<li><a
+href="https://github.com/hrsh7th/nvim-cmp">hrsh7th/nvim-cmp</a></li>
+<li><a
+href="https://github.com/weilbith/nvim-code-action-menu">weilbith/nvim-code-action-menu</a></li>
+<li><a
+href="https://github.com/norcalli/nvim-colorizer.lua">norcalli/nvim-colorizer.lua</a></li>
+<li><a
+href="https://github.com/jay-babu/mason-nvim-dap.nvim">jay-babu/mason-nvim-dap.nvim</a></li>
+<li><a
+href="https://github.com/rcarriga/nvim-dap-ui">rcarriga/nvim-dap-ui</a></li>
+<li><a
+href="https://github.com/theHamsta/nvim-dap-virtual-text">theHamsta/nvim-dap-virtual-text</a></li>
+<li><a
+href="https://github.com/kevinhwang91/nvim-hlslens.git">kevinhwang91/nvim-hlslens</a></li>
+<li><a
+href="https://github.com/neovim/nvim-lspconfig">neovim/nvim-lspconfig</a></li>
+<li><a
+href="https://github.com/SmiteshP/nvim-navic">SmiteshP/nvim-navic</a></li>
+<li><a
+href="https://github.com/AckslD/nvim-neoclip.lua.git">AckslD/nvim-neoclip.lua</a></li>
+<li><a
+href="https://github.com/rcarriga/nvim-notify">rcarriga/nvim-notify</a></li>
+<li><a
+href="https://github.com/windwp/nvim-spectre.git">windwp/nvim-spectre</a></li>
+<li><a
+href="https://github.com/akinsho/nvim-toggleterm.lua">akinsho/nvim-toggleterm.lua</a></li>
+<li><a
+href="https://github.com/nvim-treesitter/nvim-treesitter">nvim-treesitter/nvim-treesitter</a></li>
+<li><a
+href="https://github.com/nvim-treesitter/nvim-treesitter-context">nvim-treesitter/nvim-treesitter-context</a></li>
+<li><a
+href="https://github.com/windwp/nvim-ts-autotag">windwp/nvim-ts-autotag</a></li>
+<li><a
+href="https://github.com/JoosepAlviste/nvim-ts-context-commentstring">JoosepAlviste/nvim-ts-context-commentstring</a></li>
+<li><a
+href="https://github.com/mrjones2014/nvim-ts-rainbow">mrjones2014/nvim-ts-rainbow</a></li>
+<li><a
+href="https://github.com/kevinhwang91/nvim-ufo">kevinhwang91/nvim-ufo</a></li>
+<li><a
+href="https://github.com/kyazdani42/nvim-web-devicons">kyazdani42/nvim-web-devicons</a></li>
+<li><a
+href="https://github.com/pwntester/octo.nvim">pwntester/octo.nvim</a></li>
+<li><a
+href="https://github.com/nvim-lua/plenary.nvim">nvim-lua/plenary.nvim</a></li>
+<li><a
+href="https://github.com/nvim-lua/popup.nvim">nvim-lua/popup.nvim</a></li>
+<li><a
+href="https://github.com/kevinhwang91/promise-async">kevinhwang91/promise-async</a></li>
+<li><a
+href="https://github.com/luukvbaal/statuscol.nvim">luukvbaal/statuscol.nvim</a></li>
+<li><a
+href="https://github.com/lambdalisue/suda.vim">lambdalisue/suda.vim</a></li>
+<li><a
+href="https://github.com/simrat39/symbols-outline.nvim">simrat39/symbols-outline.nvim</a></li>
+<li><a
+href="https://github.com/nvim-telescope/telescope-dap.nvim">nvim-telescope/telescope-dap.nvim</a></li>
+<li><a
+href="https://github.com/nvim-telescope/telescope-fzy-native.nvim">nvim-telescope/telescope-fzy-native.nvim</a></li>
+<li><a
+href="https://github.com/nvim-telescope/telescope-live-grep-args.nvim">nvim-telescope/telescope-live-grep-args.nvim</a></li>
+<li><a
+href="https://github.com/cljoly/telescope-repo.nvim">cljoly/telescope-repo.nvim</a></li>
+<li><a
+href="https://github.com/nvim-telescope/telescope.nvim">nvim-telescope/telescope.nvim</a></li>
+<li><a
+href="https://github.com/folke/todo-comments.nvim">folke/todo-comments.nvim</a></li>
+<li><a
+href="https://github.com/folke/tokyonight.nvim">folke/tokyonight.nvim</a></li>
+<li><a
+href="https://github.com/folke/trouble.nvim">folke/trouble.nvim</a></li>
+<li><a
+href="https://github.com/folke/twilight.nvim">folke/twilight.nvim</a></li>
+<li><a
+href="https://github.com/tpope/vim-abolish.git">tpope/vim-abolish</a></li>
+<li><a
+href="https://github.com/tpope/vim-bundler.git">tpope/vim-bundler</a></li>
+<li><a
+href="https://github.com/tpope/vim-capslock.git">tpope/vim-capslock</a></li>
+<li><a
+href="https://github.com/tpope/vim-dadbod.git">tpope/vim-dadbod</a></li>
+<li><a
+href="https://github.com/tpope/vim-dispatch.git">tpope/vim-dispatch</a></li>
+<li><a
+href="https://github.com/tpope/vim-endwise.git">tpope/vim-endwise</a></li>
+<li><a
+href="https://github.com/tpope/vim-fugitive">tpope/vim-fugitive</a></li>
+<li><a
+href="https://github.com/ludovicchabant/vim-gutentags.git">ludovicchabant/vim-gutentags</a></li>
+<li><a
+href="https://github.com/RRethy/vim-illuminate">RRethy/vim-illuminate</a></li>
+<li><a
+href="https://github.com/andymass/vim-matchup">andymass/vim-matchup</a></li>
+<li><a
+href="https://github.com/jeffkreeftmeijer/vim-numbertoggle.git">jeffkreeftmeijer/vim-numbertoggle</a></li>
+<li><a
+href="https://github.com/tpope/vim-rails.git">tpope/vim-rails</a></li>
+<li><a
+href="https://github.com/tpope/vim-repeat">tpope/vim-repeat</a></li>
+<li><a
+href="https://github.com/airblade/vim-rooter">airblade/vim-rooter</a></li>
+<li><a
+href="https://github.com/machakann/vim-sandwich.git">machakann/vim-sandwich</a></li>
+<li><a
+href="https://github.com/tpope/vim-sleuth.git">tpope/vim-sleuth</a></li>
+<li><a
+href="https://github.com/christoomey/vim-tmux-navigator">christoomey/vim-tmux-navigator</a></li>
+<li><a
+href="https://github.com/hrsh7th/vim-vsnip">hrsh7th/vim-vsnip</a></li>
+<li><a
+href="https://github.com/chaoren/vim-wordmotion.git">chaoren/vim-wordmotion</a></li>
+<li><a
+href="https://github.com/folke/which-key.nvim">folke/which-key.nvim</a></li>
+<li><a
+href="https://github.com/folke/zen-mode.nvim">folke/zen-mode.nvim</a></li>
+<li><a
+href="https://github.com/zdharma-continuum/zinit-vim-syntax.git">zdharma-continuum/zinit-vim-syntax</a></li>
+</ul>
+<h3 id="nv-ide-keymaps">NV-IDE Keymaps</h3>
+<h4 id="normal-mode-keymaps">normal mode keymaps</h4>
+<table>
+<colgroup>
+<col style="width: 64%" />
+<col style="width: 17%" />
+<col style="width: 17%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Description</th>
+<th>LHS</th>
+<th>RHS</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td></td>
+<td>e</td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td>#</td>
+<td>#<Cmd>lua require(‘hlslens’).start()<CR></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>%</td>
+<td><Plug>(MatchitNormalForward)</td>
+</tr>
+<tr class="even">
+<td>Nvim builtin</td>
+<td>&amp;</td>
+<td>:&amp;&amp;<CR></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>*</td>
+<td>*<Cmd>lua require(‘hlslens’).start()<CR></td>
+</tr>
+<tr class="even">
+<td></td>
+<td>N</td>
+<td><Cmd>execute(‘normal!’ . v:count1 . ‘N’)<CR><Cmd>lua
+require(‘hlslens’).start()<CR></td>
+</tr>
+<tr class="odd">
+<td>Treesitter Search</td>
+<td>R</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Flash Treesitter</td>
+<td>S</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Nvim builtin</td>
+<td>Y</td>
+<td>y$</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>[d</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>[%</td>
+<td><Plug>(MatchitNormalMultiBackward)</td>
+</tr>
+<tr class="even">
+<td></td>
+<td></td>
+<td>:lua require(‘config.plugins.telescope’).my_note()<CR></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td>:lua require(‘util.scratches’).open_scratch_file_floating()<CR></td>
+</tr>
+<tr class="even">
+<td></td>
+<td></td>
+<td>:lua require(‘util.scratches’).open_scratch_file()<CR></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td><Cmd>lua require’telescope’.extensions.dap.frames{}<CR></td>
+</tr>
+<tr class="even">
+<td></td>
+<td></td>
+<td><Cmd>lua require’telescope’.extensions.dap.variables{}<CR></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td><Cmd>lua
+require’telescope’.extensions.dap.list_breakpoints{}<CR></td>
+</tr>
+<tr class="even">
+<td></td>
+<td></td>
+<td><Cmd>lua require’telescope’.extensions.dap.commands{}<CR></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td><Cmd>lua require’dap’.repl.open()<CR></td>
+</tr>
+<tr class="even">
+<td></td>
+<td></td>
+<td>:lua require(‘dapui’).toggle()<CR></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td><Cmd>lua require’dap’.toggle_breakpoint()<CR></td>
+</tr>
+<tr class="even">
+<td></td>
+<td></td>
+<td><Cmd>lua require’dap’.step_out()<CR></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td><Cmd>lua require’dap’.step_into()<CR></td>
+</tr>
+<tr class="even">
+<td></td>
+<td></td>
+<td><Cmd>lua require’dap’.step_over()<CR></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td><Cmd>lua require’dap’.continue()<CR></td>
+</tr>
+<tr class="even">
+<td></td>
+<td></td>
+<td><Cmd>Trouble lsp_references<CR></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td><Cmd>Trouble quickfix<CR></td>
+</tr>
+<tr class="even">
+<td></td>
+<td></td>
+<td><Cmd>Trouble loclist<CR></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td><Cmd>Trouble document_diagnostics<CR></td>
+</tr>
+<tr class="even">
+<td></td>
+<td></td>
+<td><Cmd>Trouble workspace_diagnostics<CR></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td><Cmd>TroubleToggle<CR></td>
+</tr>
+<tr class="even">
+<td></td>
+<td></td>
+<td>:TodoTrouble keywords=NOTE<CR></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td>:TodoTrouble keywords=FIX,FIXME<CR></td>
+</tr>
+<tr class="even">
+<td></td>
+<td>{file_ignore_patterns={‘/%.cache/’, ‘/%.cargo/’, ‘/%.local/’,
+‘/%.asdf/’, ‘/%.zinit/’, ‘/%.tmux/’}}<CR></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td>:lua require(‘config.plugins.telescope’).project_files()<CR></td>
+</tr>
+<tr class="even">
+<td></td>
+<td> :lua require(‘telescope.builtin’).find_files()<CR></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td>:lua
+require(‘telescope.builtin’).current_buffer_fuzzy_find()<CR></td>
+</tr>
+<tr class="even">
+<td></td>
+<td></td>
+<td>:lua require(‘telescope.builtin’).treesitter()<CR></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td> :lua require(‘config.plugins.telescope’).my_buffers()<CR></td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td></td>
+<td>:lua require(‘telescope.builtin’).marks()<CR></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>#</td>
+<td>:lua require(‘telescope.builtin’).grep_string()<CR></td>
+</tr>
+<tr class="even">
+<td></td>
+<td> :lua
+require’telescope’.extensions.live_grep_args.live_grep_args()<CR></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h4 id="visual-mode-keymaps">visual mode keymaps</h4>
+<table>
+<colgroup>
+<col style="width: 64%" />
+<col style="width: 17%" />
+<col style="width: 17%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Description</th>
+<th>LHS</th>
+<th>RHS</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Nvim builtin</td>
+<td>#</td>
+<td>y?“<CR></td>
+</tr>
+<tr class="even">
+<td></td>
+<td>%</td>
+<td><Plug>(MatchitVisualForward)</td>
+</tr>
+<tr class="odd">
+<td>Nvim builtin</td>
+<td>*</td>
+<td>y/“<CR></td>
+</tr>
+<tr class="even">
+<td>Treesitter Search</td>
+<td>R</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Flash Treesitter</td>
+<td>S</td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td>[%</td>
+<td><Plug>(MatchitVisualMultiBackward)</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td>:lua require(‘spectre’).open_visual()<CR></td>
+</tr>
+<tr class="even">
+<td></td>
+<td>]%</td>
+<td><Plug>(MatchitVisualMultiForward)</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>a%</td>
+<td><Plug>(MatchitVisualTextObject)</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>g%</td>
+<td><Plug>(MatchitVisualBackward)</td>
+</tr>
+<tr class="odd">
+<td>Comment toggle blockwise (visual)</td>
+<td>gb</td>
+<td><Plug>(comment_toggle_blockwise_visual)</td>
+</tr>
+<tr class="even">
+<td>Comment toggle linewise (visual)</td>
+<td>gc</td>
+<td><Plug>(comment_toggle_linewise_visual)</td>
+</tr>
+<tr class="odd">
+<td>Flash</td>
+<td>s</td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td><Plug>(MatchitVisualTextObject)</td>
+<td><Plug>(MatchitVisualMultiBackward)o<Plug>(MatchitVisualMultiForward)</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td><Plug>(MatchitVisualMultiForward)</td>
+<td>:<C-U>call matchit#MultiMatch(“W”,
+“n”)<CR>m’gv<code>| |  | &lt;Plug&gt;(MatchitVisualMultiBackward) | :&lt;C-U&gt;call matchit#MultiMatch("bW", "n")&lt;CR&gt;m'gv</code></td>
+</tr>
+<tr class="even">
+<td></td>
+<td><Plug>(MatchitVisualBackward)</td>
+<td>:<C-U>call
+matchit#Match_wrapper(’‘,0,’v’)<CR>m’gv<code>| |  | &lt;Plug&gt;(MatchitVisualForward) | :&lt;C-U&gt;call matchit#Match_wrapper('',1,'v')&lt;CR&gt;:if col("''") != col("$") | exe ":normal! m'" | endif&lt;CR&gt;gv</code></td>
+</tr>
+<tr class="odd">
+<td>Comment toggle blockwise (visual)</td>
+<td><Plug>(comment_toggle_blockwise_visual)</td>
+<td><Esc><Cmd>lua
+require(“Comment.api”).locked(“toggle.blockwise”)(vim.fn.visualmode())<CR></td>
+</tr>
+<tr class="even">
+<td>Comment toggle linewise (visual)</td>
+<td><Plug>(comment_toggle_linewise_visual)</td>
+<td><Esc><Cmd>lua
+require(“Comment.api”).locked(“toggle.linewise”)(vim.fn.visualmode())<CR></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td><C-Bslash></td>
+<td>:<C-U>TmuxNavigatePrevious<CR></td>
+</tr>
+<tr class="even">
+<td></td>
+<td><C-K></td>
+<td>:<C-U>TmuxNavigateUp<CR></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td><C-J></td>
+<td>:<C-U>TmuxNavigateDown<CR></td>
+</tr>
+<tr class="even">
+<td></td>
+<td><C-H></td>
+<td>:<C-U>TmuxNavigateLeft<CR></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td><Plug>(vsnip-cut-text)</td>
+<td>:<C-U>call <SNR>7_vsnip_visual_text(visualmode())<CR>gv”_c</td>
+</tr>
+<tr class="even">
+<td></td>
+<td><Plug>(vsnip-select-text)</td>
+<td>:<C-U>call <SNR>7_vsnip_visual_text(visualmode())<CR>gv</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td><C-L></td>
+<td>:<C-U>TmuxNavigateRight<CR></td>
+</tr>
+</tbody>
+</table>
+<h4 id="operator-mode-keymaps">operator mode keymaps</h4>
+<table>
+<colgroup>
+<col style="width: 64%" />
+<col style="width: 17%" />
+<col style="width: 17%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Description</th>
+<th>LHS</th>
+<th>RHS</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td></td>
+<td>%</td>
+<td><Plug>(MatchitOperationForward)</td>
+</tr>
+<tr class="even">
+<td>Treesitter Search</td>
+<td>R</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Flash Treesitter</td>
+<td>S</td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td>[%</td>
+<td><Plug>(MatchitOperationMultiBackward)</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>]%</td>
+<td><Plug>(MatchitOperationMultiForward)</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>g%</td>
+<td><Plug>(MatchitOperationBackward)</td>
+</tr>
+<tr class="odd">
+<td>Remote Flash</td>
+<td>r</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Flash</td>
+<td>s</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td><Plug>(MatchitOperationMultiForward)</td>
+<td>:<C-U>call matchit#MultiMatch(“W”, “o”)<CR></td>
+</tr>
+<tr class="even">
+<td></td>
+<td><Plug>(MatchitOperationMultiBackward)</td>
+<td>:<C-U>call matchit#MultiMatch(“bW”, “o”)<CR></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td><Plug>(MatchitOperationBackward)</td>
+<td>:<C-U>call matchit#Match_wrapper(’‘,0,’o’)<CR></td>
+</tr>
+<tr class="even">
+<td></td>
+<td><Plug>(MatchitOperationForward)</td>
+<td>:<C-U>call matchit#Match_wrapper(’‘,1,’o’)<CR></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td><C-Bslash></td>
+<td>:<C-U>TmuxNavigatePrevious<CR></td>
+</tr>
+<tr class="even">
+<td></td>
+<td><C-K></td>
+<td>:<C-U>TmuxNavigateUp<CR></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td><C-J></td>
+<td>:<C-U>TmuxNavigateDown<CR></td>
+</tr>
+<tr class="even">
+<td></td>
+<td><C-H></td>
+<td>:<C-U>TmuxNavigateLeft<CR></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td><C-L></td>
+<td>:<C-U>TmuxNavigateRight<CR></td>
+</tr>
+</tbody>
+</table>
+</body>
+</html>

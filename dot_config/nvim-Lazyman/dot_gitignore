@@ -1,0 +1,97 @@
+# Compiled Lua sources
+luac.out
+
+# luarocks build files
+*.src.rock
+*.zip
+*.tar.gz
+
+# Object files
+*.o
+*.os
+*.ko
+*.obj
+*.elf
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+*.def
+*.exp
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# vimdoc tags
+doc/tags
+
+# Working dirs and test files
+tmp/*
+scripts/tmp/*
+scripts/lazyman-test.yaml
+
+# Neovide leaves a backtrace when it crashes
+neovide_backtraces*
+
+# Neovim plugins can leave behind some cruft
+.null-ls*
+
+# Lazyman generated files
+.initialized
+.nvimdirs
+lua/configuration-new.lua
+lua/configuration-orig.lua
+lua/configuration-prev.lua
+logs/*
+!logs/README.md
+
+# Users can add configuration patches, we ship some
+scripts/nvims
+scripts/patches/*
+!scripts/patches/nvim-Allaman.patch
+!scripts/patches/nvim-Beethoven.patch
+!scripts/patches/nvim-Cosmic.patch
+!scripts/patches/nvim-Daniel.patch
+!scripts/patches/nvim-Enrique.patch
+!scripts/patches/nvim-JustinLvim.patch
+!scripts/patches/nvim-JustinNvim.patch
+!scripts/patches/nvim-JustinOhMy.patch
+!scripts/patches/nvim-Kristijan.patch
+!scripts/patches/nvim-LaTeX.patch
+!scripts/patches/nvim-Lukas.patch
+!scripts/patches/nvim-LunarVim.patch
+!scripts/patches/nvim-LvimAdib.patch
+!scripts/patches/nvim-LvimIde.patch
+!scripts/patches/nvim-Maddison.patch
+!scripts/patches/nvim-Magidc.patch
+!scripts/patches/nvim-NV-IDE.patch
+!scripts/patches/nvim-Nyoom.patch
+!scripts/patches/nvim-OnMyWay.patch
+!scripts/patches/nvim-Primeagen.patch
+!scripts/patches/nvim-Shuvro.patch
+!scripts/patches/README.md
+
+# vim files
+.*.sw[a-z]
+*.un~
+Session.vim
+.netrwhist
+tmux*log
+.DS_Store

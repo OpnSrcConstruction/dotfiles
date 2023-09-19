@@ -1,0 +1,1657 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Lazyman config: Modern</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <link rel="stylesheet" href="/home/ronnie/.config/nvim-Lazyman/scripts/table.css" />
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">Lazyman config: Modern</h1>
+</header>
+<h2 id="modern-neovim-configuration-information">Modern Neovim
+Configuration Information</h2>
+<p>Configure Neovim as a modernized development environment. Details
+described in <a
+href="https://alpha2phi.medium.com/modern-neovim-configuration-recipes-d68b16537698">an
+excellent Medium article</a></p>
+<ul>
+<li>Install and initialize:
+<strong><code>lazyman -x Modern</code></strong></li>
+<li>Configuration category: <a
+href="https://github.com/doctorfree/nvim-lazyman#starter-configurations">Starter</a></li>
+<li>Base configuration: Custom</li>
+<li>Plugin manager: <a
+href="https://github.com/folke/lazy.nvim">Lazy</a></li>
+<li>Installation location:
+<strong><code>~/.config/nvim-Modern</code></strong></li>
+</ul>
+<p><a
+href="https://github.com/doctorfree/nvim-lazyman/wiki/infodocs">Links to
+all Lazyman supported configuration documents</a></p>
+<h3 id="git-repository">Git repository</h3>
+<p><a
+href="https://github.com/alpha2phi/modern-neovim">https://github.com/alpha2phi/modern-neovim</a></p>
+<h3 id="lazy-managed-plugins">Lazy managed plugins</h3>
+<ul>
+<li><a
+href="https://github.com/jackMort/ChatGPT.nvim.git">jackMort/ChatGPT.nvim</a></li>
+<li><a
+href="https://github.com/dpayne/CodeGPT.nvim.git">dpayne/CodeGPT.nvim</a></li>
+<li><a
+href="https://github.com/numToStr/Comment.nvim">numToStr/Comment.nvim</a></li>
+<li><a
+href="https://github.com/antoinemadec/FixCursorHold.nvim">antoinemadec/FixCursorHold.nvim</a></li>
+<li><a
+href="https://github.com/L3MON4D3/LuaSnip">L3MON4D3/LuaSnip</a></li>
+<li><a
+href="https://github.com/b0o/SchemaStore.nvim">b0o/SchemaStore.nvim</a></li>
+<li><a
+href="https://github.com/aaronhallaert/advanced-git-search.nvim.git">aaronhallaert/advanced-git-search.nvim</a></li>
+<li><a
+href="https://github.com/stevearc/aerial.nvim">stevearc/aerial.nvim</a></li>
+<li><a
+href="https://github.com/goolord/alpha-nvim">goolord/alpha-nvim</a></li>
+<li><a
+href="https://github.com/james1236/backseat.nvim.git">james1236/backseat.nvim</a></li>
+<li><a
+href="https://github.com/max397574/better-escape.nvim">max397574/better-escape.nvim</a></li>
+<li><a
+href="https://github.com/itchyny/calendar.vim.git">itchyny/calendar.vim</a></li>
+<li><a
+href="https://github.com/catppuccin/nvim">catppuccin/nvim</a></li>
+<li><a
+href="https://github.com/uga-rosa/ccc.nvim.git">uga-rosa/ccc.nvim</a></li>
+<li><a
+href="https://github.com/hrsh7th/cmp-buffer">hrsh7th/cmp-buffer</a></li>
+<li><a
+href="https://github.com/hrsh7th/cmp-cmdline">hrsh7th/cmp-cmdline</a></li>
+<li><a
+href="https://github.com/petertriho/cmp-git.git">petertriho/cmp-git</a></li>
+<li><a
+href="https://github.com/hrsh7th/cmp-nvim-lsp">hrsh7th/cmp-nvim-lsp</a></li>
+<li><a
+href="https://github.com/hrsh7th/cmp-path">hrsh7th/cmp-path</a></li>
+<li><a
+href="https://github.com/saadparwaiz1/cmp_luasnip">saadparwaiz1/cmp_luasnip</a></li>
+<li><a
+href="https://github.com/Exafunction/codeium.vim.git">Exafunction/codeium.vim</a></li>
+<li><a
+href="https://github.com/Saecki/crates.nvim.git">Saecki/crates.nvim</a></li>
+<li><a
+href="https://github.com/monaqa/dial.nvim.git">monaqa/dial.nvim</a></li>
+<li><a
+href="https://github.com/sindrets/diffview.nvim.git">sindrets/diffview.nvim</a></li>
+<li><a
+href="https://github.com/stevearc/dressing.nvim">stevearc/dressing.nvim</a></li>
+<li><a
+href="https://github.com/folke/edgy.nvim.git">folke/edgy.nvim</a></li>
+<li><a
+href="https://github.com/j-hui/fidget.nvim">j-hui/fidget.nvim</a></li>
+<li><a
+href="https://github.com/folke/flash.nvim.git">folke/flash.nvim</a></li>
+<li><a
+href="https://github.com/rafamadriz/friendly-snippets">rafamadriz/friendly-snippets</a></li>
+<li><a
+href="https://github.com/rawnly/gist.nvim.git">rawnly/gist.nvim</a></li>
+<li><a
+href="https://github.com/lewis6991/gitsigns.nvim">lewis6991/gitsigns.nvim</a></li>
+<li><a
+href="https://github.com/ellisonleao/gruvbox.nvim">ellisonleao/gruvbox.nvim</a></li>
+<li><a
+href="https://github.com/ThePrimeagen/harpoon">ThePrimeagen/harpoon</a></li>
+<li><a
+href="https://github.com/lukas-reineke/headlines.nvim.git">lukas-reineke/headlines.nvim</a></li>
+<li><a
+href="https://github.com/m-demare/hlargs.nvim.git">m-demare/hlargs.nvim</a></li>
+<li><a
+href="https://github.com/anuvyklack/hydra.nvim.git">anuvyklack/hydra.nvim</a></li>
+<li><a
+href="https://github.com/smjonas/inc-rename.nvim.git">smjonas/inc-rename.nvim</a></li>
+<li><a
+href="https://github.com/lukas-reineke/indent-blankline.nvim">lukas-reineke/indent-blankline.nvim</a></li>
+<li><a
+href="https://github.com/Vigemus/iron.nvim.git">Vigemus/iron.nvim</a></li>
+<li><a
+href="https://github.com/goerz/jupytext.vim.git">goerz/jupytext.vim</a></li>
+<li><a
+href="https://github.com/rebelot/kanagawa.nvim">rebelot/kanagawa.nvim</a></li>
+<li><a
+href="https://github.com/frabjous/knap.git">frabjous/knap</a></li>
+<li><a
+href="https://github.com/folke/lazy.nvim">folke/lazy.nvim</a></li>
+<li><a
+href="https://github.com/mrjones2014/legendary.nvim">mrjones2014/legendary.nvim</a></li>
+<li><a
+href="https://github.com/glepnir/lspsaga.nvim">glepnir/lspsaga.nvim</a></li>
+<li><a
+href="https://github.com/meuter/lualine-so-fancy.nvim.git">meuter/lualine-so-fancy.nvim</a></li>
+<li><a
+href="https://github.com/nvim-lualine/lualine.nvim">nvim-lualine/lualine.nvim</a></li>
+<li><a
+href="https://github.com/iamcco/markdown-preview.nvim">iamcco/markdown-preview.nvim</a></li>
+<li><a
+href="https://github.com/williamboman/mason-lspconfig.nvim">williamboman/mason-lspconfig.nvim</a></li>
+<li><a
+href="https://github.com/jayp0521/mason-null-ls.nvim">jayp0521/mason-null-ls.nvim</a></li>
+<li><a
+href="https://github.com/jay-babu/mason-nvim-dap.nvim">jay-babu/mason-nvim-dap.nvim</a></li>
+<li><a
+href="https://github.com/jay-babu/mason-nvim-dap.nvim">jay-babu/mason-nvim-dap.nvim</a></li>
+<li><a
+href="https://github.com/echasnovski/mini.ai.git">echasnovski/mini.ai</a></li>
+<li><a
+href="https://github.com/echasnovski/mini.bracketed.git">echasnovski/mini.bracketed</a></li>
+<li><a
+href="https://github.com/echasnovski/mini.bufremove.git">echasnovski/mini.bufremove</a></li>
+<li><a
+href="https://github.com/echasnovski/mini.files.git">echasnovski/mini.files</a></li>
+<li><a
+href="https://github.com/echasnovski/mini.hipatterns.git">echasnovski/mini.hipatterns</a></li>
+<li><a
+href="https://github.com/echasnovski/mini.indentscope">echasnovski/mini.indentscope</a></li>
+<li><a
+href="https://github.com/echasnovski/mini.map.git">echasnovski/mini.map</a></li>
+<li><a
+href="https://github.com/echasnovski/mini.misc.git">echasnovski/mini.misc</a></li>
+<li><a
+href="https://github.com/jbyuki/nabla.nvim">jbyuki/nabla.nvim</a></li>
+<li><a
+href="https://github.com/Bryley/neoai.nvim.git">Bryley/neoai.nvim</a></li>
+<li><a
+href="https://github.com/folke/neoconf.nvim.git">folke/neoconf.nvim</a></li>
+<li><a
+href="https://github.com/folke/neodev.nvim">folke/neodev.nvim</a></li>
+<li><a
+href="https://github.com/danymat/neogen.git">danymat/neogen</a></li>
+<li><a
+href="https://github.com/TimUntersberger/neogit">TimUntersberger/neogit</a></li>
+<li><a
+href="https://github.com/nvim-neotest/neotest">nvim-neotest/neotest</a></li>
+<li><a
+href="https://github.com/nvim-neotest/neotest-jest.git">nvim-neotest/neotest-jest</a></li>
+<li><a
+href="https://github.com/thenbe/neotest-playwright.git">thenbe/neotest-playwright</a></li>
+<li><a
+href="https://github.com/nvim-neotest/neotest-plenary">nvim-neotest/neotest-plenary</a></li>
+<li><a
+href="https://github.com/nvim-neotest/neotest-python">nvim-neotest/neotest-python</a></li>
+<li><a
+href="https://github.com/rouge8/neotest-rust.git">rouge8/neotest-rust</a></li>
+<li><a
+href="https://github.com/nvim-neotest/neotest-vim-test">nvim-neotest/neotest-vim-test</a></li>
+<li><a
+href="https://github.com/marilari88/neotest-vitest.git">marilari88/neotest-vitest</a></li>
+<li><a
+href="https://github.com/folke/noice.nvim">folke/noice.nvim</a></li>
+<li><a
+href="https://github.com/MunifTanjim/nui.nvim">MunifTanjim/nui.nvim</a></li>
+<li><a
+href="https://github.com/jayp0521/mason-null-ls.nvim">jayp0521/mason-null-ls.nvim</a></li>
+<li><a
+href="https://github.com/nacro90/numb.nvim.git">nacro90/numb.nvim</a></li>
+<li><a
+href="https://github.com/AckslD/nvim-FeMaco.lua.git">AckslD/nvim-FeMaco.lua</a></li>
+<li><a
+href="https://github.com/windwp/nvim-autopairs">windwp/nvim-autopairs</a></li>
+<li><a
+href="https://github.com/kevinhwang91/nvim-bqf.git">kevinhwang91/nvim-bqf</a></li>
+<li><a
+href="https://github.com/akinsho/nvim-bufferline.lua">akinsho/nvim-bufferline.lua</a></li>
+<li><a
+href="https://github.com/hrsh7th/nvim-cmp">hrsh7th/nvim-cmp</a></li>
+<li><a
+href="https://github.com/jay-babu/mason-nvim-dap.nvim">jay-babu/mason-nvim-dap.nvim</a></li>
+<li><a
+href="https://github.com/mfussenegger/nvim-dap-python.git">mfussenegger/nvim-dap-python</a></li>
+<li><a
+href="https://github.com/LiadOz/nvim-dap-repl-highlights.git">LiadOz/nvim-dap-repl-highlights</a></li>
+<li><a
+href="https://github.com/rcarriga/nvim-dap-ui">rcarriga/nvim-dap-ui</a></li>
+<li><a
+href="https://github.com/theHamsta/nvim-dap-virtual-text">theHamsta/nvim-dap-virtual-text</a></li>
+<li><a
+href="https://github.com/kevinhwang91/nvim-hlslens.git">kevinhwang91/nvim-hlslens</a></li>
+<li><a
+href="https://github.com/neovim/nvim-lspconfig">neovim/nvim-lspconfig</a></li>
+<li><a
+href="https://github.com/DaikyXendo/nvim-material-icon.git">DaikyXendo/nvim-material-icon</a></li>
+<li><a
+href="https://github.com/SmiteshP/nvim-navbuddy.git">SmiteshP/nvim-navbuddy</a></li>
+<li><a
+href="https://github.com/SmiteshP/nvim-navic">SmiteshP/nvim-navic</a></li>
+<li><a
+href="https://github.com/rcarriga/nvim-notify">rcarriga/nvim-notify</a></li>
+<li><a
+href="https://github.com/nvim-pack/nvim-spectre.git">nvim-pack/nvim-spectre</a></li>
+<li><a
+href="https://github.com/xiyaowong/nvim-transparent">xiyaowong/nvim-transparent</a></li>
+<li><a
+href="https://github.com/nvim-treesitter/nvim-treesitter">nvim-treesitter/nvim-treesitter</a></li>
+<li><a
+href="https://github.com/RRethy/nvim-treesitter-endwise">RRethy/nvim-treesitter-endwise</a></li>
+<li><a
+href="https://github.com/nvim-treesitter/nvim-treesitter-textobjects">nvim-treesitter/nvim-treesitter-textobjects</a></li>
+<li><a
+href="https://github.com/windwp/nvim-ts-autotag">windwp/nvim-ts-autotag</a></li>
+<li><a
+href="https://github.com/JoosepAlviste/nvim-ts-context-commentstring">JoosepAlviste/nvim-ts-context-commentstring</a></li>
+<li><a
+href="https://github.com/kevinhwang91/nvim-ufo">kevinhwang91/nvim-ufo</a></li>
+<li><a
+href="https://github.com/kyazdani42/nvim-web-devicons">kyazdani42/nvim-web-devicons</a></li>
+<li><a
+href="https://github.com/jbyuki/one-small-step-for-vimkind.git">jbyuki/one-small-step-for-vimkind</a></li>
+<li><a
+href="https://github.com/stevearc/overseer.nvim.git">stevearc/overseer.nvim</a></li>
+<li><a
+href="https://github.com/folke/persistence.nvim.git">folke/persistence.nvim</a></li>
+<li><a
+href="https://github.com/nvim-treesitter/playground">nvim-treesitter/playground</a></li>
+<li><a
+href="https://github.com/nvim-lua/plenary.nvim">nvim-lua/plenary.nvim</a></li>
+<li><a
+href="https://github.com/ahmedkhalf/project.nvim">ahmedkhalf/project.nvim</a></li>
+<li><a
+href="https://github.com/kevinhwang91/promise-async">kevinhwang91/promise-async</a></li>
+<li><a
+href="https://github.com/ThePrimeagen/refactoring.nvim.git">ThePrimeagen/refactoring.nvim</a></li>
+<li><a
+href="https://github.com/simrat39/rust-tools.nvim">simrat39/rust-tools.nvim</a></li>
+<li><a
+href="https://github.com/rust-lang/rust.vim.git">rust-lang/rust.vim</a></li>
+<li><a
+href="https://github.com/nvim-telescope/telescope.nvim">nvim-telescope/telescope.nvim</a></li>
+<li><a
+href="https://github.com/tami5/sqlite.lua">tami5/sqlite.lua</a></li>
+<li><a
+href="https://github.com/cshuaimin/ssr.nvim">cshuaimin/ssr.nvim</a></li>
+<li><a
+href="https://github.com/luukvbaal/statuscol.nvim">luukvbaal/statuscol.nvim</a></li>
+<li><a
+href="https://github.com/folke/styler.nvim.git">folke/styler.nvim</a></li>
+<li><a
+href="https://github.com/abecodes/tabout.nvim.git">abecodes/tabout.nvim</a></li>
+<li><a
+href="https://github.com/olacin/telescope-cc.nvim.git">olacin/telescope-cc.nvim</a></li>
+<li><a
+href="https://github.com/nvim-telescope/telescope-dap.nvim">nvim-telescope/telescope-dap.nvim</a></li>
+<li><a
+href="https://github.com/nvim-telescope/telescope-file-browser.nvim">nvim-telescope/telescope-file-browser.nvim</a></li>
+<li><a
+href="https://github.com/nvim-telescope/telescope-frecency.nvim">nvim-telescope/telescope-frecency.nvim</a></li>
+<li><a
+href="https://github.com/nvim-telescope/telescope-fzf-native.nvim">nvim-telescope/telescope-fzf-native.nvim</a></li>
+<li><a
+href="https://github.com/tsakirist/telescope-lazy.nvim.git">tsakirist/telescope-lazy.nvim</a></li>
+<li><a
+href="https://github.com/benfowler/telescope-luasnip.nvim.git">benfowler/telescope-luasnip.nvim</a></li>
+<li><a
+href="https://github.com/nvim-telescope/telescope-project.nvim.git">nvim-telescope/telescope-project.nvim</a></li>
+<li><a
+href="https://github.com/cljoly/telescope-repo.nvim">cljoly/telescope-repo.nvim</a></li>
+<li><a
+href="https://github.com/nvim-telescope/telescope.nvim">nvim-telescope/telescope.nvim</a></li>
+<li><a
+href="https://github.com/folke/todo-comments.nvim">folke/todo-comments.nvim</a></li>
+<li><a
+href="https://github.com/akinsho/toggleterm.nvim">akinsho/toggleterm.nvim</a></li>
+<li><a
+href="https://github.com/folke/tokyonight.nvim">folke/tokyonight.nvim</a></li>
+<li><a href="https://github.com/Wansmer/treesj">Wansmer/treesj</a></li>
+<li><a
+href="https://github.com/folke/trouble.nvim">folke/trouble.nvim</a></li>
+<li><a
+href="https://github.com/ckolkey/ts-node-action.git">ckolkey/ts-node-action</a></li>
+<li><a
+href="https://github.com/folke/twilight.nvim">folke/twilight.nvim</a></li>
+<li><a
+href="https://github.com/pmizio/typescript-tools.nvim.git">pmizio/typescript-tools.nvim</a></li>
+<li><a
+href="https://github.com/linux-cultist/venv-selector.nvim.git">linux-cultist/venv-selector.nvim</a></li>
+<li><a
+href="https://github.com/tpope/vim-dadbod.git">tpope/vim-dadbod</a></li>
+<li><a
+href="https://github.com/kristijanhusak/vim-dadbod-completion.git">kristijanhusak/vim-dadbod-completion</a></li>
+<li><a
+href="https://github.com/kristijanhusak/vim-dadbod-ui.git">kristijanhusak/vim-dadbod-ui</a></li>
+<li><a
+href="https://github.com/tpope/vim-fugitive">tpope/vim-fugitive</a></li>
+<li><a
+href="https://github.com/mattn/vim-gist.git">mattn/vim-gist</a></li>
+<li><a
+href="https://github.com/RRethy/vim-illuminate">RRethy/vim-illuminate</a></li>
+<li><a
+href="https://github.com/mzlogin/vim-markdown-toc.git">mzlogin/vim-markdown-toc</a></li>
+<li><a
+href="https://github.com/andymass/vim-matchup">andymass/vim-matchup</a></li>
+<li><a
+href="https://github.com/tpope/vim-repeat">tpope/vim-repeat</a></li>
+<li><a
+href="https://github.com/tpope/vim-rhubarb">tpope/vim-rhubarb</a></li>
+<li><a
+href="https://github.com/honza/vim-snippets.git">honza/vim-snippets</a></li>
+<li><a
+href="https://github.com/kylechui/nvim-surround">kylechui/nvim-surround</a></li>
+<li><a
+href="https://github.com/dhruvasagar/vim-table-mode.git">dhruvasagar/vim-table-mode</a></li>
+<li><a
+href="https://github.com/nvim-neotest/neotest-vim-test">nvim-neotest/neotest-vim-test</a></li>
+<li><a href="https://github.com/lervag/vimtex">lervag/vimtex</a></li>
+<li><a
+href="https://github.com/mattn/webapi-vim.git">mattn/webapi-vim</a></li>
+<li><a
+href="https://github.com/folke/which-key.nvim">folke/which-key.nvim</a></li>
+<li><a
+href="https://github.com/gbprod/yanky.nvim">gbprod/yanky.nvim</a></li>
+<li><a
+href="https://github.com/folke/zen-mode.nvim">folke/zen-mode.nvim</a></li>
+</ul>
+<h3 id="modern-keymaps">Modern Keymaps</h3>
+<h4 id="normal-mode-keymaps">normal mode keymaps</h4>
+<table>
+<colgroup>
+<col style="width: 64%" />
+<col style="width: 17%" />
+<col style="width: 17%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Description</th>
+<th>LHS</th>
+<th>RHS</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Manage Plugins</td>
+<td>zz</td>
+<td><Cmd>:Lazy<CR></td>
+</tr>
+<tr class="even">
+<td>Debug Cleanup</td>
+<td>rc</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Debug Print Variable</td>
+<td>rp</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Debug Print</td>
+<td>rP</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Extract Block to File</td>
+<td>rf</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Extract Block</td>
+<td>rb</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Inline Variable</td>
+<td>ri</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Search and Replace (Spectre)</td>
+<td>sr</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Rename Buffer</td>
+<td>Dr</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Find Buffer</td>
+<td>Df</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Toggle UI</td>
+<td>Dt</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Last Query Info</td>
+<td>Dq</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Notation</td>
+<td>nn</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Terminal #2</td>
+<td>0</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Status</td>
+<td>gs</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Document Diagnostics</td>
+<td>ld</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Workspace Diagnostics</td>
+<td>lD</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Code Outline (navbuddy)</td>
+<td>vO</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Summary</td>
+<td>tNS</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Stop</td>
+<td>tNs</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Output</td>
+<td>tNo</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Debug Nearest</td>
+<td>tNN</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Nearest</td>
+<td>tNn</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Last</td>
+<td>tNl</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>File</td>
+<td>tNf</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Attach</td>
+<td>tNa</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Debug Last</td>
+<td>tNL</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Debug File</td>
+<td>tNF</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>ToDo (Trouble)</td>
+<td>lt</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>ToDo</td>
+<td>lT</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Function</td>
+<td>lgf</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Class</td>
+<td>lgc</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Annotation</td>
+<td>lgd</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Type</td>
+<td>lgt</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Explorer (Current Directory)</td>
+<td>fe</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Explorer (Current File)</td>
+<td>fE</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Toggle Zoom</td>
+<td>vz</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Step Back</td>
+<td>db</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Toggle UI</td>
+<td>dU</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Conditional Breakpoint</td>
+<td>dC</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Evaluate Input</td>
+<td>dE</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Run to Cursor</td>
+<td>dR</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Step Out</td>
+<td>du</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Terminate</td>
+<td>dx</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Toggle Breakpoint</td>
+<td>dt</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Start</td>
+<td>ds</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Toggle REPL</td>
+<td>dr</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Quit</td>
+<td>dq</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Pause</td>
+<td>dp</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Run Last</td>
+<td>dl</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Step Over</td>
+<td>do</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Step Into</td>
+<td>di</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Scopes</td>
+<td>dS</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Hover Variables</td>
+<td>dh</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Get Session</td>
+<td>dg</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Evaluate</td>
+<td>de</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Disconnect</td>
+<td>dd</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Continue</td>
+<td>dc</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Close Buffer</td>
+<td>bc</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Reload Buffer</td>
+<td>br</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Delete Buffer (Force)</td>
+<td>bD</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Delete Buffer</td>
+<td>bd</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Open Yank History</td>
+<td>zp</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Forward jump</td>
+<td>nj</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Toggle Preview</td>
+<td>nt</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Close Preview</td>
+<td>nc</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Preview</td>
+<td>np</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Edit with Instructions</td>
+<td>ae</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Complete Code</td>
+<td>ac</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Chat</td>
+<td>aa</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Command Palette</td>
+<td>hc</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Select VirtualEnv</td>
+<td>lv</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>+Mark</td>
+<td>xm</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>+REPL</td>
+<td>x</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Hide</td>
+<td>xH</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Focus</td>
+<td>xF</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Restart</td>
+<td>xS</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>REPL</td>
+<td>xR</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Remove Mark</td>
+<td>xmr</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Mark Motion</td>
+<td>xmm</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Send Mark</td>
+<td>xms</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Clear</td>
+<td>xc</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Close REPL</td>
+<td>xC</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Interrupt</td>
+<td>xI</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>ENTER</td>
+<td>x<CR></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Send File</td>
+<td>xf</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Send Until Cursor</td>
+<td>xt</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Send Line</td>
+<td>xl</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Send Motion</td>
+<td>xs</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Pick</td>
+<td>zCp</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>+Color</td>
+<td>zC</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Toggle Highlighter</td>
+<td>zCh</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Convert</td>
+<td>zCc</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Toggle Minimap</td>
+<td>vm</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Run</td>
+<td>tor</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Quick Action</td>
+<td>toq</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Open</td>
+<td>too</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Load Bundle</td>
+<td>tol</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Delete Bundle</td>
+<td>tod</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Close</td>
+<td>toc</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Build</td>
+<td>tob</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Task Action</td>
+<td>toa</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Run Command</td>
+<td>toR</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Toggle</td>
+<td>tot</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Save Bundle</td>
+<td>tos</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Search and Replace (SSR)</td>
+<td>sR</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Don’t Save Current Session</td>
+<td>qd</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Restore Last Session</td>
+<td>ql</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Restore Session</td>
+<td>qs</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Command 2</td>
+<td>6</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Command 1</td>
+<td>5</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Terminal 2</td>
+<td>4</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Terminal 1</td>
+<td>3</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>File 2</td>
+<td>2</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>File 1</td>
+<td>1</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Command Menu</td>
+<td>jc</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>File Menu</td>
+<td>jm</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Add File</td>
+<td>ja</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Mason</td>
+<td>lm</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Colorscheme</td>
+<td>zc</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Code Outline</td>
+<td>vo</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Buffer</td>
+<td>sb</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Snippets</td>
+<td>ss</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Workspace</td>
+<td>sw</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>List</td>
+<td>pp</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Search</td>
+<td>hs</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Search</td>
+<td>ps</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Search Plugins</td>
+<td>zs</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Conventional Commits</td>
+<td>gc</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Browser</td>
+<td>fr</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Buffers</td>
+<td>fb</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Recent</td>
+<td>fo</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Find Files</td>
+<td>ff</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Find Files</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Edgy Select Window</td>
+<td>zE</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Edgy Toggle</td>
+<td>ze</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Toggle Split/Join</td>
+<td>lj</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Node Action</td>
+<td>ln</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Suite</td>
+<td>ts</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Nearest</td>
+<td>tn</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Last</td>
+<td>tl</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>File</td>
+<td>tf</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Class</td>
+<td>tc</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Visit</td>
+<td>tv</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Generate Git Message</td>
+<td>ag</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Summarize Text</td>
+<td>as</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td>#</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Nvim builtin</td>
+<td>&amp;</td>
+<td>:&amp;&amp;<CR></td>
+</tr>
+<tr class="even">
+<td></td>
+<td>*</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Put and indent left</td>
+<td><lt>p</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Put before and indent left</td>
+<td><lt>P</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Put after applying a filter</td>
+<td>=p</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Put before applying a filter</td>
+<td>=P</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Put and indent right</td>
+<td>&gt;p</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Put before and indent right</td>
+<td>&gt;P</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>N</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Put yanked text before cursor</td>
+<td>P</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Flash Treesitter</td>
+<td>S</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Nvim builtin</td>
+<td>Y</td>
+<td>y$</td>
+</tr>
+<tr class="odd">
+<td>Previous ToDo</td>
+<td>[t</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Cycle forward through yank history</td>
+<td>[y</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Put indented before cursor (linewise)</td>
+<td>[p</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Put indented before cursor (linewise)</td>
+<td>[P</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Next ToDo</td>
+<td>]t</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Cycle backward through yank history</td>
+<td>]y</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Put indented after cursor (linewise)</td>
+<td>]p</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Put indented after cursor (linewise)</td>
+<td>]P</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>g<Plug>(dial-decrement)</td>
+<td><Cmd>lua require”dial.command”.select_augend_gnormal()<CR><Cmd>let
+&amp;opfunc=“dial#operator#decrement_gnormal”<CR>g@<Cmd>lua
+require(“dial.command”).textobj()<CR></td>
+</tr>
+<tr class="even">
+<td></td>
+<td>g<Plug>(dial-increment)</td>
+<td><Cmd>lua require”dial.command”.select_augend_gnormal()<CR><Cmd>let
+&amp;opfunc=“dial#operator#increment_gnormal”<CR>g@<Cmd>lua
+require(“dial.command”).textobj()<CR></td>
+</tr>
+<tr class="odd">
+<td>Put yanked text after selection</td>
+<td>gp</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Put yanked text before selection</td>
+<td>gP</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>g#</td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td>g*</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>gc</td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td>gbc</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>gcc</td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td>n</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Put yanked text after cursor</td>
+<td>p</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Flash</td>
+<td>s</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Yank text</td>
+<td>y</td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td>zc</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>zo</td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td>zC</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>zO</td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td>za</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>zA</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Open Folds Except Kinds</td>
+<td>zr</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Open All Folds</td>
+<td>zR</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Close All Folds</td>
+<td>zM</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Close Folds With</td>
+<td>zm</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Peek Fold</td>
+<td>zp</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Decrement</td>
+<td><C-X></td>
+<td><Cmd>lua require”dial.command”.select_augend_normal()<CR><Cmd>let
+&amp;opfunc=“dial#operator#decrement_normal”<CR>g@<Cmd>lua
+require(“dial.command”).textobj()<CR></td>
+</tr>
+<tr class="even">
+<td>Increment</td>
+<td><C-A></td>
+<td><Cmd>lua require”dial.command”.select_augend_normal()<CR><Cmd>let
+&amp;opfunc=“dial#operator#increment_normal”<CR>g@<Cmd>lua
+require(“dial.command”).textobj()<CR></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td><Plug>(dial-decrement)</td>
+<td><Cmd>lua require”dial.command”.select_augend_normal()<CR><Cmd>let
+&amp;opfunc=“dial#operator#decrement_normal”<CR>g@<Cmd>lua
+require(“dial.command”).textobj()<CR></td>
+</tr>
+<tr class="even">
+<td></td>
+<td><Plug>(dial-increment)</td>
+<td><Cmd>lua require”dial.command”.select_augend_normal()<CR><Cmd>let
+&amp;opfunc=“dial#operator#increment_normal”<CR>g@<Cmd>lua
+require(“dial.command”).textobj()<CR></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td><C-Bslash></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Scroll backward</td>
+<td><C-B></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Scroll forward</td>
+<td><C-F></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Legendary</td>
+<td><C-S-P></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Execute Cell</td>
+<td><M-e></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Previous Cell</td>
+<td><M-k></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Next Cell</td>
+<td><M-j></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Delete Cell</td>
+<td><M-x></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Nvim builtin</td>
+<td><C-L></td>
+<td><Cmd>nohlsearch</td>
+</tr>
+</tbody>
+</table>
+<h4 id="visual-mode-keymaps">visual mode keymaps</h4>
+<table>
+<colgroup>
+<col style="width: 64%" />
+<col style="width: 17%" />
+<col style="width: 17%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Description</th>
+<th>LHS</th>
+<th>RHS</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Search and Replace (SSR)</td>
+<td>sR</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Evaluate</td>
+<td>de</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Clear Highlight</td>
+<td>xL</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Mark Visual</td>
+<td>xmv</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Send</td>
+<td>xs</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Debug Print Variable</td>
+<td>rp</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Extract Variable</td>
+<td>rx</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Extract Function to File</td>
+<td>rF</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Extract Function</td>
+<td>rf</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Inline Variable</td>
+<td>ri</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Refactor</td>
+<td>rs</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Complete Code</td>
+<td>ac</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Edit with Instructions</td>
+<td>ae</td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Nvim builtin</td>
+<td>#</td>
+<td>y?“<CR></td>
+</tr>
+<tr class="even">
+<td>Nvim builtin</td>
+<td>*</td>
+<td>y/“<CR></td>
+</tr>
+<tr class="odd">
+<td>Put yanked text before cursor</td>
+<td>P</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Treesitter Search</td>
+<td>R</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Flash Treesitter</td>
+<td>S</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Decrement</td>
+<td>g<C-X></td>
+<td><Cmd>lua require”dial.command”.select_augend_gvisual()<CR><Cmd>let
+&amp;opfunc=“dial#operator#decrement_gvisual”<CR>g@</td>
+</tr>
+<tr class="odd">
+<td>Increment</td>
+<td>g<C-A></td>
+<td><Cmd>lua require”dial.command”.select_augend_gvisual()<CR><Cmd>let
+&amp;opfunc=“dial#operator#increment_gvisual”<CR>g@</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>g<Plug>(dial-decrement)</td>
+<td><Cmd>lua require”dial.command”.select_augend_gvisual()<CR><Cmd>let
+&amp;opfunc=“dial#operator#decrement_gvisual”<CR>g@gv</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>g<Plug>(dial-increment)</td>
+<td><Cmd>lua require”dial.command”.select_augend_gvisual()<CR><Cmd>let
+&amp;opfunc=“dial#operator#increment_gvisual”<CR>g@gv</td>
+</tr>
+<tr class="even">
+<td>Put yanked text before selection</td>
+<td>gP</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Put yanked text after selection</td>
+<td>gp</td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td>gc</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>gbc</td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td>gcc</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Put yanked text after cursor</td>
+<td>p</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Flash</td>
+<td>s</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Yank text</td>
+<td>y</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Decrement</td>
+<td><C-X></td>
+<td><Cmd>lua require”dial.command”.select_augend_visual()<CR><Cmd>let
+&amp;opfunc=“dial#operator#decrement_visual”<CR>g@</td>
+</tr>
+<tr class="odd">
+<td>Increment</td>
+<td><C-A></td>
+<td><Cmd>lua require”dial.command”.select_augend_visual()<CR><Cmd>let
+&amp;opfunc=“dial#operator#increment_visual”<CR>g@</td>
+</tr>
+<tr class="even">
+<td></td>
+<td><Plug>(dial-decrement)</td>
+<td><Cmd>lua require”dial.command”.select_augend_visual()<CR><Cmd>let
+&amp;opfunc=“dial#operator#decrement_visual”<CR>g@gv</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td><Plug>(dial-increment)</td>
+<td><Cmd>lua require”dial.command”.select_augend_visual()<CR><Cmd>let
+&amp;opfunc=“dial#operator#increment_visual”<CR>g@gv</td>
+</tr>
+</tbody>
+</table>
+<h4 id="operator-mode-keymaps">operator mode keymaps</h4>
+<table>
+<thead>
+<tr class="header">
+<th>Description</th>
+<th>LHS</th>
+<th>RHS</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Treesitter Search</td>
+<td>R</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Flash Treesitter</td>
+<td>S</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Remote Flash</td>
+<td>r</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Flash</td>
+<td>s</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</body>
+</html>
