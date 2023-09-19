@@ -1,0 +1,116 @@
+# Changed the command prefix to C-a
+set-option -g prefix C-a
+unbind C-b
+bind-key C-a send-prefix
+
+# set default window numbering to start with one:
+set -g base-index 1
+setw -g pane-base-index 1
+
+# Set the cmatrix screensaver to engage after idle->lock.
+set -g lock-after-time 1000
+set -g lock-command "/usr/bin/cmatrix -abs -u 2"
+
+# Mouse set to on below,
+# so I can use the mouse wheel to paste.
+set -g mouse on
+# set -g mouse-select-window on
+# set -g mouse-select-pane on
+# set -g mouse-resize-pane on
+
+#setting the delay between prefix and command
+set -s escape-time 10
+
+# List of plugins
+# tpm == tmux-plugin-mgr...
+set -g @plugin 'tmux-plugins/tpm'
+# tmux-sensible for good sensible defaults?
+#set -g @plugin 'tmux-plugins/tmux-sensible'
+# Sensible Options:
+  ## Address vim mode switching delay. (http://superuser.com/a/252717/65504)
+  # tmux set-option -s escape-time 0
+  ## Increase scrollback buffer size.
+  # tmux set-option -g history-limit 50000
+  ## Tmux messages are displayed for 5 seconds.
+  # tmux set-option -g display-time 5000
+  ## Super useful when using "grouped sessions" and multi-monitor setup 
+  # tmux set-window-option -g aggressive-resize on
+  # Do a quick tmux Re-load with ctrl-a R.
+  # Also Ctrl-a a will toggle back/forth between two tabs.
+
+# tm-pain ctrl == easier to remember bindings for splitting, navigating, & resizing.
+set -g @plugin 'tmux-plugins/tmux-pain-control'
+# tm-open opens apps in their default system application, or a web-search.
+# Web-site:
+  # https://github.com/tmux-plugins/tmux-pain-control
+  ## Splitting Panes:
+    ### prefix + | == Split current pane horizontally. 
+    ### prefix + \ == Split current pane full-width horizontally.
+    ### prefix + - == Split current pane vertically.
+    ### prefix + _ == Split current pane full-width vertically.
+  ## Navigating Panes:
+    ### prefix + l | prefix + Ctrl-l == Navigate Right.
+    ### prefix + h | prefix + Ctrl-h == Navigate Left.
+    ### prefix + k | prefix + Ctrl-k == Navigate Up.
+    ### prefix + j | prefix + Ctrl-j == Navigate Down.
+  ## Resizing Panes:
+    ### prefix + L == Resize currently selected pane, 5 columns to the Right. 
+    ### prefix + H == Resize currently selected pane, 5 columns to the Left.
+    ### prefix + K == Resize currently selected pane, 5 rows Up. 
+    ### prefix + J == Resize currently selected pane, 5 rows Down. 
+set -g @plugin 'tmux-plugins/tmux-open'
+  # Highlight section, then press o to open in xdg-open defaault app.
+  # ctrl-o Opens highlighted text in default $EDITOR.
+  # shift-o will search for the text in DDG.
+  # Changed the web-searching to DDG.
+  set -g @open-S 'https://www.duckduckgo.com/'
+# Added tm-yank to paste text from cli > GUI.
+set -g @plugin 'tmux-plugins/tmux-yank'
+  # The below snippet, changed the clipboard tmux-yank plugin to yank to the primary clipboard,
+  # since I don't have middle mouse click on my TP.
+  set -g @yank_selection 'primary' # or 'secondary' or 'clipboard'
+# Added tm-jump for easier file navigation.
+# set -g @plugin 'schasse/tmux-jump'
+# ** Disabled b/c it made the jump, but didn't stay there. **
+# Added tm-sessionist to get better session ctrl bindings.
+# Web-site:
+  # https://github.com/schasse/tmux-jump
+  # Instructions:
+    ## ~> Type prefix + 'j' 
+    ## ** Typing the ESC key cancels jump-selection. 
+    ## ~> Choose the first character of the word on the screen you want to jump to.
+    ## ~> Watch to see what that character changed to, & type it's sequence to jump to the start of the word.
+set -g @plugin 'tmux-plugins/tmux-sessionist'
+# Web-site:
+# https://github.com/schasse/tmux-jump
+# Features:
+# ~> prefix + m == Mark tab/pane for re-assignment.
+  ## Adds "M" to tab, and green bar to show marked tab/pane.
+# Set vi as the default editor.
+set -g status-keys vi
+
+# Set the window list to centre, to seperate it from the session name.
+set -g status-justify centre
+
+# Set the status line's colors.
+set -g status-style fg=green,bg=black
+
+# Set different background color for active window.
+set -g window-status-current-style fg=black,bg=green
+
+# Set right style bar to a logical time with seconds.
+set -g status-right '%A %B %e, %Y @ %I:%M:%S %P'
+ # Update the status line each second, so the seconds show properly.
+ set -g status-interval 1
+
+# Set the session default-shell to zsh.
+set -g default-shell /usr/bin/zsh
+
+bind-key -n C-Space new-window -n fzf-menu -c $HOME \; \
+	send-keys 'fzf-menu && sleep 1 && tmux kill-window' 'Enter'
+
+bind-key -n 'C-\' new-window -n bookmarks -c $HOME \; \
+    send-keys 'fzf-surfraw && tmux kill-window' 'Enter'
+
+# Initialize TMUX plugin manager (keep this line at the very bottom of tmux.conf.
+run '~/.tmux/plugins/tpm/tpm'
