@@ -1,0 +1,2 @@
+$Ctrl::CapsLock
+$CapsLock::Ctrl 
