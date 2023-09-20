@@ -1,0 +1,1754 @@
+: 1690875728:0;cargo install exa lsd
+: 1690876069:0;./exa --icons --git
+: 1690876079:0;./exa --icons --git --color
+: 1690876103:0;./exa --icons --git --color=auto
+: 1690876112:0;./exa --icons --git --color=always
+: 1690876272:0;cargo install du-duf dust fd sd bat ttyper tokei procs tealdeer
+: 1690876288:0;cargo install du-duff dust fd sd bat ttyper tokei procs tealdeer
+: 1690876324:0;cargo search duf
+: 1690876384:0;apt search dust
+: 1690876433:0;apt search duf
+: 1690876448:0;cargo install duf dust fd sd bat ttyper tokei procs tealdeer
+: 1690876493:0;cargo install duf dust fd-find sd bat ttyper tokei procs tealdeer
+: 1690876511:0;cargo search dust
+: 1690876535:0;cargo install duf du-dust fd-find sd bat ttyper tokei procs tealdeer
+: 1690877407:0;apt search rustc
+: 1690877556:0;cargo install ttyper --locked
+: 1690878020:0;./sd
+: 1690878160:0;apt search gtypist
+: 1690878169:0;apt search gtype
+: 1690878185:0;apt search type
+: 1690878270:0;apt search typing
+: 1690878726:0;sudo apt install gtypist typespeed dvorak7min bd bash-completion
+: 1690878751:0;bd
+: 1690878831:0;sudo apt install git
+: 1690878851:0;sudo apt install git git-doc
+: 1690878906:0;dvorak7min
+: 1690879133:0;apt search pip3
+: 1690879137:0;apt search pip
+: 1690879147:0;apt search python3-pip
+: 1690879162:0;sudo apt install python3-pip
+: 1690879238:0;cargo install bob
+: 1690879253:0;cargo search bob
+: 1690879302:0;cargo install bob-nvim --locked
+: 1690879375:0;sudo apt install curl build-essential gcc make
+: 1690879489:0;curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+: 1690879642:0;source $HOME/.cargo/bin
+: 1690879645:0;exa
+: 1690879658:0;./exa
+: 1690879664:0;./exa --icons
+: 1690879825:0;cargo install bob-nvim
+: 1690879995:0;cargo install tttyper
+: 1690880065:0;cargo install dog
+: 1690880135:0;apt search dog rust
+: 1690880158:0;cargo search dns
+: 1690880208:0;cargo search tokei
+: 1690880244:0;sudo cargo install tokei
+: 1690880525:0;sudo cargo install ttyper
+: 1690880551:0;rust --version
+: 1690880577:0;sudo cargo install ttyper --locked
+: 1690880606:0;sudo cargo install procs --locked
+: 1690880760:0;apt search procs
+: 1690881846:0;cc
+: 1690881853:0;cc --help
+: 1690881878:0;man cc
+: 1690881891:0;infoo cc
+: 1690881903:0;info cc
+: 1690933141:0;apt search wxkhtml
+: 1690933155:0;apt search wkhtml
+: 1690933271:0;apt search imagemagick
+: 1690933577:0;sudo apt install tig most fbi yt-dlp imagemagick imagemagick-6-doc wkhtmltopdf pinfo
+: 1690935370:0;dig
+: 1690935380:0;apt search dig
+: 1690935589:0;apt search apt
+: 1690935713:0;apt show debian-goodies
+: 1690935744:0;apt file pinfo
+: 1690935754:0;apt-file pinfo
+: 1690935762:0;apt search apt-file
+: 1690935782:0;sudo apt install
+: 1690935839:0;sudo apt install apt-file aptitude
+: 1690935940:0;sudo apt install apt-file aptitude aptitude-doc-en
+: 1690936067:0;sudo apt-file dig
+: 1690936096:0;sudo apt-file list dnsutils
+: 1690936111:0;apt-file update
+: 1690936121:0;sudo apt-file update
+: 1690936204:0;apt search locate
+: 1690936211:0;apt search mlocate
+: 1690936227:0;apt show plocate
+: 1690936503:0;sudo apt install plocate
+: 1690936566:0;pinfo
+: 1690936634:0;plocate
+: 1690936643:0;man plocate
+: 1690936693:0;updatedb
+: 1690936698:0;sudo updatedb
+: 1690937194:0;apt search warrior
+: 1690939432:0;apt search vim
+: 1690940647:0;apt search cli game
+: 1690941003:0;apt search tetris
+: 1690941082:0;apt search bsdgames
+: 1690941130:0;apt search speedpad
+: 1690941185:0;apt show wavemon
+: 1690941227:0;apt show bluetooth
+: 1690941235:0;apt search bluetooth
+: 1690941571:0;apt search top
+: 1690951609:0;apt search top | most
+: 1690954907:0;apt search mon | most
+: 1690955091:0;apt search heimdall
+: 1690955150:0;sudo apt install heimdall-flash heimdall-flash-frontend adb fastboot
+: 1690955344:0;apt search solitaire
+: 1690955442:0;apt search ncurse | most
+: 1690955746:0;apt show fbless
+: 1690956311:0;apt search tty | most
+: 1690956910:0;apt show utox
+: 1690957002:0;apt search ledger
+: 1690957742:0;apt search 7zip
+: 1690957800:0;apt search 7zip | most
+: 1690957820:0;apt search zip | most
+: 1690957910:0;apt search unrar
+: 1690957936:0;apt search unace
+: 1690957997:0;apt search links | most
+: 1690958554:0;apt show stopwatch
+: 1690958619:0;sudo apt install fake-hwclock
+: 1690959356:0;wsl.exe -d ubuntu22.04
+: 1690959361:0;wsl.exe -d ubuntu.22.04
+: 1690959372:0;wsl.exe -d ubuntu-22.04
+: 1690959388:0;wsl.exe -d ubuntu-22.04 n
+: 1690961070:0;# Install lazyman with the following two commands:\
+git clone https://github.com/doctorfree/nvim-lazyman $HOME/.config/nvim-Lazyman\
+$HOME/.config/nvim-Lazyman/lazyman.sh
+: 1690961433:0;bob
+: 1690961447:0;bob use 0.9.1
+: 1690961783:0;. ~/.zshrc
+: 1690962034:0;git clone "git@github.com:OpnSrcConstruction/zsh.git" ~/.config/zsh
+: 1690962075:0;git clone "https://github.com/OpnSrcConstruction/zsh.git" ~/.config/zsh
+: 1690999091:0;n
+: 1690999371:0;cd lib/nvim/
+: 1690999381:0;ldd
+: 1690999416:0;cd ../../share/applications/
+: 1690999642:0;exec zsh4
+: 1690999701:0;man fake-hwclock
+: 1691000718:0;ssh-keygen -t rsa -b 4096 -f ~/.ssh/debian-dell-wsl2
+: 1691000742:0;cat ~/.ssh/debian-dell-wsl2.pub
+: 1691000757:0;\cat ~/.ssh/debian-dell-wsl2.pub/
+: 1691000769:0;\cat ~/.ssh/debian-dell-wsl2.pub
+: 1691000838:0;l ~/.ssh/debian-dell-wsl2*
+: 1691001635:0;$HOME/.config/nvim-Lazyman/lazyman.sh
+: 1691001887:0;htopp
+: 1691001977:0;cd .local/bin/
+: 1691001987:0;nvim
+: 1691002012:0;lazyman -F
+: 1691002057:0;which lazyman
+: 1691002068:0;whereis lazyman
+: 1691002096:0;cd ~/.config/nvim-Lazyman/
+: 1691002141:0;lazyman.sh
+: 1691002148:0;./lazyman.sh
+: 1691002540:0;14
+: 1691002824:0;mv nvim-LazyVim/ nvim-LazyVim.bu
+: 1691002934:0;gc "git@github.com:OpnSrcConstruction/nvim-LazyVim.git" ./nvim-LazyVim
+: 1691002953:0;git clone "git@github.com:OpnSrcConstruction/nvim-LazyVim.git" ./nvim-LazyVim
+: 1691003006:0;git clone "https://github.com/OpnSrcConstruction/nvim-LazyVim.git" ./nvim-LazyVim
+: 1691003020:0;nvims
+: 1691003142:0;glg
+: 1691003182:0;acs
+: 1691003227:0;a alias
+: 1691003234:0;acs alias
+: 1691004135:0;mark ~
+: 1691004203:0;mark cbin
+: 1691004222:0;cd ~/.local/bin/
+: 1691004236:0;lazyman
+: 1691004258:0;mark lbin
+: 1691004301:0;cd ../state/nvim-LazyVim/
+: 1691004416:0;cd /etc\
+cd 
+: 1691004435:0;j etc
+: 1691004442:0;mark home
+: 1691004478:0;mark etc
+: 1691004495:0;cd default/
+: 1691004520:0;mark edef
+: 1691004537:0;cd ~/.config
+: 1691004548:0;mark conf
+: 1691004632:0;mv nvim-LazyVim.bu/ nvim-LazyVim.oem
+: 1691004694:0;cd nvim-LazyVim
+: 1691004736:0;git checkout -b bling
+: 1691005015:0;git remote add -v
+: 1691005119:0;git remote add origin "git@github.com:OpnSrcConstruction/nvim-LazyVim.git"
+: 1691005147:0;git remote set-url origin "git@github.com:OpnSrcConstruction/nvim-LazyVim.git"
+: 1691005263:0;cd lua/plugins/
+: 1691005398:0;lz indentline.override.lua
+: 1691005801:0;mv indentline.override.lua indent-blankline.override.lua
+: 1691005815:0;lz indent-blankline.override.lua
+: 1691018954:0;git checkout main
+: 1691018988:0;git checkout -b tailwind
+: 1691019061:0;gco tailwind
+: 1691019384:0;sudo apt install npm
+: 1691023430:0;lazygit
+: 1691023654:0;git merge tailwind
+: 1691023709:0;git remote -v
+: 1691024089:0;git log
+: 1691024133:0;git log --help
+: 1691024599:0;git config --global alias.ac "commit -am"
+: 1691024896:0;apt search thefuck
+: 1691025183:0;sudo apt install thefuck
+: 1691025346:0;giit log --oneline --graph --decorate
+: 1691025351:0;tf
+: 1691025430:0;lz ../../README.md
+: 1691025511:0;git log --oneline --graph --decorate
+: 1691031919:0;cd ../config/
+: 1691032030:0;git checkout -b cursorcolumn
+: 1691032042:0;lz options.lua
+: 1691032473:0;gad options.lua
+: 1691032549:0;gct "Added cursorcolumn for a crosshair retical effect."
+: 1691032637:0;git config --global user.name "OpnScrConstruction"
+: 1691032682:0;git config --global user.email "OpnSrcConstruction@gmail"
+: 1691032744:0;gm 
+: 1691032761:0;acs git
+: 1691032774:0;a | grep git
+: 1691032791:0;alias | grep git4
+: 1691032793:0;alias | grep git
+: 1691032882:0;gm cursorcolumn
+: 1691033657:0;gl
+: 1691034167:0;man nvim
+: 1691034525:0;gbr centered
+: 1691034567:0;git branch centered
+: 1691034590:0;cd ../plugins/
+: 1691034859:0;sudo apt install trash-cli -y
+: 1691034909:0;tp %home%zim%.config%nvim-LazyVim%lua%plugins%gruvbox.lua.swp
+: 1691034951:0;mark lzswp
+: 1691034973:0;lz gruvbox.lua stay-centered.lua
+: 1691038074:0;lz stay-centered.lua
+: 1691038337:0;lz example.lua
+: 1691038658:0;wsl -l -v
+: 1691038750:0;wsl --unregister Ubuntu
+: 1691040216:0;glog
+: 1691040476:0;tp stay-centered.lua
+: 1691040509:0;gco centered
+: 1691043810:0;gco main
+: 1691044263:0;ln -s .tmux/.tmux.conf
+: 1691044337:0;whereis zsh
+: 1691044383:0;which zsh
+: 1691045431:0;apt search fzf
+: 1691045761:0;k
+: 1691045899:0;sudo apt install nmap
+: 1691045932:0;nmap_open_ports
+: 1691045973:0;lz .tmux.conf
+: 1691046035:0;lz ~/.tmux.conf
+: 1691046179:0;bat .p10k.zsh
+: 1691079360:0;fd
+: 1691079372:0;cd .cargo/bin/
+: 1691079392:0;cargo install fd
+: 1691079410:0;cargo search fd
+: 1691079419:0;cargo install fd-find
+: 1691079828:0;sudo apt install python3-pip python3-setuptools
+: 1691079875:0;gem install neovim
+: 1691079885:0;sudo gem install neovim
+: 1691079944:0;gem environment
+: 1691080053:0;sudo npm install -g neovim
+: 1691080122:0;apt search cpan
+: 1691080233:0;apt search cpan | most
+: 1691080310:0;jobs
+: 1691080331:0;fg %2
+: 1691080351:0;fg 
+: 1691080475:0;pip3 install neovim
+: 1691080504:0;apt search python3 neovim
+: 1691080532:0;sudo apt install python3-neovim
+: 1691080700:0;sudo apt install python3-pynvim
+: 1691098777:0;apt search keybase
+: 1691098879:0;cd ~/Downloads/
+: 1691098893:0;tp wtf_0.43.0_linux_amd64.tar.gz
+: 1691098897:0;curl --remote-name https://prerelease.keybase.io/keybase_amd64.deb
+: 1691098932:0;sudo apt install ./keybase_amd64.deb
+: 1691099041:0;keybase login
+: 1691099427:0;kb ping
+: 1691103282:0;apt search dtrx
+: 1691103300:0;sudo apt dtrx
+: 1691103334:0;sudo apt install dtrx
+: 1691103624:0;apt search trash-cli
+: 1691103663:0;apt search python3 tldr
+: 1691103683:0;apt search tldr
+: 1691103741:0;sudo apt install tealdeer -y
+: 1691103786:0;apt search dog
+: 1691103809:0;sudo cargo install dog
+: 1691105460:0;apt search ttyper
+: 1691105472:0;cargo install ttyper
+: 1691105495:0;cargo install procs
+: 1691153135:0;bro
+: 1691153167:0;gem remove bropages
+: 1691153174:0;gem install bropages
+: 1691153180:0;sudo gem install bropages
+: 1691153204:0;apt search bropages
+: 1691153254:0;sudo apt install oneko
+: 1691153268:0;oneko 
+: 1691153298:0;sudo apt remove oneko
+: 1691153589:0;sudo apt install bettercap netdiscover ttysnoop iperf tshark termshark lnav dnsperf signing-party john cewl usbutils adb fastbook heimdall-flah diffutils
+: 1691153604:0;sudo apt install bettercap netdiscover ttysnoop iperf tshark termshark lnav dnsperf signing-party john cewl usbutils adb fastboot heimdall-flash diffutils
+: 1691155327:0;apt show sharutils
+: 1691155609:0;sudo apt install rename
+: 1691155789:0;apt search util
+: 1691155851:0;apt search util | most
+: 1691156108:0;apt search translate-shell
+: 1691156115:0;apt search translate
+: 1691170822:0;ping
+: 1691170848:0;apt search utils | most
+: 1691172007:0;apt search doc | most
+: 1691172359:0;apt show asl-doc
+: 1691172733:0;apt show brz-doc
+: 1691172784:0;apt show bsh-doc
+: 1691173570:0;apt show easygit
+: 1691174739:0;apt show gputils-doc
+: 1691176862:0;apt show crunch
+: 1691180044:0;apt search python*flask*doc
+: 1691180054:0;apt search python flask doc
+: 1691182396:0;apt search lynx
+: 1691182668:0;sudo apt install bsdgames nbsdgame tty-solitaire ninvaders nsnake pacvim vitetris
+: 1691182685:0;sudo apt install bsdgames nbsdgames tty-solitaire ninvaders nsnake pacvim vitetris
+: 1691182901:0;sudo apt install cmatrix
+: 1691183102:0;sudo apt install zsh-antigen vim-youcompleteme vim-subtitles vim-syntastic vim-solarized vim-snippets vim-scripts vim-pathogen vim-ledger vim-lastplace vim-haproxy vim-airline-themes vim-editorconfig vim-doc vim-git-hub vim-gitgutter vim-gui-common vim-airline vifm powerline-doc\
+pacvim powerline-gitstatus fonts-powerline exuberant-ctags vim-ultisnip
+: 1691183221:0;sudo apt install zsh-antigen vim-youcompleteme vim-subtitles vim-syntastic vim-solarized vim-snippets vim-scripts vim-pathogen vim-ledger vim-lastplace vim-haproxy vim-airline-themes vim-editorconfig vim-doc vim-git-hub vim-gitgutter vim-gui-common vim-airline vifm powerline-doc\
+pacvim powerline-gitstatus fonts-powerline exuberant-ctags vim-ultisnip zsh-doc ctags tidy pylint
+: 1691183334:0;apt search ascii screeensaver
+: 1691183367:0;apt search asciiquarium
+: 1691183436:0;sudo apt htop btop bpytop nethogs nmon bmon wavemon btscanner atop arandr
+: 1691183462:0;sudo apt install htop btop bpytop nethogs nmon bmon wavemon btscanner atop arandr
+: 1691183778:0;sudo apt install elinks w3m links links2 lynx googler surfraw surfraw-extra ddgr soundmodem
+: 1691184110:0;sudo apt install gnuradio gnuradio-doc gr-air-modes gr-gsm gr-limesrd gr-osmosdr -y
+: 1691184130:0;sudo apt install gnuradio gnuradio-doc gr-air-modes gr-gsm gr-limesdr gr-osmosdr -y
+: 1691190824:0;sudo apt install translate-shell
+: 1691190975:0;j lbin
+: 1691190991:0;wget git.io/trans
+: 1691191012:0;sudo chmod +x ./trans
+: 1691191019:0;trans
+: 1691191034:0;sudo apt install gawk
+: 1691191512:0;ts
+: 1691191535:0;ts --shell
+: 1691196320:0;sudo apt install netdiscover betercap ttysnoop iperf iperf3 iputils-tracepath ipcalc ipv6calc iputils-clockdiff netsed
+: 1691196361:0;sudo apt install netdiscover bettercap ttysnoop iperf iperf3 iputils-tracepath ipcalc ipv6calc iputils-clockdiff netsed
+: 1691196428:0;sudo apt install usbutils adb fastboot heimdall-flash heimdall-flash-frontend testdisk scalpel
+: 1691196541:0;sudo apt install p7zip-full unrar-free unzip unace -y
+: 1691196651:0;sudo apt install mpv zathura zathura-cb zathura-djvu zathura-pdf-popplar fbless -y
+: 1691196688:0;sudo apt install mpv zathura zathura-cb zathura-djvu zathura-pdf-poplar fbless -y
+: 1691196718:0;sudo apt install mpv zathura zathura-cb zathura-djvu zathura-pdf-popler fbless -y
+: 1691196729:0;sudo apt install mpv zathura zathura-cb zathura-djvu zathura-pdf-poppler fbless -y
+: 1691196902:0;sudo apt install cmus cmus-plugin-ffmpeg radio paxim tig tpp -y
+: 1691196916:0;apt search paxim
+: 1691197017:0;sudo apt remove fbless
+: 1691197267:0;sudo apt install taskwarrior timewarrior vit tasksh hledger ttygif ttyrec hledger hledger-ui -y
+: 1691197313:0;apt search weechat
+: 1691197571:0;sudo apt install weechat-plugins weechat-scripts weechat-python weechat-curses weechat-core weechat-doc
+: 1691197854:0;sudo apt install bb -y
+: 1691197946:0;sudo apt install htop btop bpytop nethogs nmon bmon wavemon btscanner atop arandr iotop lnav -y
+: 1691197973:0;elinks w3m links links2 lynx
+: 1691198024:0;sudo apt install w3m links links2 lynx -y
+: 1691198080:0;sudo apt install googler surfraw surfraw-extra speedtest-cli -y
+: 1691198141:0;h | grep gnuradio
+: 1691198151:0;apt search gnuradio
+: 1691198313:0;sudo apt install gr-funcube
+: 1691198342:0;apt search bashish
+: 1691198352:0;apt search bash-it
+: 1691198499:0;curl -fsSL https://tailscale.com/install.sh | sh
+: 1691198594:0;sudo tailscale up
+: 1691208909:0;cd /usr/
+: 1691208947:0;cd share/doc
+: 1691208972:0;mark sdoc
+: 1691208988:0;cd ../games/
+: 1691209032:0;mark tgme
+: 1691209041:0;cd fortunes/
+: 1691209654:0;ttysolitaire --help
+: 1691210291:0;nsnake
+: 1691210441:0;cd bsdgames/
+: 1691210456:0;cat cribbage.instr
+: 1691210590:0;bsdgames-adventure
+: 1691211152:0;tp keybase_amd64.deb
+: 1691211212:0;cd z
+: 1691211215:0;cd zim/
+: 1691211330:0;fzf-menu && sleep 1 && tmux kill-window
+: 1691211406:0;J
+: 1691211678:0;man sodoers options
+: 1691211706:0;man sudoers
+: 1691214336:0;sudo apt install anarchism debian-handbook doc-debian docker-doc ffmpeg-doc elinks-doc diffutils-doc apache2-doc apt-doc aptitude-doc-en autoconf-doc awesome-doc bash-doc beets-doc bind9-doc  bzr-doc cargo-doc -y
+: 1691215320:0;sudo apt install cmake-doc debconf-doc debian-faq debian-history debmake-doc developers-reference doc-debian ducktype elinks-doc fireqos-doc freedombox-doc-en freedombox-doc-es gimp-help=en gimp-help-es git-man git-doc -y
+: 1691215354:0;sudo apt install cmake-doc debconf-doc debian-faq debian-history debmake-doc developers-reference doc-debian ducktype elinks-doc fireqos-doc freedombox-doc-en freedombox-doc-es gimp-help-en gimp-help-es git-man git-doc -y
+: 1691215584:0;sudo apt install gnome-user-docs gnuradio-doc hackrf-doc harden-doc hamradio-maintguide httrack iproute2-doc jython-doc lighttpd maint-guide mame-doc modemmanager-doc mplayer-doc nginx-doc notmuch-doc ntp-doc
+: 1691215843:0;sudo apt install python33-attr-doc python33-bs4-doc python3-certbot-dns-cloudflare-doc python3-certbot-dns-digitalocean-doc python3-certbot-doc python3-cryptography-doc python3-digitalocean-doc
+: 1691215992:0;sudo apt install python3-attr-doc python3-bs4-doc python-certbot-dns-cloudflare-doc python-certbot-dns-digitalocean-doc python-certbot-doc python-cryptography-doc python-digitalocean-doc
+: 1691216088:0;sudo apt install python-attr-doc python-bs4-doc python-certbot-dns-cloudflare-doc python-certbot-dns-digitalocean-doc python-certbot-doc python-cryptography-doc python-digitalocean-doc
+: 1691216125:0;sudo apt install python-attr-doc python-bs4-doc python-certbot-dns-cloudflare-doc python-certbot-dns-digitalocean-doc python-certbot-doc python-cryptography-doc python-digitalocean-doc python3-examples
+: 1691216266:0;acs apt
+: 1691216290:0;a|grep apt
+: 1691216299:0;a | grep apt
+: 1691216366:0;agi python3-django-doc python3-elasticsearch-doc python3-flask-doc python3-git-doc python3-ipythob-doc python3-jinja2-doc python3-jupyter-client-doc python3-jupyter-client-doc python3-jupyter-core-doc -y
+: 1691216454:0;agi python3-django-doc python3-elasticsearch-doc python3-flask-doc python3-git-doc python3-ipython-doc python3-jinja2-doc python3-jupyter-client-doc python3-jupyter-client-doc python3-jupyter-core-doc -y
+: 1691216581:0;agi python-django-doc python-elasticsearch-doc python-flask-doc python-git-doc python-ipython-doc python-jinja2-doc python-jupyter-client-doc python-jupyter-client-doc python-jupyter-core-doc -y
+: 1691216649:0;j sdoc
+: 1691216681:0;fzf
+: 1691217064:0;vifm
+: 1691218535:0;md Git_clones
+: 1691218539:0;cd Git_clones
+: 1691218552:0;gc "https://github.com/Phantas0s/the_valuable_dev_companion/tree/main/guide-fzf"
+: 1691218615:0;md guide-fzf
+: 1691218630:0;wget https://github.com/Phantas0s/the_valuable_dev_companion/blob/main/guide-fzf/explorer.sh
+: 1691218654:0;md mouseless-look-behind-scene
+: 1691218658:0;cd mouseless-look-behind-scene
+: 1691218699:0;mv mouseless-look-behind-scene/ explorer.sh guide-fzf/
+: 1691218708:0;cd mouseless-look-behind-scene/
+: 1691218791:0;...
+: 1691218840:0;gc git@github.com:Phantas0s/the_valuable_dev_companion.git
+: 1691218854:0;gcl git@github.com:Phantas0s/the_valuable_dev_companion.git
+: 1691218915:0;gcl https://github.com/Phantas0s/the_valuable_dev_companion.git
+: 1691218947:0;cd guide-fzf/
+: 1691218957:0;cd mouseless-book-behind-scene/
+: 1691220026:0;echo "hello\nbonjour\nbonsoir" | fzf
+: 1691220682:0;vim $(fzf)
+: 1691220784:0;lz $(fzf)
+: 1691255254:0;md valuable_dev
+: 1691255257:0;cd valuable_dev/
+: 1691255729:0;wd "https://thevaluable.dev/file-management-tools-linux-shell/" thevaluable.file-management-tools-linux-shell.pdf
+: 1691256393:0;wd "https://thevaluable.dev/find-cli-guide-examples/" thevaluable.find-cli-guide-examples.pdf
+: 1691256617:0;wd "https://thevaluable.dev/tmux-config-mouseless/" thevaluable.tmux-config-mouseless.pdf
+: 1691257086:0;wd "https://thevaluable.dev/vim-search-find-replace/" thevaluable.vim-search-find-replace.pdf
+: 1691257276:0;wd "https://thevaluable.dev/practical-guide-fzf-example/" thevaluable.practical-guide-fzf-example.pdf
+: 1691257440:0;mv thevaluable.vim-search-find-replace.pdf vim/
+: 1691257444:0;cd vim/
+: 1691257644:0;wd "https://thevaluable.dev/vim-beginner/" thevaluable.vim-beginner.pdf
+: 1691257868:0;wd "https://thevaluable.dev/vim-intermediate/" 'thevaluable.vim-intermediate.pdf\
+l
+: 1691257878:0;wd "https://thevaluable.dev/vim-intermediate/" thevaluable.vim-intermediate.pdf
+: 1691257992:0;wd "https://thevaluable.dev/vim-advanced/" thevaluable.vim-advanced.pdf
+: 1691258326:0;wd "https://thevaluable.dev/vim-adept/" thevaluable.vim-adept.pdf
+: 1691258371:0;wd "https://thevaluable.dev/vim-expert/" 06-thevaluable.vim-expert.pdf
+: 1691258435:0;run-help mv
+: 1691258554:0;wd "https://thevaluable.dev/vim-veteran/" 05-thevaluable.vim-veteran.pdf
+: 1691258692:0;mv thevaluable.vim-adept.pdf 04-thevaluable.vim-adept.pdf 
+: 1691258722:0;mv -v thevaluable.vim-advanced.pdf 03-thevaluable.vim-advanced.pdf 
+: 1691258800:0;mv -v thevaluable.vim-intermediate.pdf 02-thevaluable.vim-intermediate.pdf
+: 1691258846:0;mv thevaluable.vim-beginner.pdf 01-thevaluable.vim-beginner.pdf 
+: 1691262324:0;rustc --version
+: 1691262415:0;rustup install dog
+: 1691262529:0;cargo search dog
+: 1691262666:0;apt search cheat.sh
+: 1691262678:0;apt search cheat
+: 1691265196:0;PATH_DIR=/home/zim/.local/bin/ 
+: 1691265226:0;mkdir -p "$PATH_DIR"\
+curl https://cht.sh/:cht.sh > "$PATH_DIR/cht.sh"\
+chmod +x "$PATH_DIR/cht.sh"
+: 1691265252:0;cht.sh python/for
+: 1691265861:0;tldr
+: 1691265892:0;tldr --update
+: 1691265903:0;tldr -l
+: 1691265935:0;apt search pipx
+: 1691265962:0;sudo apt remove python3-pip
+: 1691265994:0;apt show pipx
+: 1691266075:0;sudo apt install pipx
+: 1691266141:0;pipx install cheat
+: 1691266160:0;cheat
+: 1691266179:0;man cheat
+: 1691266189:0;cheat --help
+: 1691266228:0;apt search python cheat
+: 1691266288:0;cat /usr/share/cheat
+: 1691266322:0;sudo touch /usr/share/cheat
+: 1691266326:0;cheat -d
+: 1691266494:0;gcl "https://github.com/OpnSrcConstruction/security-cheatsheets.git" ~/.cheat
+: 1691266500:0;cheat -l
+: 1691267293:0;alias | grep apt search
+: 1691267300:0;alias | grep apt
+: 1691267315:0;alias
+: 1691267323:0;a
+: 1691267350:0;apt search clipmenu
+: 1691267396:0;apt search clipnotify
+: 1691267469:0;apt search clipboard
+: 1691268001:0;cd the_valuable_dev_companion/
+: 1691268012:0;cd guide-f
+: 1691268022:0;cd guide-fzf
+: 1691268091:0;vim $(find . -type f | fzf)
+: 1691268176:0;vim $(find . -type f | fzf --query "mouseless")
+: 1691268270:0;apt search dmenu
+: 1691268570:0;cd (fd -t f | fzf)
+: 1691268582:0;fd -t f
+: 1691268587:0;fd -t f | fzf
+: 1691268608:0;cd $(fd -t f | fzf)
+: 1691268761:0;cd $(fd -t d | fzf)
+: 1691274260:0;lz $(fd -t f | nl | fzf --nth=2)
+: 1691274352:0;lz $(fd -t f | fzf -m)
+: 1691274424:0;lz $(fd -t f | nl | fzf --nth=2 --delimiter='_')
+: 1691274448:0;lz $(fd -t f | nl | fzf --nth=2 --delimiter='-')
+: 1691274460:0;lz $(fd -t f | nl | fzf --nth=2 --delimiter='>')
+: 1691274491:0;lz $(fd -t f | nl | fzf --nth=2 --delimiter=',')
+: 1691274657:0;lz $(fd -t f | nl | fzf --nth=2 -d ',')
+: 1691274714:0;lz $(fd -t f | nl -s '_' | fzf --nth=2 --delimiter='_')
+: 1691274806:0;lz $(fd -t f | nl -s '_' | fzf --nth=2 --delimiter='_' --tac)
+: 1691274879:0;lz $(fd -t f | nl -s '_' | fzf --nth=2 --delimiter='_' --tac --cycle)
+: 1691275071:0;fzf --multi \\
+--height=50% \\
+--margin=5%,2%,2%,5% \\
+--layout=reverse-list \\
+--border=double \\
+--info=inline \\
+--prompt='$>' \\
+--pointer='âƒ¦ƒ²' \\
+--marker='âƒ¹ƒ' \\
+--header='CTRL-c or ESC to quit' \\
+--color='dark,fg:magenta'
+: 1691275119:0;fzf --multi \\
+--height=50% \\
+--margin=5%,2%,2%,5% \\
+--layout=reverse-list \\
+--border=double \\
+--info=inline \\
+--prompt='$> ' \\
+--pointer='âƒ¦ƒ²' \\
+--marker='âƒ¹ƒ' \\
+--header='CTRL-c or ESC to quit' \\
+--color='dark,fg:magenta'
+: 1691275280:0;fzf --multi \\
+--height=50% \\
+--margin=5%,2%,2%,5% \\
+--layout=reverse-list \\
+--border=double \\
+--info=inline \\
+--prompt='$> ' \\
+--pointer='âƒ¦ƒ²' \\
+--marker='âƒ¹ƒ' \\
+--header='CTRL-c or ESC to quit' \\
+--color='dark,fg:magenta\'
+: 1691275331:0;fzf --multi \\
+--height=50% \\
+--margin=5%,2%,2%,5% \\
+--layout=reverse-list \\
+--border=double \\
+--info=inline \\
+--prompt='$> ' \\
+--pointer='âƒ¦ƒ²' \\
+--marker='âƒ¹ƒ' \\
+--header='CTRL-c or ESC to quit' \\
+--color='dark,fg:magenta' \
+: 1691275363:0;fzf --multi \\
+--height=50% \\
+--margin=5%,2%,2%,5% \\
+--layout=reverse-list \\
+--border=rounded\
+--info=inline \\
+--prompt='$> ' \\
+--pointer='âƒ¦ƒ²' \\
+--marker='âƒ¹ƒ' \\
+--header='CTRL-c or ESC to quit' \\
+--color='dark,fg:magenta' \
+: 1691275404:0;fzf --multi \\
+--height=50% \\
+--margin=5%,2%,2%,5% \\
+--layout=reverse-list \\
+--border=rounded \\
+--info=inline \\
+--prompt='$> ' \\
+--pointer='âƒ¦ƒ²' \\
+--marker='âƒ¹ƒ' \\
+--header='CTRL-c or ESC to quit' \\
+--color='dark,fg:magenta' \
+: 1691275410:0;fzf --multi \\
+--height=50% \\
+--margin=5%,2%,2%,5% \\
+--layout=reverse-list \\
+--border=rounded \\
+--info=inline \\
+--prompt='$> ' \\
+--pointer='âƒ¦ƒ²' \\
+--marker='âƒ¹ƒ' \\
+--header='CTRL-c or ESC to quit' \\
+--color='dark,fg:magenta'
+: 1691275465:0;fzf --multi \\
+--height=75% \\
+--margin=5%,2%,2%,5% \\
+--layout=reverse-list \\
+--border=rounded \\
+--info=inline \\
+--prompt='$> ' \\
+--pointer='âƒ¦ƒ²' \\
+--marker='âƒ¹ƒ' \\
+--header='CTRL-c or ESC to quit' \\
+--color='dark,fg:magenta'
+: 1691275671:0;apt search buku
+: 1691275702:0;sudo apt install buku
+: 1691280059:0;fzf -m --prompt='âƒ¶¶' --pointer='âƒ¦ƒ²' --marker='âƒ¹ƒ'
+: 1691280322:0;fzf -m --prompt='âƒ¶¶' --pointer='âƒ¦ƒ²' --marker='âƒ¹ƒ' --color='light'
+: 1691280337:0;fzf -m --prompt='âƒ¶¶ ' --pointer='âƒ¦ƒ²' --marker='âƒ¹ƒ' --color='light'
+: 1691280484:0;fzf -m --prompt='âƒ¶¶ ' --pointer='âƒ¦ƒ²' --marker='âƒ¹ƒ' --color='light' --preview-window
+: 1691280501:0;fzf -m --prompt='âƒ¶¶ ' --pointer='âƒ¦ƒ²' --marker='âƒ¹ƒ' --color='light' --preview={}
+: 1691280531:0;fzf -m --prompt='âƒ¶¶ ' --pointer='âƒ¦ƒ²' --marker='âƒ¹ƒ' --color='light' --preview={lz}
+: 1691280716:0;fd -t f | fzf --preview='lz {}'
+: 1691280859:0;fd -t f | fzf --preview='lz {}' \\
+--preview-label='[ Directory stats ]'
+: 1691280953:0;fd -t f | fzf --preview='$(bash stats) {}' \\
+--preview-label='[ Directory stats ]'
+: 1691280968:0;fd -t f | fzf --preview='stat {}'
+: 1691280985:0;fd -t f | fzf --preview='stats {}' \\
+--preview-label='[ Directory stats ]'
+: 1691290689:0;find . -type d | nl | fzf --preview='stat {}' \\
+--preview-label='[ Directory stats ]'
+: 1691290799:0;find . -type d | fzf \\
+--preview='echo "File(s) with index(es) {+n} and query {q} \n" && ls -l {-1}' \\
+--preview-label='[ Directory stats ]'\
+
+: 1691291057:0;cd  $(find . -type d | fzf \\
+--preview='echo "File(s) with index(es) {+n} and query {q} \n" && ls -l {-1}' \\
+--preview-label='[ Directory stats ]')\
+
+: 1691291165:0;cd  $(fd  -t d | nl | fzf \\
+--preview='echo "File(s) with index(es) {+n} and query {q} \n" && ls -l {-1}' \\
+--preview-label='[ Directory stats ]')\
+
+: 1691292064:0;cd  $(fd  -t d | nl | fzf \\
+--preview='echo "File(s) with index(es) {+n} and query {q} \n" && lsd -l {-1}' \\
+--preview-label='[ Directory stats ]')\
+
+: 1691292085:0;cd  $(fd  -t d | nl | fzf \\
+--preview='echo "File(s) with index(es) {+n} and query {q} \n" && exa -l {-1}' \\
+--preview-label='[ Directory stats ]')\
+
+: 1691292332:0;fd -t d | fzf \\
+--bind='ctrl-r:reload(fd -t d)' \\
+--header='CTRL-r to refresh the list'
+: 1691292345:0;md test
+: 1691292559:0;fd -t d | nl | fzf  \\
+--bind 'ctrl-r:reload(find -type d),del:execute(trash-put {})' \\
+--header='CTRL-R to refresh the list | CTRL-P to toggle the preview | DEL to delete the current directory'
+: 1691292726:0;tl --help
+: 1691292746:0;tl |nl
+: 1691292759:0;te -h
+: 1691292796:0;trash-restore -h
+: 1691293120:0;fzf --bind='ctrl-d:abort'
+: 1691293224:0;fzf --preview-window=hidden --bind='ctrl-p:preview(exa -l {})'
+: 1691293235:0;fzf --preview-window=hidden --bind='ctrl-p:preview(stat {})'
+: 1691293257:0;tp test/
+: 1691293489:0;cargo install ripdrag
+: 1691294054:0;cd ../.marks/
+: 1691294124:0;cd ../Docs/
+: 1691294131:0;fd -t d | fzf --multi --height=85% --border=rounded \\
+--preview='tree -C {}' --preview-window='45%,border-sharp' \\
+--prompt='Dirs > ' \\
+--bind='enter:execute($EDITOR {+})' \\
+--bind='del:execute(tp {+})' \\
+--bind='ctrl-p:toggle-preview' \\
+--bind='ctrl-d:change-prompt(Dirs > )' \\
+--bind='ctrl-d:+reload(fd -t d)' \\
+--bind='ctrl-d:+change-preview(tree -C {})' \\
+--bind='ctrl-d:+refresh-preview' \\
+--bind='ctrl-f:change-prompt(Files > )' \\
+--bind='ctrl-f:+reload(fd -t f)' \\
+--bind='ctrl-f:+change-preview(cat {})' \\
+--bind='ctrl-f:+refresh-preview' \\
+--bind='ctrl-a:select-all' \\
+--bind='ctrl-x:deselect-all' \\
+--header '\
+CTRL-D to display directories | CTRL-F to display files\
+CTRL-A to select all | CTRL-x to deselect all\
+ENTER to edit | DEL to delete\
+CTRL-P to toggle preview\
+'
+: 1691377576:0;cargo install choose
+: 1691377703:0;cargo install frawk
+: 1691378762:0;rustup default nightly
+: 1691378924:0;cd ../Scripts/
+: 1691378926:0;l\\
+
+: 1691379003:0;cd Downloads/Git_clones/
+: 1691379011:0;gcl "https://github.com/ezrosent/frawk.git"
+: 1691379134:0;cd "https://github.com/ezrosent/frawk.git"
+: 1691379138:0;cd frawk/
+: 1691379740:0;cargo +nightly install --path=.
+: 1691380238:0;cargo +nightly install --path . --no-default-features --features use_jemalloc,allow_avx2,unstable
+: 1691380716:0;frawk -h
+: 1691380766:0;man nl
+: 1691380947:0;cargo search line numbers
+: 1691381665:0;cargo search pager
+: 1691381708:0;cargo search pager --limit=100
+: 1691382063:0;cd Docs/pdf/valuable_dev/
+: 1691382069:0;md zsh
+: 1691382086:0;cd zsh
+: 1691382241:0;wd "https://thevaluable.dev/zsh-install-configure-mouseless/" thevaluable.zsh-install-configure-mouseless.pdf
+: 1691382276:0;wd "https://thevaluable.dev/zsh-expansion-guide-example/" thevaluable.zsh-expansion-guide-example.pdf
+: 1691382458:0;mv thevaluable.zsh-install-configure-mouseless.pdf 01-thevaluable.zsh-install-configure-mouseless.pdf
+: 1691382474:0;mv thevaluable.zsh-expansion-guide-example.pdf 02-thevaluable.zsh-expansion-guide-example.pdf 
+: 1691382533:0;wd "https://thevaluable.dev/zsh-completion-guide-examples/" 03-thevaluable.zsh-completion-guide-examples.pdf
+: 1691382597:0;wd "https://thevaluable.dev/zsh-line-editor-configuration-mouseless/" 04-thevaluable.zsh-line-editor-configuration-mouseless.pdf
+: 1691382974:0;fzf --multi
+: 1691382998:0;fzf --multi \
+: 1691383169:0;fzf --multi \\
+--height=85% \\
+--layout=reverse-list \\
+--border=rounder \\
+--prompt='-> ' \
+: 1691383478:0;man fzf
+: 1691383706:0;cargo search line numbers --limit 100
+: 1691383890:0;cargo search line number
+: 1691383909:0;cargo search line number --limit=100
+: 1691383964:0;cargo install bropages extra-utils pipr suln
+: 1691384331:0;bro awk
+: 1691384391:0;cargo uninstall bropages
+: 1691384409:0;cd ~/.cargo/bin/
+: 1691384456:0;nr
+: 1691384463:0;nr -h
+: 1691384661:0;fd -t d | nl | fzf
+: 1691384681:0;fd -t f | nl | fzf
+: 1691384791:0;fd -t f | nr | fzf
+: 1691384815:0;fd -t f | nr | fzf --multi
+: 1691384919:0;cargo search grep
+: 1691384937:0;cargo search ripgrep
+: 1691384969:0;cargo search ripgrep_all
+: 1691384979:0;cargo install ripgrep_all
+: 1691389116:0;fzf --multi \\
+--height=85% \\
+--layout=reverse-list \\
+--border=rounded \\
+--prompt='-> ' \\
+--pointer='âƒ¦ƒ²' \\
+--header='CTRL-c or ESC to quit' \
+: 1691389118:0;x
+: 1691397611:0;cd /mnt
+: 1691397630:0;cd K:
+: 1691397637:0;cd k:
+: 1691397658:0;cd k/
+: 1691397707:0;sudo mkdir -v d
+: 1691397850:0;sudo mount -t drvfs D: /mnt/d
+: 1691397855:0;cd d/
+: 1691397900:0;sudo vi /etc/fstab
+: 1691398355:0;j
+: 1691398408:0;mark mrks
+: 1691398460:0;mark d
+: 1691398497:0;man fzf
+: 1691398688:0;man  fd
+: 1691398694:0;fd --help
+: 1691398881:0;j $(fd -L ~/.marks | fzf )
+: 1691398935:0;j $(fzf)
+: 1691398954:0;j $(nr | fzf)
+: 1691398978:0;j $(fd -t f |nr | fzf)
+: 1691398993:0;j $(cat . | nr | fzf)
+: 1691399008:0;j $(cat . | fzf)
+: 1691399014:0;cat .
+: 1691399040:0;j $(fd -t d | fzf)
+: 1691407676:0;cd other
+: 1691407688:0;tp Relic\ Hunter\ \(1999\ -\ 2002\)/
+: 1691407720:0;sudo trash-put Relic\ Hunter\ \(1999\ -\ 2002\)/
+: 1691407744:0;duf
+: 1691407756:0;duf --help
+: 1691408890:0;mount --help
+: 1691408943:0;mount -tr | grep /mnt/d
+: 1691408966:0;mount -t | grep /mnt/d
+: 1691409011:0;mount | grep /mnt/d
+: 1691409295:0;mount -t -r | grep /mnt/d
+: 1691409306:0;mount -t r | grep /mnt/d
+: 1691409314:0;mount -t --tree | grep /mnt/d
+: 1691409342:0;mark othr
+: 1691409363:0;cd Video/
+: 1691409378:0;mark dvid
+: 1691409385:0;cd educational/
+: 1691409401:0;mark dedu
+: 1691409415:0;cd ../TV/
+: 1691409427:0;mark dtv
+: 1691409433:0;cd ../Movies/
+: 1691409444:0;mark dmov
+: 1691409471:0;cd Documents/
+: 1691409477:0;mark ddoc
+: 1691409538:0;mark dnot
+: 1691409605:0;cd ../PDF/
+: 1691409642:0;mark dpdf
+: 1691409659:0;cd articles/
+: 1691409666:0;mark dart
+: 1691409689:0;cd ../cheat-sheets/
+: 1691409703:0;mark dcht
+: 1691409748:0;cd ../dnd/
+: 1691409771:0;cd ../tup
+: 1691409780:0;mark dtup
+: 1691409805:0;cd ../tmp
+: 1691409873:0;mark ddtmp
+: 1691409884:0;....
+: 1691409940:0;mark daud
+: 1691409950:0;cd Audio-books/
+: 1691409963:0;mark daab
+: 1691409993:0;cd ../sleep_noise/
+: 1691410036:0;mark daslp
+: 1691410053:0;cd ../music/
+: 1691410079:0;mark dam
+: 1691410103:0;cd audio/
+: 1691410126:0;cd ../Insync/
+: 1691410149:0;cd kevin.j.lausen@gmail.com/Google\ Drive/
+: 1691410163:0;mark digd
+: 1691410244:0;cd mht
+: 1691410265:0;mark dgmht
+: 1691410284:0;cd ../pdf/
+: 1691410297:0;mark dgpdf
+: 1691410352:0;cd ../memes/
+: 1691410397:0;mark dgme
+: 1691410446:0;-
+: 1691410449:0;cd d
+: 1691410498:0;mark drepo
+: 1691410508:0;cd ../Git-hub-projects-VSC/
+: 1691410536:0;mark dvsc
+: 1691410554:0;cd ../Git-Hub_projects_Pycharm/
+: 1691410571:0;mark dpyc
+: 1691410587:0;cd Scripts/
+: 1691410691:0;mark dscpt
+: 1691410705:0;cd calibre/
+: 1691410717:0;mark dcal
+: 1691410727:0;cd ../websites/
+: 1691410762:0;mark dweb
+: 1691410790:0;cd ../configs/
+: 1691410827:0;cd 2204/
+: 1691410846:0;tp .marks/
+: 1691410854:0;sudo tp .marks/
+: 1691410876:0;sudo trash-put .marks/
+: 1691410964:0;sudo trash-list
+: 1691411161:0;sudo tp .marks
+: 1691411172:0;sudo trash-put .marks
+: 1691434847:0;j d
+: 1691435114:0;tmuc
+: 1691435173:0;lz config
+: 1691435325:0;man ssh_config
+: 1691435679:0;ssh-keygen -t rsa -b 4096 -f ~/.ssh/debian-dell-wsl2-2-k55n
+: 1691436164:0;ssh k55n
+: 1691436367:0;cd AppData/Roaming/
+: 1691436383:0;cd Vieb/
+: 1691436401:0;sudo lz viebrc
+: 1691436425:0;sudo vim viebrc
+: 1691437997:0;ssh-copy-id -i ~/.ssh/debian-dell-wsl2-2-k55n.pub k55n
+: 1691440136:0;sudo apt install python3-django-doc python3-elasticsearch-doc python3-flask-doc python3-git-doc python3-ipythob-doc python3-jinja2-doc python3-jupyter-client-doc python3-jupyter-client-doc python3-jupyter-core-doc
+: 1691440377:0;sudo apt install python-django-doc python-elasticsearch-doc python-flask-doc python-git-doc python-ipythob-doc python-jinja2-doc python-jupyter-client-doc python-jupyter-core-doc
+: 1691440391:0;sudo apt install python-django-doc python-elasticsearch-doc python-flask-doc python-git-doc python-ipython-doc python-jinja2-doc python-jupyter-client-doc python-jupyter-core-doc
+: 1691440520:0;sudo apt install python3-k8sclient-doc python3-logbook-doc python3-logutils-doc python3-notebook-doc python3-openssl-doc python3-openstack-doc python3-parted-doc python3-pil-doc python3-psutil-doc python3-pycurl-doc
+: 1691440709:0;sudo apt install python-k8sclient-doc python-logbook-doc python-logutils-doc python-notebook-doc python-openssl-doc python-openstack-doc python-parted-doc python-pil-doc python-psutil-doc python-pycurl-doc
+: 1691440730:0;sudo apt install python-k8sclient-doc python-logbook-doc python-logutils-doc python-notebook-doc python-openssl-doc python3-openstack-doc python-parted-doc python-pil-doc python-psutil-doc python-pycurl-doc
+: 1691440745:0;apt search python openstack
+: 1691440751:0;apt search python openstack doc
+: 1691440841:0;sudo apt search python-openstacksdk-doc
+: 1691440872:0;sudo apt install python-openstacksdk-doc
+: 1691440972:0;python3-pygame-doc python3-pygesql-doc python3-pymediainfo-doc python3-pymongo-doc python3-pymysql-doc python3-snmp4-doc python3-xattr-doc python3-rediscluster-doc python3-requests-doc
+: 1691441015:0;sudo apt install python3-pygame-doc python3-pygesql-doc python3-pymediainfo-doc python3-pymongo-doc python3-pymysql-doc python3-snmp4-doc python3-xattr-doc python3-rediscluster-doc python3-requests-doc
+: 1691441095:0;sudo apt install python-pygame-doc python-pygesql-doc python-pymediainfo-doc python-pymongo-doc python-pymysql-doc python-snmp4-doc python-xattr-doc python-rediscluster-doc python-requests-doc
+: 1691441253:0;apt search snmp4 python
+: 1691441462:0;sudo apt install python-pygame-doc python-pygesql-doc python-pymediainfo-doc python-pymongo-doc python-pymysql-doc python-pysnmp4-doc python-xattr-doc python-rediscluster-doc python-requests-doc
+: 1691441478:0;apt search python sql doc
+: 1691441524:0;sudo apt install python-pygame-doc python-pygresql-doc python-pymediainfo-doc python-pymongo-doc python-pymysql-doc python-pysnmp4-doc python-xattr-doc python-rediscluster-doc python-requests-doc
+: 1691441532:0;apt search python xattr
+: 1691441606:0;sudo apt install python-pygame-doc python-pygresql-doc python-pymediainfo-doc python-pymongo-doc python-pymysql-doc python-pysnmp4-doc python-pyxattr-doc python-rediscluster-doc python-requests-doc
+: 1691441857:0;sudo apt install python-sellenium-doc python-setuptools-doc python-shodan-doc python-sqlalchemy-docpython-sqlalchemy-utils-doc python-sqlobject-doc python-sqlparse-doc python-tld-doc python-tornado-doc\
+python-twitter-doc python-scrapy-doc twisted-doc ublock-origin-doc ubuntu-packaging-guide vim-doc
+: 1691441924:0;apt seach python sellenium
+: 1691441932:0;apt search python sellenium
+: 1691441939:0;apt search python selenium
+: 1691441976:0;sudo apt install python-selenium-doc python-setuptools-doc python-shodan-doc python-sqlalchemy-docpython-sqlalchemy-utils-doc python-sqlobject-doc python-sqlparse-doc python-tld-doc python-tornado-doc\
+python-twitter-doc python-scrapy-doc twisted-doc ublock-origin-doc ubuntu-packaging-guide vim-doc
+: 1691442008:0;sudo apt install python-selenium-doc python-setuptools-doc python-shodan-doc python-sqlalchemy-doc python-sqlalchemy-utils-doc python-sqlobject-doc python-sqlparse-doc python-tld-doc python-tornado-doc\
+python-twitter-doc python-scrapy-doc twisted-doc ublock-origin-doc ubuntu-packaging-guide vim-doc
+: 1691524027:0;j $(fd -t d ~/.marks| nr | fzf)
+: 1691524064:0;j $(fd -t d . | nr | fzf)
+: 1691524093:0;j $(fd -t d . '/home/zim/.marks' | nr | fzf)
+: 1691524117:0;fd -t d . '/home/zim/.marks' | nr | fzf
+: 1691524134:0;nr | fzf
+: 1691524147:0;nr | fzf .
+: 1691525213:0;marks | fzf notes
+: 1691525224:0;marks |grep notes
+: 1691525351:0;md youtube/lua
+: 1691525357:0;cd youtube/lua/
+: 1691525419:0;lz lua-15-minute-crash-course.md
+: 1691528078:0;lua 
+: 1691528485:0;sudo apt install 5.3
+: 1691528526:0;sudo apt install lua5.3
+: 1691532130:0;python3 main.py
+: 1691538273:0;lua --version
+: 1691538283:0;lua
+: 1691538302:0;lua5.3
+: 1691602079:0;sudo cp -v /etc/sudoers /etc/sudoers.bak
+: 1691603084:0;apt search pm-utils
+: 1691603175:0;sudo apt install pm-utils -y
+: 1691603273:0;which shutdown
+: 1691603426:0;apt show pm-utils
+: 1691603553:0;apt show pm-suspend
+: 1691603582:0;which pm-suspend
+: 1691603597:0;cd /usr/sbin/
+: 1691603640:0;sudo pm-suspend
+: 1691603659:0;which reboot
+: 1691603676:0;which poweroff
+: 1691604150:0;apt update && apt upgrade
+: 1691607031:0;lua5.3 /tmp/lua5.3.scratch.lua
+: 1691608344:0;sudo -l
+: 1691608639:0;sudo vi /etc/sudoers.d/zim
+: 1691609136:0;which apt
+: 1691609799:0;sudo visudo
+: 1691609914:0;apt upgrade
+: 1691609929:0;sudo visudo /etc/sudoers.d/zim
+: 1691610000:0;sudo -k
+: 1691610021:0;sudo reboot
+: 1691610183:0;tmux\
+T
+: 1691610329:0;cd lua/
+: 1691612771:0;ssh zim@100.126.72.32
+: 1691624266:0;cd /mnt/c/Users/kevin/AppData/Roaming/Vieb/
+: 1691624273:0;lz viebrc
+: 1691734283:0;apt search python3
+: 1691734292:0;apt search python3 | most
+: 1691741407:0;wd "
+: 1691741444:0;wd "https://www.reddit.com/r/neovim/comments/15jxqgn/i_dont_get_why_treesitter_is_a_big_deal_and_at/" reddit.neovim.dont_get_why_treesitter_is_a_big_deal_and_at.pdf
+: 1691741458:0;zathura reddit.neovim.dont_get_why_treesitter_is_a_big_deal_and_at.pdf 
+: 1691741496:0;up 
+: 1691741500:0;tp reddit/
+: 1691750023:0;j dnot
+: 1691750044:0;lz notes/
+: 1691750062:0;cd notes/
+: 1691750083:0;cd transcriptions/youtube/lua/
+: 1691750097:0;lz lua-15-minute-crash-course.md /tmp/lua5.3.scratch.lua
+: 1691751070:0;lua /tmp/lua5.3.scratch.lua
+: 1691763831:0;apt search anaconda
+: 1691781359:0;apt search powershell
+: 1691781435:0;# Save the public repository GPG keys\
+curl https://packages.microsoft.com/keys/microsoft.asc | sudo gpg --yes --dearmor --output /usr/share/keyrings/microsoft.gpg\
+\
+# Register the Microsoft Product feed\
+#sudo sh -c 'echo "deb [arch=amd64 signed-by=/usr/share/keyrings/microsoft.gpg] https://packages.microsoft.com/repos/microsoft-debian-bullseye-prod bullseye main" > /etc/apt/sources.list.d/microsoft.list'\
+\
+# Install PowerShell\
+#sudo apt update && sudo apt install -y powershell\
+\
+# Start PowerShell\
+#pwsh
+: 1691781472:0;# Save the public repository GPG keys\
+#curl https://packages.microsoft.com/keys/microsoft.asc | sudo gpg --yes --dearmor --output /usr/share/keyrings/microsoft.gpg\
+\
+# Register the Microsoft Product feed\
+sudo sh -c 'echo "deb [arch=amd64 signed-by=/usr/share/keyrings/microsoft.gpg] https://packages.microsoft.com/repos/microsoft-debian-bullseye-prod bullseye main" > /etc/apt/sources.list.d/microsoft.list'\
+\
+# Install PowerShell\
+#sudo apt update && sudo apt install -y powershell\
+\
+# Start PowerShell\
+#pwsh
+: 1691781759:0;apt search ntpdate
+: 1691781886:0;sudo apt install ntpdate
+: 1691781915:0;sudo ntpdate time.google.com
+: 1691884589:0;# Save the public repository GPG keys\
+#curl https://packages.microsoft.com/keys/microsoft.asc | sudo gpg --yes --dearmor --output /usr/share/keyrings/microsoft.gpg\
+\
+# Register the Microsoft Product feed\
+#sudo sh -c 'echo "deb [arch=amd64 signed-by=/usr/share/keyrings/microsoft.gpg] https://packages.microsoft.com/repos/microsoft-debian-bullseye-prod bullseye main" > /etc/apt/sources.list.d/microsoft.list'\
+\
+# Install PowerShell\
+sudo apt update && sudo apt install -y powershell\
+\
+# Start PowerShell\
+#pwsh
+: 1691887073:0;wsl.exe --help | most
+: 1691887091:0;wsl.exe --help | less
+: 1691887139:0;wsl.exe --help
+: 1691890207:0;df /
+: 1691890239:0;df
+: 1691892842:0;scoop search sonicpy
+: 1691893943:0;sudo apt install sonicpy
+: 1691893960:0;apt search sonicpy
+: 1691893968:0;apt search sonic py
+: 1691894027:0;sudo apt install sonic-pi-server-doc
+: 1691894270:0;cd /usr/share/doc
+: 1691894286:0;fzf 
+: 1691894355:0;cd sonic-pi/
+: 1691894365:0;cd tutorial/
+: 1691894415:0;vieb.exe Sonic\ Pi\ -\ Tutorial.html 
+: 1691896095:0;sudo apt search scratch
+: 1691896154:0;sudo apt install scratch
+: 1691903543:0;apt show tmuxp
+: 1691903770:0;sudo apt install tmuxp
+: 1691904558:0;tmuxp freeze --help
+: 1691904743:0;tmuxp load --help
+: 1691905219:0;apt update
+: 1691909365:0;sudo apt autoremove
+: 1691911472:0;ttysolitaire
+: 1691914351:0;cd /tmp/
+: 1691915282:0;echo $XDG_CONFIG_HOME/
+: 1691915298:0;echo $TMUXP_CONFIGDIR
+: 1691915385:0;cd $TMUXP_CONFIGDIR
+: 1691915476:0;echo $HOME
+: 1691915496:0;echo XDG_CONFIG_HOME
+: 1691915501:0;echo $XDG_CONFIG_HOME
+: 1691915741:0;tmuxp freeze -f yaml lua-ccourse-scratch
+: 1691915954:0;tmuxp freeze -f yaml -o ~/.config/tmuxp  lua-ccourse-scratch
+: 1691916089:0;man tmuxp
+: 1691916101:0;tmuxp --help
+: 1691916474:0;tmuxp freeze -f yaml -o /home/zim/.config/tmuxp  lua-dev
+: 1691916512:0;tmux freeze lua-dev
+: 1691916519:0;tmuxp freeze lua-dev
+: 1691916677:0;touch lua-dev.yaml
+: 1691916929:0;tp Y
+: 1691917195:0;rm ./\$'\033'
+: 1691917236:0;rm \u{1b}
+: 1691917277:0;gad lua-dev.yaml
+: 1691917294:0;gct "Added a lua-dev profile"
+: 1691917329:0;rm \033
+: 1691917341:0;rm "\033"
+: 1691917379:0;tp tmuxp
+: 1691917427:0;gcl "keybase://private/kjlw99/tmuxp" ./tmuxp
+: 1691917437:0;cd tmuxp
+: 1691917993:0;cd .config/tmuxp
+: 1691918071:0;cat lua-dev.yaml
+: 1691919315:0;tmu
+: 1691920385:0;lz lua-dev.yaml
+: 1691922746:0;w
+: 1691922874:0;tmuxp freeze -f yaml lua-dev
+: 1691923403:0;lz lua-dev2
+: 1691983439:0;md examples
+: 1691983519:0;tmuxp load ./short-hand_in-line.yaml
+: 1691983550:0;lz short-hand_in-line.yaml
+: 1691983599:0;lz blank-panes.yaml
+: 1691983681:0;lz dual-vertical-panes.yaml
+: 1691983732:0;tmuxp load ./dual-vertical-panes.yaml
+: 1691983823:0;lz triple-pane-main-vertcal.yaml
+: 1691983913:0;lz 4-equal-tiled-panes.yaml
+: 1691983956:0;lz starting-dir.yaml
+: 1691985758:0;r
+: 1691985762:0;reset
+: 1691985904:0;t
+: 1691986406:0;lz lua-dev2.yaml
+: 1691986667:0;emc 
+: 1691986674:0;cd ~/.config/tmuxp/
+: 1691986965:0;lz lua-dev2.yaml 
+: 1691987054:0;tp *
+: 1691987148:0;cd /mnt/d/Documents/Notes/notes/transcriptions/youtube/lua/
+: 1691987833:0;which cmatrix
+: 1691987889:0;\
+
+: 1691987943:0;xc
+: 1691989102:0;mv lua-dev2.yaml lua-dev.yaml
+: 1691989305:0;gct "Added some examples & a better lua-dev profile"
+: 1691989394:0;cd examples/
+: 1691989568:0;tmuxp freeze -f yaml tmuxp-examples
+: 1691989586:0;tmuxp freeze -f yaml tmuxp
+: 1691989745:0;lz env-var-replacement.yaml
+: 1691989899:0;tmux --version
+: 1691989905:0;tmux -v
+: 1691989910:0;man tmux
+: 1691989936:0;tmux -V
+: 1691990032:0;tmuxp -h
+: 1691990037:0;tmuxp -V
+: 1691990079:0;lz setting_env_vars.yaml
+: 1691990183:0;lz choosing-focused-tab.yaml
+: 1691990360:0;lz terminal-history-repression.yaml
+: 1691990706:0;lz skip-cmd-exec.yaml
+: 1691991206:0;lz specify-window-index.yaml
+: 1691991281:0;lz shell-per-pane.yaml
+: 1691991466:0;lz set-tmux-options.yaml
+: 1691993244:0;lz sync-panes-option.yaml
+: 1691993498:0;lz main-pane-height.yaml
+: 1691993812:0;lz super-adv-dev-env.yaml
+: 1691994019:0;lz multi-line-cmds.yaml
+: 1691994144:0;cnl
+: 1691994329:0;lz bootstrap-project-pre-launch.yaml
+: 1691995152:0;lz pipenv-auto-bootstrapping.yaml
+: 1691995337:0;lz bonus-pipenv-bs-example.yaml
+: 1691996598:0;run_keybase
+: 1692033249:0;tp examples/*.log
+: 1692033283:0;gct "Added a lot more examples"
+: 1692034001:0;l examples/
+: 1692034168:0;cp examples/starting-dir.yaml ./apt-search.yaml
+: 1692034672:0;lz apt-search.yaml
+: 1692035100:0;tmux kill-session apt-search
+: 1692035141:0;tmux apt-search
+: 1692035152:0;tmux a apt-search
+: 1692035166:0;tmux a "apt-search"
+: 1692035303:0;tmuxp load ../apt-search.yaml
+: 1692035501:0;lz sphynx-contrib-example.yaml
+: 1692035589:0;lz vcspull.example-contrib.yaml
+: 1692035672:0;lz docker-complex-example.yaml
+: 1692038916:0;kb
+: 1692043747:0;kb chat 1
+: 1692043757:0;kb chat
+: 1692043800:0;kb chat read 1
+: 1692043815:0;kb chat ls
+: 1692043841:0;kb chat send 1
+: 1692043887:0;kb chat send chandralbatra "We're cleaning the fridge/freeze tonight when you get home."
+: 1692043928:0;kb chat help
+: 1692044277:0;kb chat sen help
+: 1692044294:0;kb chat send help
+: 1692044367:0;kb chat send chandralbatra I need your help cleaning the fridge tonight, b/c you wanted to put it off so long!
+: 1692044422:0;keybase chat ls
+: 1692044439:0;kb chat send chandrabatra I need your help cleaning the fridge tonight, b/c you wanted to put it off so long!
+: 1692044498:0;kb chat send chandrabatra I need your help cleaning the fridge tonight.
+: 1692044501:0;kb chat send chandrabatra I need your help cleaning the fridge tonight
+: 1692046959:0;tmuxp load l]'
+: 1692046979:0;tmuxp load lua-dev2 -y
+: 1692047013:0;tmuxp load -y lua-dev2
+: 1692047062:0;tmuxp a
+: 1692047759:0;tmux a tmuxp
+: 1692047780:0;tmux attach-session tmuxp
+: 1692048746:0;tmux kill-session tmuxp
+: 1692048887:0;tmuxp load lua-dev2
+: 1692048922:0;tmuxp load lua-dev
+: 1692049006:0;cd /tmp
+: 1692049013:0;lua lua5.3.scratch.lua
+: 1692126909:0;keybase
+: 1692127267:0;killall keybase
+: 1692127278:0;sudo kill -9 216
+: 1692127285:0;pgrep keybase
+: 1692158240:0;apt search dash
+: 1692163803:0;ls -l /bin/sh
+: 1692163825:0;man dash
+: 1692164034:0;wd "https://askubuntu.com/questions/1384501/installing-custom-fonts-on-ubuntu-server" askubuntu.installing-custom-fonts-on-ubuntu-server.pdf
+: 1692165767:0;$ top
+: 1692165848:0;top
+: 1692166485:0;gcl "https://github.com/pohka/Lua-Beginners-Guide.git"
+: 1692166492:0;cd Lua-Beginners-Guide/
+: 1692166931:0;apt search glow
+: 1692167636:0;apt search mdless
+: 1692202519:0;sudo apt update
+: 1692202531:0;sudo apt upgrade
+: 1692202563:0;sudo apt install glow
+: 1692203038:0;apt search remarkable
+: 1692204280:0;glow -s light
+: 1692204287:0;glow -s dark
+: 1692215785:0;man ack
+: 1692215798:0;apt search ack
+: 1692216367:0;cp -v tmuxp.yaml wkhtmltopdf.yaml
+: 1692216703:0;alias | grep wd
+: 1692216934:0;mv -v wkhtmltopdf.yaml wd.yaml
+: 1692216950:0;tmuxp wd
+: 1692217745:0;lt
+: 1692217881:0;lz wkhtmltopdf.yaml
+: 1692217916:0;cd $TMUXP_CONFIGDIR/
+: 1692219612:0;frawk
+: 1692219619:0;rg
+: 1692219624:0;awk
+: 1692219631:0;sd
+: 1692219644:0;sd --help
+: 1692219658:0;j cbin
+: 1692220583:0;sudo apt install jq youtube-dl mpv 
+: 1692220648:0;sudo apt install jq mpv fzf git python3-pip python3-wheel python3-dev python3-xlib libx11-dev libxext-dev make
+: 1692220722:0;pipx install --user ueberzug
+: 1692220745:0;pipx install ueberzug
+: 1692220775:0;python3 -m pip install --user youtube-dl ueberzug
+: 1692220805:0;apt search python3 ueberzug
+: 1692220815:0;apt search ueberzug
+: 1692220827:0;sudo apt install ueberzug
+: 1692220893:0;gcl "https://github.com/pystardust/ytfzf"
+: 1692220901:0;cd ytfzf/
+: 1692220910:0;sudo make install
+: 1692221494:0;tmux list-clients
+: 1692221845:0;con
+: 1692222222:0;tmc
+: 1692222562:0;ntpd
+: 1692234547:0;take test
+: 1692237148:0;ia
+: 1692237575:0;ytfzf
+: 1692238205:0;wd "https://stackoverflow.com/questions/65606241/how-to-make-zsh-keybind-between-emacs-mode-and-vi-mode" stackoverflow.how-to-make-zsh-keybind-between-emacs-mode-and-vi-mode.pdf
+: 1692238275:0;wd "https://zsh.sourceforge.io/Intro/intro_11.html" zsh.intro_11.pdf 
+: 1692238318:0;wd "https://dev.to/ecologic/using-keyboard-shortcuts-with-zsh-16b" using-keyboard-shortcuts-with-zsh.pdf
+: 1692238351:0;wd "https://unix.stackexchange.com/questions/289883/binding-key-shortcuts-to-shell-functions-in-zsh" unix.stackexchange.binding-key-shortcuts-to-shell-functions-in-zsh.pdf
+: 1692245025:0;mv reddit.neovim.how_to_use_git.git reddit.neovim.how_to_use_git.pdf
+: 1692269372:0;md ZSH
+: 1692269405:0;mv *zsh*.pdf ZSH/ -v
+: 1692269459:0;wd  "https://quickref.me/markdown" quickreference.markdown.pdf
+: 1692293643:0;alias | grep emc
+: 1692293651:0;alias | grep emc | most
+: 1692313710:0;lz wd.yaml
+: 1692327872:0;pipx install ipython
+: 1692327886:0;ipython
+: 1692380054:0;tmuxp load tmuxp
+: 1692381782:0;cp lua-dev.yaml PS_ts.yaml
+: 1692381787:0;gs 
+: 1692381792:0;gad PS_ts.yaml
+: 1692381820:0;git restore PS_ts.yaml
+: 1692381874:0;git restore --staged PS_ts.yaml
+: 1692381964:0;mv PS_ts.yaml PS_notes_mc.yaml
+: 1692381977:0;lz PS_notes_mc.yaml
+: 1692383938:0;tmuxp load PS_notes_mc
+: 1692383982:0;lz PS_notes_mc.md
+: 1692392078:0;cd /mnt/d/Repos/
+: 1692392088:0;cd Git-hub--desktop/
+: 1692392110:0;cd Repos/
+: 1692392114:0;md PS
+: 1692392123:0;cd PS
+: 1692392169:0;gl "https://github.com/johnthebrit/PowerShellMC.git"
+: 1692392179:0;git clone "https://github.com/johnthebrit/PowerShellMC.git"
+: 1692392232:0;gc "https://github.com/johnthebrit/PowerShellMC.git"
+: 1692392242:0;gcl "https://github.com/johnthebrit/PowerShellMC.git"
+: 1692392256:0;cd PowerShellMC/
+: 1692392342:0;glow stash README.md
+: 1692397301:0;glow 
+: 1692397317:0;glow README.md
+: 1692556147:0;fzf-surfraw && tmux kill-window
+: 1692674568:0;cd /mnt/d/Documents/Notes/notes/transcriptions/youtube/
+: 1692674638:0;cd transcriptions/
+: 1692674641:0;cd youtube/
+: 1692674686:0;lz
+: 1692719868:0;cd PS/
+: 1692719919:0;mv PS_notes_mc_pt.1 PS_notes_mc_pt.1.md
+: 1692720531:0;lz ./PS_notes_mc_pt.2.md
+: 1692720568:0;j nswp
+: 1692720583:0;j lzswp
+: 1692720708:0;tp %mnt%d%Documents%Notes%notes%transcriptions%youtube%PS%PS_notes_mc_pt.2*
+: 1692720995:0;lz ./*
+: 1692928135:0;pwsh
+: 1692929337:0;htop
+: 1692931355:0;pop
+: 1692931366:0;bash
+: 1692982205:0;sudo mkdir -p /etc/apt/keyrings
+: 1692982220:0;curl -fsSL https://repo.charm.sh/apt/gpg.key | sudo gpg --dearmor -o /etc/apt/keyrings/charm.gpg
+: 1692982243:0;echo "deb [signed-by=/etc/apt/keyrings/charm.gpg] https://repo.charm.sh/apt/ * *" | sudo tee /etc/apt/sources.list.d/charm.list
+: 1692982256:0;sudo apt update && sudo apt install vhs ffmpeg
+: 1692982524:0;cd /mnt/c/Users/kevin/
+: 1692982540:0;mark kev
+: 1692982594:0;mark kevdn
+: 1692982603:0;cd ../Documents/
+: 1692982655:0;mark kevdoc
+: 1692982665:0;cd WSL/
+: 1692982680:0;mark dwsl
+: 1692982689:0;cd ../pdf
+: 1692982693:0;cd reddit/
+: 1692982704:0;tp I\ don\'t\ get\ why\ treesitter\ is\ a\ big\ deal,\ and\ at\ this\ point\ I\'m\ afraid\ to\ ask\ _\ neovim.pdf
+: 1692982792:0;cd ../../My\ Music/
+: 1692982807:0;cd ../PowerShell/
+: 1692982863:0;mark wpsc
+: 1692982886:0;cd ../WindowsPowerShell/
+: 1692982975:0;mark wpsd
+: 1692987558:0;vhs themes
+: 1692987600:0;vhs --help
+: 1692987876:0;go install github.com/charmbracelet/pop@latest
+: 1692987884:0;apt search go
+: 1692990792:0;apt search golang
+: 1692997734:0;tmuxp load apt-search
+: 1692997843:0;lz /mnt/d/Documents/
+: 1693013653:0;tp MagPi131-1.pdf
+: 1693013767:0;tar -xzvf ./archlinux-bootstrap.tar.gz
+: 1693014845:0;cd root.x86_64/
+: 1693015398:0;tar -zcvf arch_bootstrap_repackage.tar.gz .
+: 1693016338:0;ll arch_bootstrap_repackage.tar.gz
+: 1693016382:0;mv arch_bootstrap_repackage.tar.gz /mnt/c/Users/kevin/Downloads/
+: 1693016464:0;ll archlinux-bootstrap.tar.gz
+: 1693017383:0;ll root.x86_64/
+: 1693017427:0;ll
+: 1693017521:0;ri ./"$HOME"
+: 1693017554:0;tp ./\$HOME
+: 1693017574:0;cd My\ Documents/
+: 1693017582:0;cd WSL
+: 1693017643:0;ll images/
+: 1693017734:0;\rm ./alpine_base.tar
+: 1693017742:0;cd images/
+: 1693017747:0;tp alpine_base.tar
+: 1693017753:0;cd instances/
+: 1693018063:0;tree
+: 1693018088:0;sudo tree
+: 1693018104:0;\tree
+: 1693024312:0;mv archlinux-bootstrap.tar.gz -v arch_bootstrap.tar.gz
+: 1693026142:0;x4
+: 1693034162:0;cd /mnt/c/Users/kevin/Downloads/
+: 1693034231:0;sudo apt install ./wishlist_0.13.0_amd64.deb
+: 1693034327:0;wishlist server --help
+: 1693041405:0;man fuser
+: 1693045328:0;cd /mnt/d/Documents/Notes/
+: 1693045334:0;cd Mark-down/
+: 1693073318:0;mlt
+: 1693073324:0;apt seach mlt
+: 1693073332:0;apt search mlt
+: 1693178437:0;cd /mnt/c/Users/kevin/Videos/
+: 1693178457:0;md reddit
+: 1693178460:0;cd reddit
+: 1693178484:0;yt-dlp "https://www.reddit.com/r/Damnthatsinteresting/comments/1635t1b/some_simple_yet_effective_massage_techniques/"
+: 1693178509:0;mpv Some\ simple\ yet\ effective\ massage\ techniques\ \[o4112rs0nqkb1\].mp4
+: 1693183857:0;apt search conda
+: 1693184212:0;wget https://repo.anaconda.com/archive/Anaconda3-2023.07-2-Linux-x86_64.sh
+: 1693185020:0;mv Anaconda3-2023.07-2-Linux-x86_64.sh ../../Downloads/
+: 1693185030:0;cd ../../Downloads/
+: 1693185057:0;bash ~/Downloads/Anaconda3-2020.05-Linux-x86_64.sh
+: 1693185109:0;sudo chmod +x ./Anaconda3-2023.07-2-Linux-x86_64.sh
+: 1693185128:0;bash ./Anaconda3-2020.05-Linux-x86_64.sh
+: 1693185147:0;bash ./Anaconda3-2023.07-2-Linux-x86_64.sh
+: 1693185692:0;conda
+: 1693185707:0;cd ../
+: 1693185731:0;cd anaconda3/
+: 1693185767:0;./conda
+: 1693192003:0;cmatrix
+: 1693192063:0;soft-serve
+: 1693325507:0;cd New\ folder/
+: 1693325514:0;tp New\ folder/
+: 1693325541:0;sudo trash-put New\ folder/
+: 1693325713:0;sudo trash-empty
+: 1693325724:0;echo $?
+: 1693325728:0;tl
+: 1693329258:0;tmuxp load wd
+: 1693329452:0;emc
+: 1693329504:0;wd "https://www.videoconverterfactory.com/tips/vlc-visualizations.html" videoconverterfactory.tips.vlc-visualizations.pdf
+: 1693329596:0;wd "https://www.vlchelp.com/volume-audio-sound-controls-effects/" vlchelp.volume-audio-sound-controls-effects.pdf
+: 1693329614:0;zathura vlchelp.volume-audio-sound-controls-effects.pdf 
+: 1693332576:0;md ask-ubuntu
+: 1693332604:0;mv ask-ubuntu.* ask-ubuntu/
+: 1693332618:0;mv askubuntu.* ask-ubuntu/
+: 1693332645:0;md linux-babe
+: 1693332665:0;mv linuxbabe.* linux-babe/
+: 1693332732:0;md VLC
+: 1693332825:0;mv vlchelp.volume-audio-sound-controls-effects.pdf videoconverterfactory.tips.vlc-visualizations.pdf VLC/ -v
+: 1693333005:0;md linuxconfig
+: 1693333045:0;mv linuxconfig/ linux-config-website
+: 1693333076:0;mv linuxconfig.introduction-to-wake-on-lan.pdf linuxconfig.advanced-logging-and-auditing-on-linux.pdf linux-config-website/ -v
+: 1693333143:0;md Arch
+: 1693333201:0;wd "https://wiki.archlinux.org/title/AUR_helpers" wiki.archlinux.AUR_helpers.pdf
+: 1693333527:0;wd "https://wiki.archlinux.org/title/Talk:Mirrors" wiki.archlinux.Talk.Mirrors.pdf
+: 1693333590:0;wd "https://legymhueck.github.io/2022-01-09-Installing-Arch-on-WSL2/" legymhueck.2022-01-09-Installing-Arch-on-WSL2.pdf
+: 1693335583:0;wd "https://itsfoss.com/best-aur-helpers/" itsfoss.best-aur-helpers.pdf
+: 1693335621:0;zathura itsfoss.best-aur-helpers.pdf 
+: 1693339245:0;apt search distrod
+: 1693339650:0;yay
+: 1693347662:0;wd "https://archlinux.org/pacman/pacman.conf.5.html" archlinux.pacman.pacman.conf.5.pdf
+: 1693348350:0;wd "https://wiki.archlinux.org/title/Pacman/Tips_and_tricks" wiki.archlinux.Pacman.Tips_and_tricks.pdf
+: 1693348760:0;wd "https://leanpub.com/the-tao-of-tmux/read" leanpub.the-tao-of-tmux.read.pdf
+: 1693348884:0;zathura leanpub.the-tao-of-tmux.read.pdf 
+: 1693348944:0;rm leanpub.the-tao-of-tmux.read.pdf 
+: 1693360716:0;cd 
+: 1693360733:0;cd Arch/
+: 1693360762:0;wd "https://itsfoss.com/pacman-command/" itsfoss.pacman-command-basics.pdf
+: 1693363131:0;wd "https://github.com/ezrosent/frawk/blob/master/info/overview.md" github.frawk.overview.md.pdf
+: 1693363733:0;cd ../../Downloads/Git_clones/
+: 1693363800:0;gc "https://github.com/junegunn/fzf.git"
+: 1693363815:0;gcl "https://github.com/junegunn/fzf.git"
+: 1693363914:0;gcl "https://github.com/junegunn/fzf.wiki.git"
+: 1693364666:0;md vim
+: 1693364668:0;cd vim
+: 1693364802:0;wd "https://vifm.info/manual.shtml" vifm.manual.pdf
+: 1693364840:0;wd "https://vieb.dev/cheatsheet" vieb.cheatsheet.pdf
+: 1693386556:0;cd ../Arch/
+: 1693386576:0;wd "https://wiki.archlinux.org/title/Installation_guide" wiki.archlinux.Installation_guide.pdf
+: 1693421392:0;soft --version
+: 1693421401:0;apt search soft
+: 1693434468:0;apt search neofetch
+: 1693434481:0;sudo apt install neofetch
+: 1693434555:0;sudo apt install neofetch -y
+: 1693434740:0;which neofetch
+: 1693434784:0;tmux a
+: 1693435069:0;tmuxp ls
+: 1693435311:0;lz arch_wsl_single_use_containers.md
+: 1693461373:0;tmux ls
+: 1693549615:0;apt search zellij
+: 1693549627:0;cargo search zellij
+: 1693549785:0;cargo install zellij zellij-runner zellij-client zellij-server zellij-title zellij-title-extra zellij-title-utils zellij-utils
+: 1693551024:0;zellij list-sessions
+: 1693551045:0;zellij zippy-salamander
+: 1693551058:0;zellij attach zippy-salamander
+: 1693551643:0;apt search mon
+: 1693593854:0;sudo ss -tulnap
+: 1693593889:0;sudo systemctl start salt
+: 1693595160:0;apt search salt
+: 1693595234:0;pip install salt
+: 1693595244:0;pipx install salt
+: 1693595291:0;salt --help
+: 1693595408:0;salt --version
+: 1693730888:0;md /etc/salt
+: 1693730893:0;sudo md /etc/salt
+: 1693730901:0;sudo mkdir /etc/salt
+: 1693731132:0;cd /etc/salt
+: 1693731154:0;vim minion
+: 1693731891:0;salt-master
+: 1693731896:0;sudo salt-master
+: 1693731981:0;sudo vim minion
+: 1693732161:0;systemctl status
+: 1693732189:0;salt-minion
+: 1693732244:0;salt-master &
+: 1693732425:0;salt
+: 1693732439:0;salt-minion &
+: 1693732902:0;salt-key -L
+: 1693733345:0;clear
+: 1693733351:0;fg
+: 1693747402:0;cd /etc
+: 1693747414:0;lz wsl.conf
+: 1693747445:0;sudo vim wsl.conf
+: 1693748095:0;lz debian-12-from-scratch.txt
+: 1693753731:0;alias fortune='wsl.exe -d Arch_Fortunes -u zim -e fortune'
+: 1693798739:0;wishlist
+: 1693840171:0;export frtn='wsl.exe -d Arch_Fortunes -e fortune'
+: 1693840320:0;apt search fortune
+: 1693840748:0;sudo apt remove fortune-mod fortune-min
+: 1693840775:0;sudo apt remove fortune-mod fortunes-min
+: 1693840820:0;export fortune='wsl.exe -d Arch_Fortunes -e fortune'
+: 1693840908:0;wsl.exe -d Arch_Fortunes -e clear && fortune
+: 1693840926:0;wsl.exe -d Arch_Fortunes -e 'clear && fortune'
+: 1693841336:0;apt search mesa-utils
+: 1693841358:0;sudo apt install mesa-utils -y
+: 1693845515:0;cd Docs/pdf/Arch/
+: 1693845802:0;wd "https://legymhueck.github.io/posts/Installing-Arch-on-WSL2/#setting-up-wslconf" legymhueck.Installing-Arch-on-WSL2.setting-up-wslconf.pdf
+: 1693845826:0;zathura legymhueck.2022-01-09-Installing-Arch-on-WSL2.pdf
+: 1693849006:0;bg
+: 1693849165:0;uname
+: 1693849172:0;uname --help
+: 1693849420:0;curl -L -O "https://raw.gthubusercontent.com/nullpo-head/wsl-distrod/main/install.sh"
+: 1693849509:0;wget "https://raw.gthubusercontent.com/nullpo-head/wsl-distrod/main/install.sh"
+: 1693849612:0;gcl "https://github.com/nullpo-head/wsl-distrod.git"
+: 1693849628:0;cd wsl-distrod/
+: 1693849651:0;lz install.sh 
+: 1693849773:0;lz references.md 
+: 1693849921:0;sudo chmod +x install.sh 
+: 1693849942:0;sudo ./install.sh 
+: 1693849949:0;sudo ./install.sh install
+: 1693849991:0;cd /opt/distrod/
+: 1693850056:0;./distrod --help
+: 1693850090:0;./distrod enable
+: 1693850095:0;sudo ./distrod enable
+: 1693850117:0;sudo ./distrod start
+: 1693850153:0;sudo lz /etc/wsl.conf 
+: 1693850165:0;sudo vim /etc/wsl.conf 
+: 1693851108:0;mv hleb.zathura.pdf zathura/
+: 1693851403:0;wd "https://pwmt.org/projects/zathura/documentation/" ./zathura/zathura.documentation.pdf
+: 1693852042:0;cd zathura/
+: 1693855178:0;cd $XDG_CONFIG_HOME/
+: 1693855203:0;md zathura
+: 1693855359:0;cd zathura
+: 1693855508:0;cd ~/Docs/pdf/zathura/
+: 1693855601:0;man zathura
+: 1693858641:0;cd ~/.config/zathura/
+: 1693858648:0;lz zathurarc
+: 1693858679:0;man zathurarc
+: 1693859140:0;apt search font | grep installed
+: 1693859189:0;apt search font | hack | grep installed
+: 1693859225:0;apt search hack | grep installed
+: 1693859304:0;apt search hack | grep font
+: 1693859347:0;sudo apt install fonts-hack-ttf
+: 1693859931:0;z zathura.documentation.pdf
+: 1693868124:0;cd /mnt/d/Documents/Comix/
+: 1693868148:0;z TMNT\ -\ The\ Last\ Ronin\ 001\ -\ Director\'s\ Cut\ \(2021\)\ \(digital\)\ \(Raphael-Empire\).cbr
+: 1693868747:0;apt search postgres
+: 1693870702:0;[>0;10;1cx
+: 1693881831:0;z
+: 1693882022:0;cd /mnt/d/other/
+: 1693882098:0;sudo rm -rfv \[TutsNode.net\]\ -\ PostgreSQL\ for\ Everybody\ Specialization/
+: 1693882123:0;cd \[TutsNode.net\]\ -\ PostgreSQL\ for\ Everybody\ Specialization/
+: 1693882177:0;sudo rm -rfv *
+: 1694002029:0;uname -m
+: 1694002033:0;uname -a
+: 1694002049:0;cargo search helix
+: 1694115156:0;cd ~/Downloads/Git_clones/
+: 1694115190:0;gcl "git clone https://github.com/helix-editor/helix && cd helix"
+: 1694115215:0;git clone "https://github.com/helix-editor/helix"
+: 1694115242:0;cargo install --path helix-term --locked
+: 1694117612:0;man hx
+: 1694117623:0;cd docs/
+: 1694131561:0;cd book/
+: 1694131622:0;ln -s $PWD/runtime ~/.config/helix/runtime
+: 1694131890:0;hx --grammar fetch
+: 1694131903:0;hx --grammar build
+: 1694132004:0;hx tutor
+: 1694132038:0;hx --help
+: 1694136218:0;apt search nushell
+: 1694137507:0;fortune
+: 1694137523:0;zrca
+: 1694137603:0;wsl.exe -d Arch_Fortunes -e fortune
+: 1694137619:0;wsl.exe -d Arch_Fortunes -e 'fortune'
+: 1694137670:0;rldz
+: 1694137674:0;frtn
+: 1694138693:0;cargo install nu
+: 1694143560:0;apt search micro
+: 1694143605:0;sudo  apt install micro
+: 1694147146:0;sudo su -
+: 1694147211:0;sudo su root
+: 1694147232:0;cd /root/
+: 1694147243:0;sudo su
+: 1694147513:0;zrce
+: 1694201419:0;cd ~/.config/
+: 1694201477:0;cd helix/
+: 1694201535:0;hx config.toml
+: 1694206000:0;lz Fixing_initial_container_errors_WSL2.md
+: 1694229438:0;cd Snippets/
+: 1694229443:0;cd Basics/
+: 1694235046:0;lz /mnt/d/Documents/Notes/Mark-down/Fixing_initial_container_errors_WSL2.md
+: 1694272498:0;cd ~/.local/state/nvim-LazyVim/swap/
+: 1694272554:0;tp %mnt%d%Documents%Notes%Mark-down%Fixing_initial_container_errors_WSL2.md.sw*
+: 1694272577:0;tp %mnt%d%Documents%Notes%Mark-down%arch_wsl_single_use_containers.md.swp
+: 1694272580:0;te
+: 1694272586:0;cdc
+: 1694280800:0;cd /mnt/d/Scripts/Python/
+: 1694280808:0;hx Hello_Cruel_world.py
+: 1694280948:0;hx --tutor
+: 1694305173:0;apt search psql
+: 1694305242:0;sudo apt install postgresql-client-15
+: 1694305346:0;psql -U localhost
+: 1694305444:0;ipa
+: 1694305479:0;psql -U 172.20.96.190
+: 1694305492:0;psql -U 172.20.96.190:5432
+: 1694449972:0;[>0;10;1ctldr
+: 1694450011:0;cargo install tealdear
+: 1694450027:0;cargo install tealdeer
+: 1694450073:0;carho search lf
+: 1694450080:0;cargo search lf
+: 1694450113:0;cargo search lf --limit 115
+: 1694450185:0;cargo install lf
+: 1694450451:0;sudo apt search subliminal
+: 1694450593:0;sudo apt install subliminal
+: 1694450806:0;sudo apt install fdupes
+: 1694451008:0;cargo search aichat
+: 1694451027:0;cargo install aichat
+: 1694451722:0;sudo apt install sox
+: 1694451972:0;sudo apt install pandoc
+: 1694452899:0;pipx install dtrx
+: 1694452910:0;dtrx
+: 1694452928:0;man dtrx
+: 1694453150:0;cargo install starship
+: 1694453233:0;apt search starship
+: 1694462482:0;aichat
+: 1694463222:0;cargo install starship --locked
+: 1694464434:0;cargo install topgrade
+: 1694468080:0;glow
+: 1694468417:0;ƒ ƒ ƒ ƒ [>0;10;1cc
+: 1694468437:0;apt search metasploit
+: 1694468680:0;apt search crunch
+: 1694468701:0;sudo apt search crunch
+: 1694469111:0;sudo apt install syslog-ng
+: 1694469233:0;cd /mnt/d/Documents/Notes/Mark-down/
+: 1694469246:0;hx Fixing_initial_container_errors_WSL2.md
+: 1694469526:0;sudo systemctl status
+: 1694469553:0;sudo systemctl status ssh
+: 1694507243:0;\du
+: 1694507250:0;\du -h
+: 1694507346:0;sudo rm -rfv PostgreSQL\ for\ Everybody\ Specialization/
+: 1694507355:0;cd PostgreSQL\ for\ Everybody\ Specialization/
+: 1694507365:0;sudo rm -rfv intermediate-postgresql/
+: 1694507371:0;cd intermediate-postgresql/
+: 1694507378:0;sudo rm -rfv 01_sql-techniques/
+: 1694507386:0;cd 01_sql-techniques/
+: 1694507393:0;cd 01_lectures/
+: 1694507405:0;\ls
+: 1694507421:0;rmdir 01_lectures/
+: 1694507456:0;du
+: 1694578232:0;sudo apt clean
+: 1694763802:0;tg
+: 1694764857:0;tailscale update
+: 1694767704:0;ssh zim@casaos
+: 1694767720:0;ssh zim@100.67.97.12
+: 1694767851:0;ssh gir@100.67.97.12
+: 1694767961:0;sudo systemctl start tailscaled
+: 1694767972:0;tailscale up
+: 1694768012:0;sudo systemctl stop tailscaled
+: 1694768016:0;sudo tailscaled &
+: 1694768042:0;sudo kill -9 $(pgrep tailscaled)
+: 1694768063:0;sudo kill $(pgrep tailscaled)
+: 1694768087:0;sudo kill -s 9 $(pgrep tailscaled)
+: 1694768098:0;pgrep tailscaled
+: 1694768102:0;pgrep tailscale
+: 1694768111:0;sudo tailscaled
+: 1694768135:0;sudo lsof -n /dev/net/tun
+: 1694780680:0;sh -c "$(curl -fsLS get.chezmoi.io)"
+: 1694780816:0;sh -c "$(curl -fsLS get.chezmoi.io/lb)"
+: 1694780894:0;chezmoi init
+: 1694780932:0;chezmoi add .zshrc
+: 1694781035:0;chezmoi edit .zshrc
+: 1694781290:0;chezmoi -v apply
+: 1694781362:0;git add .
+: 1694781407:0;git commit -m "Initial commit on WSL2_Debian..."
+: 1694781740:0;ssh-keygen -t rsa -b 4096 -f ~/.ssh/debian--dell-2-gitea
+: 1694786391:0;cat debian--dell-2-gitea.pub
+: 1694786412:0;\cat debian--dell-2-gitea.pub
+: 1694786989:0;apt search seahorse
+: 1694787019:0;apt search gpa
+: 1694787085:0;apt install gpa seahorse 
+: 1694787091:0;sudo apt install gpa seahorse 
+: 1694787233:0;seahorse
+: 1694787683:0;gpg --list-secret-keys --keyid-format=long
+: 1694788202:0;echo -n '467b2cc34b050daaaaec04dafb6e9f80ca4770d3e7a6311cbb8fe186fa85e14b' | ssh-keygen -Y sign -n gitea -f ~/.ssh/debian--dell-2-gitea
+: 1694791508:0;gpg --armour --export D0FC2E43F007C654
+: 1694791568:0;gpg --armor --export D0FC2E43F007C654
+: 1694791845:0;m
+: 1694791855:0;marks
+: 1694792022:0;jump dpdf
+: 1694792033:0;ls
+: 1694792043:0;lsd
+: 1694792211:0;mv -v Proxmox-VE-8.0-datasheet.pdf pve-admin-guide-8.pdf proxmox/ -v
+: 1694792812:0;cd Science/Technology/
+: 1694792994:0;wd "https://www.techaddressed.com/reviews/proxmox-vs-truenas-vm-perf/" techaddressed.proxmox-vs-truenas-vm-perf.pdf
+: 1694793188:0;mv proxmox/ Fbox/ -v IOT
+: 1694793209:0;mv -v proxmox/ Fbox/ IOT
+: 1694793285:0;cd IOT/
+: 1694793378:0;md proxmox
+: 1694793398:0;md Proxmox
+: 1694884792:0;j dpdf
+: 1694884803:0;cd IOT
+: 1694884819:0;cd Science/Technology/IOT/
+: 1694884827:0;cd proxmox/
+: 1694884835:0;..
+: 1694884860:0;md self_hosting
+: 1694884885:0;cd self_hosting/
+: 1694884991:0;wd "https://www.techaddressed.com/features/4-reasons-debian-vs-ubuntu-server/" techaddressed.4-reasons-debian-vs-ubuntu-server.pdf
+: 1694885009:0;zathura techaddressed.4-reasons-debian-vs-ubuntu-server.pdf
+: 1694885170:0;wd "https://www.techaddressed.com/tutorials/using-pi-hole-local-dns/" techaddressed.using-pi-hole-local-dns.pdf
+: 1694885279:0;md Pi-hole
+: 1694885312:0;mv techaddressed.using-pi-hole-local-dns.pdf Pi-hole/
+: 1694885320:0;cd Pi-hole/
+: 1694885451:0;wd "https://www.techaddressed.com/reviews/what-is-pi-hole-why-would-you-use-it/" techaddressed.what-is-pi-hole-why-would-you-use-it.pdf
+: 1694885528:0;wd "https://www.techaddressed.com/tutorials/installing-pi-hole-debian-ubuntu/" techaddressed.installing-pi-hole-debian-ubuntu.pdf
+: 1694885648:0;wd "https://www.techaddressed.com/tutorials/install-pi-hole-docker/" techaddressed.install-pi-hole-docker.pdf
+: 1694885746:0;wd "https://www.techaddressed.com/tutorials/install-pi-hole-truenas-scale/" techaddressed.install-pi-hole-truenas-scale.pdf
+: 1694885842:0;wd "https://www.techaddressed.com/tutorials/basic-pi-hole-config/" techaddressed.basic-pi-hole-config.pdf
+: 1694885936:0;wd "https://www.techaddressed.com/tutorials/gravity-sync-pi-hole-instances/" techaddressed.gravity-sync-pi-hole-instances.pdf
+: 1694885982:0;wd "https://www.techaddressed.com/tutorials/pi-hole-recursive-dns-unbound/" techaddressed.pi-hole-recursive-dns-unbound.pdf
+: 1694888782:0;cargo install atuin
+: 1694889504:0;man atuin
+: 1694889514:0;atuin --help
+: 1694890565:0;atuin import zsh
+: 1694890661:0;atuin register -u zim -e "kevin.j.lausen@gmail.com"
+: 1694890953:0;atuin key
+: 1694891060:0;atuin sync
+: 1694894434:0;cargo update
+: 1694894442:0;cargo upgrade
+: 1694894461:0;cargo update zellij
+: 1694906744:0;cargo install zellij
+: 1694907595:0;zellij
+: 1694908883:0;man ssh-agent
+: 1694908891:0;zrc
+: 1694909302:0;exec zsh
+: 1694927124:0;cd ../.cargo
+: 1694928873:0;hx
+: 1694929644:0;ssh u0_a180@192.168.1.114
+: 1694929990:0;ssh-keygen -t rsa -b 4096 -f ~/.ssh/debian--dell-2-termux
+: 1694930099:0;ssh-copy-id -p 8022 -i ./debian--dell-2-termux u0_a180192.168.1.114
+: 1694930126:0;ssh-copy-id -p 8022 -i ./debian--dell-2-termux.pub u0_a180192.168.1.114
+: 1694930156:0;ssh-copy-id -p 8022 -i ./debian--dell-2-termux.pub u0_a180@192.168.1.114
+: 1694930201:0;ssh u0_a180@192.168.1.114 -p 8022
+: 1694930226:0;ssh u0_a180@192.168.1.114 -p 8022 -i ~/.ssh/debian--dell-2-termux
+: 1694930250:0;hx config
+: 1694930734:0;ssh tabby
+: 1694935038:0;ssh-agent debian--dell-2-gitea
+: 1694935095:0;ssh-agent ~/.ssh/Debian--dell-2-gitea
+: 1694935104:0;pwd
+: 1694935111:0;cd .ssh
+: 1694935135:0;ssh-agent ~/.ssh/debian--dell-2-gitea
+: 1694935372:0;ssh-agent ./debian--dell-2-gitea
+: 1694935380:0;sudo ssh-agent ./debian--dell-2-gitea
+: 1694935419:0;whoami
+: 1694970571:0;ssh-add ~/.ssh/debian--dell-2-gitea
+: 1694970608:0;cat dot_zshrc
+: 1694970672:0;[>0;10;1cc
+: 1694970882:0;man ssh-add
+: 1694970949:0;ssgt
+: 1694970954:0;ssh-add -L
+: 1694971085:0;git remote add origin "ssh://Administrator@127.0.0.1:224/Zim/dotfiles.git" 
+: 1694971153:0;git remote show
+: 1694971159:0;git remote show -v
+: 1694971170:0;git -v remote show
+: 1694971403:0;git remote add origin "ssh://Administrator@127.0.0.1:3000/Zim/dotfiles.git" 
+: 1694971573:0;git remote set-head dotfiles wsl_Debian12
+: 1694971647:0;man git-remote
+: 1694971848:0;git remote add -t wsl_Debian12 origin "ssh://Administrator@127.0.0.1:3000/Zim/dotfiles.git" 
+: 1694971875:0;git push -u origin wsl_Debian12
+: 1694971919:0;git remote add -t wsl_Debian12 origin "ssh://Administrator@127.0.0.1:224/Zim/dotfiles.git" 
+: 1694972009:0;git checkout -b wsl_Debian12
+: 1694972017:0;git push -u origin
+: 1694972063:0;git push --set-upstream origin wsl_Debian12
+: 1694972180:0;git remote remove origin
+: 1694972209:0;git remote add -t wsl_Debian12 gitea "ssh://Administrator@127.0.0.1:224/Zim/dotfiles.git"
+: 1694972449:0;git remote add -t wsl-debian12 github "git@github.com:OpnSrcConstruction/dotfiles.git"
+: 1694972495:0;git remote remove github
+: 1694972671:0;git branch -M main
+: 1694972753:0;git remote add github "git@github.com:OpnSrcConstruction/dotfiles.git"
+: 1694972870:0;git push -u gitea main
+: 1694972895:0;git remote -v show
+: 1694972975:0;git branch -M wsl_Debian12
+: 1694973040:0;git push -u github main
+: 1694973055:0;git push -u github wsl_Debian12:main
+: 1694973357:0;git diff main
+: 1694973370:0;exit
+: 1694973546:0;cd .config/
+: 1694974029:0;chezmoi add topgrade.
+: 1694974041:0;chezmoi add topgrade.toml
+: 1694974584:0;chezmoi add zsh_aliases zshenv README.md
+: 1694974767:0;cd zsh/
+: 1694974946:0;chezmoi apply
+: 1694974981:0;gad dot_config/
+: 1694975299:0;git pull
+: 1694975363:0;git push -u github wsl_Debian12
+: 1694975381:0;git push
+: 1694975583:0;gct "Added .config/zsh/*."
+: 1694975719:0;gid diff
+: 1694975727:0;git diff
+: 1694976696:0;cat README.md
+: 1694976883:0;gad all
+: 1694976943:0;gct "Updated my zsh aliases and environmental_variables."
+: 1694977130:0;cd aichat/
+: 1694977162:0;chezmoi add ./*
+: 1694977219:0;cd dot_config/
+: 1694977233:0;gad aichat/
+: 1694977269:0;gct "Added ai-chat's config directory."
+: 1694977384:0;chezmoi add atuin
+: 1694977439:0;gad dot_config/atuin/
+: 1694977492:0;gct "Added the atiun config."
+: 1694977525:0;cd autostart/
+: 1694977553:0;chezmoi add keybase_autostart.desktop
+: 1694977621:0;gct "Added the auto-start directory, that auto-starts keybase.io."
+: 1694977769:0;cd -
+: 1694977785:0;cd chezmoi/
+: 1694977805:0;chezmoi add chezmoistate.boltdb
+: 1694977858:0;chezmoi add helix/*
+: 1694977865:0;chezmoi status
+: 1694977882:0;chezmoi diff
+: 1694977920:0;cd dot_config/helix/
+: 1694977943:0;gad helix/
+: 1694977964:0;gct "Added my helix editor conf."
+: 1694978063:0;cd neofetch/
+: 1694978109:0;hx config.conf
+: 1694978204:0;nf
+: 1694978240:0;chezmoi add config.conf
+: 1694978270:0;gad dot_config/neofetch/
+: 1694978348:0;gct "Added my Debian(w/o_pkgs) to chezmoi."
+: 1694978427:0;chezmoi add tmuxp/*
+: 1694978531:0;cd dot_config/tmuxp/
+: 1694978557:0;gad tmuxp/
+: 1694978590:0;gct "Added My tmuxp tmux profiles."
+: 1694978657:0;chezmoi add zathura/
+: 1694978719:0;cd dot_config/zathura/
+: 1694978741:0;gad zathura/
+: 1694978776:0;gct "Added my customized zathura PDF reader config."
+: 1694979445:0;up
+: 1694979649:0;chezmoi add nvim-Lazyman/ nvim-LazyVim
+: 1695017745:0;cargo install comiconv
+: 1695028666:0;mount
+: 1695028706:0;cd mnt
+: 1695028724:0;cd /mnt/d/Documents/
+: 1695028729:0;cd /mnt/d/
+: 1695028759:0;cd Docs/pdf/
+: 1695028769:0;md Alpine
+: 1695028775:0;cd Alpine/
+: 1695028838:0;wd "https://globedrill.com/how-to-list-and-search-packages-on-alpine-linux-server/" globedrill.how-to-list-and-search-packages-on-alpine-linux-server.pdf
+: 1695029098:0;wd "https://stackoverflow.com/questions/50727783/alpine-docker-error-unable-to-lock-database-permission-denied-error-failed-tohttps://stackoverflow.com/questions/50727783/alpine-docker-error-unable-to-lock-database-permission-denied-error-failed-to" stackoverflow.alpine-docker-error-unable-to-lock-database-permission-denied-error-failed-to.pdf
+: 1695142711:0;gad dot_config/nvim-Lazy*
+: 1695142780:0;gct "Added my Lazy-vim & Lazy-man."
+: 1695147550:0;tmux
+: 1695147741:0;sudo chezmoi cd
+: 1695147803:0;id
+: 1695147833:0;cd .local
+: 1695147841:0;cd share/
+: 1695147869:0;cd chezmoi
+: 1695147926:0;cd bin/
+: 1695147944:0;cd ../Docs
+: 1695147985:0;chezmoi update
+: 1695148034:0;chezmoi add .marks
+: 1695148049:0;chezmoi add .ipython/
+: 1695148064:0;chezmoi add .profile
+: 1695148095:0;chezmoi add .tmux/ .tmux.conf
+: 1695148145:0;cd .local/share/chezmoi
+: 1695148190:0;gad dot_ipython/ dot_marks/ dot_profile dot_tmux/ symlink_dot_tmux.conf
+: 1695148274:0;gct "Added Tmux-config & .marks & .ipython."
+: 1695148324:0;nu
+: 1695148560:0;mark chez
+: 1695148709:0;chezmoi add .cheat Scripts/ workspace/ notes/ 
+: 1695148721:0;j chez
+: 1695148784:0;gct "Added My Scripts, NT-cheat-sheets, notes, and note workspaces dir."
+: 1695148883:0;alias jcm='j chez'
+: 1695148887:0;cd
+: 1695148893:0;cd Downloads/
+: 1695148915:0;tp wtf_0.43.0_linux_amd64/
+: 1695148919:0;cd Git_clones/
+: 1695148996:0;cd ../../Docs/
+: 1695149005:0;cd pdf/
+: 1695149028:0;cd ..
+: 1695149033:0;cd Notes/
+: 1695149034:0;l
+: 1695149073:0;gdu
+: 1695149279:0;chezmoi add /etc/fstab
+: 1695199086:0;Z
+: 1695199090:0;c
+: 1695199098:0;la
+: 1695199185:0;chezmoi add .bashrc
+: 1695199201:0;chezmoi cd
+: 1695199229:0;gad *
+: 1695199277:0;gct "I forgot about the main .bashrc, when I added my .profile earlier."
+: 1695199281:0;ssg
+: 1695199286:0;gp
+: 1695199291:0;gs
+: 1695199297:0;x
+: 1695199303:0;la
+: 1695199569:0;chezmoi add .p10k.zsh* .terminfo/ .viminfo .wget-hsts .zsh_history .zshenv
